@@ -33,7 +33,11 @@ if(defined $ENV{'HTML'}) {
     $PL = 'pl';
 }
 if(defined $ENV{'VERSION'}) {
-    $VERSION = $ENV{'VERSION'};
+    if($ENV{'VERSION'} =~ /^v(.+)/) {
+        $VERSION = qq|release <span class="version-name">$1</span>|
+    } else {
+        $VERSION = qq|development branch <span class="version-name">$ENV{'VERSION'}</span>|
+    }
 }
 
 @TOC = (
@@ -199,8 +203,12 @@ $TOP = qq|
             color: #112;
             margin-bottom: 1.5em;
         }
-        .subtitle span.version {
+        div.version {
             font-weight: normal;
+            letter-spacing: 0;
+        }
+        span.version-name {
+            font-weight: bold;
         }
 
         div.footer {
@@ -266,7 +274,7 @@ sub OutputWithHeader {
     my ($title, $text) = @_;
 
     if(defined $main::SHOW_VERSION && defined $VERSION) {
-        $version = qq|<span class="version"> (for $VERSION)</span>|;
+        $version = qq|<div class="version"> (for $VERSION)</div>|;
     }
 
     Output(qq|
