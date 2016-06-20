@@ -52,7 +52,7 @@ point-coincident, and point-on-curve constraints are similarly available
 in projected forms.</p>
 
 <p>The constraint solver used in SolveSpace is available separately
-as a <a href="library.$PL">library</a>.</p>
+as a <a href="library.$TEMPL::PL">library</a>.</p>
 
 EOT
 );

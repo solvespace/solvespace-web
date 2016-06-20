@@ -380,8 +380,8 @@ TEMPL::OutputWithHeader("TUTORIAL: ASSEMBLIES", <<EOT
 </p>
 <p>
     To learn more about SolveSpace, including the assembly features, see
-    the <a href="tutorial.$PL">other tutorials</a> or
-    the <a href="ref.$PL">reference manual</a>.
+    the <a href="tutorial.$TEMPL::PL">other tutorials</a> or
+    the <a href="ref.$TEMPL::PL">reference manual</a>.
 </p>
 EOT
 );

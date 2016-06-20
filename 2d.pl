@@ -680,7 +680,7 @@ on that drawing to be different from the ones used to specify the part.
 This completes the tutorial. Other features in SolveSpace may be specially
 useful when drawing in 2d; for example, cut and paste work exclusively
 within workplanes. To learn more about these features, see the
-<a href="ref.$PL">reference manual</a>,
+<a href="ref.$TEMPL::PL">reference manual</a>,
 or follow the prompts and messages within the program.
 </p>
 

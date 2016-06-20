@@ -68,7 +68,7 @@ TEMPL::OutputWithHeader("FEATURES", <<EOT
 <p><b>Analyze with</b></p>
 <ul>
     <li>measurements on a part or assembly (of
-        point coordinates, line length, 
+        point coordinates, line length,
         point-point distance, point-face distance, projected distance,
         face-face angle, point-line distance)</li>
 

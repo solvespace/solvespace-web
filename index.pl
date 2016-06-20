@@ -47,7 +47,7 @@ TEMPL::Output(<<EOT
 </div>
 
 <div class="footer">
-<p><b>Release 2.1 is <a href="download.$PL">available for download</a></b>, now with Linux and Mac support, and various new features; thanks to whitequark and associates.</p>
+<p><b>Release 2.1 is <a href="download.$TEMPL::PL">available for download</a></b>, now with Linux and Mac support, and various new features; thanks to whitequark and associates.</p>
 
 <p style="margin-top: 30px;">SOLVESPACE is a parametric 3d CAD program. Applications include:</p>
 <div class="list">
@@ -79,8 +79,8 @@ TEMPL::Output(<<EOT
 </ul>
 </div>
 
-<p>Learn more about SolveSpace in the <a href="tutorial.$PL">tutorials</a>,
-or  <a href="download.$PL">download</a> it now.</p>
+<p>Learn more about SolveSpace in the <a href="tutorial.$TEMPL::PL">tutorials</a>,
+or  <a href="download.$TEMPL::PL">download</a> it now.</p>
 
 </div>
 EOT

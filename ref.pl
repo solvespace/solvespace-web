@@ -9,7 +9,7 @@ TEMPL::OutputWithHeader("REFERENCE MANUAL", <<EOT
 
 <p>This is a reference manual for SolveSpace. It is not intended as an
 introduction to the program; for that, see the
-<a href="tutorial.$PL">tutorials</a>.</p>
+<a href="tutorial.$TEMPL::PL">tutorials</a>.</p>
 
 <h2>General Navigation</h2>
 <div class="refind">

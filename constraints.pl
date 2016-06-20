@@ -439,13 +439,13 @@ all dimensions, including length, angle, and length ratio.
 
 <p>
 To learn more about a particular constraint, see its entry in the <a
-href="ref.$PL">reference manual</a>, or just place it in a simple sketch
+href="ref.$TEMPL::PL">reference manual</a>, or just place it in a simple sketch
 and experiment.
 </p>
 
 <p>
 This tutorial has mostly discussed constraints for drawing, but the same
-constraints are also used for assembly. See the <a href="box.$PL">assembly
+constraints are also used for assembly. See the <a href="box.$TEMPL::PL">assembly
 tutorial</a> for examples.
 </p>
 

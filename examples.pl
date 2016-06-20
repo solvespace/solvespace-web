@@ -74,7 +74,7 @@ $sep
     <img src="pics/ball-mill-view-2.jpg" />
 </div>
 
-<p>A belt-driven ball mill. The images above are a mixture of 
+<p>A belt-driven ball mill. The images above are a mixture of
 parallel projections, as for the top and side views, and perspective
 projections for the pictorials. All were generated directly from the
 3d model.</p>
@@ -89,7 +89,7 @@ model will regenerate with the parts assembled as desired.</p>
 
 <p>Note the group where the belt is drawn (g013-belt). The belt
 is drawn from lines and arcs constrained against the pulleys, and then
-"stretched out" using equal-length constraints and measured using a 
+"stretched out" using equal-length constraints and measured using a
 reference dimension.</p>
 
 

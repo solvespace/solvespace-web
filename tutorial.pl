@@ -8,19 +8,19 @@ require TEMPL;
 TEMPL::OutputWithHeader("TUTORIALS", <<EOT
 <p>
 
-<p>An <a href="bracket.$PL"><b>introductory tutorial</b></a> is available,
+<p>An <a href="bracket.$TEMPL::PL"><b>introductory tutorial</b></a> is available,
 in which we draw the same part that is shown in the demo video. This
 covers most of the basic features of SolveSpace, including sketches,
 constraints, extrusions, and Boolean operations.</p>
 
 <div class="forimg">
-    <a href="bracket.$PL">
+    <a href="bracket.$TEMPL::PL">
         <img class="tut" src="pics/tut-finished-all-hidden.png" />
     </a>
 </div>
 <br><br>
 
-<p>An <a href="box.$PL"><b>assembly tutorial</b></a>, in which we combine
+<p>An <a href="box.$TEMPL::PL"><b>assembly tutorial</b></a>, in which we combine
 multiple parts into a parametric assembly. We use constraints to define
 the positions and orientations of the parts within the assembly.
 This means that we can
@@ -28,13 +28,13 @@ modify the parts and regenerate the assembly, and the parts will remain
 assembled in the desired configuration.</p>
 
 <div class="forimg">
-    <a href="box.$PL">
+    <a href="box.$TEMPL::PL">
         <img class="tut" src="pics/box-asm-perspective.png" />
     </a>
 </div>
 <br><br>
 
-<p>A <a href="constraints.$PL"><b>tutorial on constraints</b></a>. We look
+<p>A <a href="constraints.$TEMPL::PL"><b>tutorial on constraints</b></a>. We look
 more closely at the geometric meaning of constraints in SolveSpace,
 and the ways that an incorrectly-constrained sketch will fail. We
 constrain a simple sketch in several different ways, and use the tools
@@ -43,13 +43,13 @@ look at sketches with multiple solutions, and constraints both in 3d and
 projected into a workplane.</p>
 
 <div class="forimg">
-    <a href="constraints.$PL">
+    <a href="constraints.$TEMPL::PL">
         <img class="tut" src="pics/constraints-nonconverging.png" />
     </a>
 </div>
 <br><br>
 
-<p>A <a href="linkage.$PL"><b>tutorial on linkages</b></a>. We use
+<p>A <a href="linkage.$TEMPL::PL"><b>tutorial on linkages</b></a>. We use
 geometric constraints to model a planar linkage; we then displace one
 of the links, and let the constraint solver calculate the resulting
 geometry. We use this to plot the coupler curves of the linkage, and
@@ -58,7 +58,7 @@ look at other kinds of linkages, with joints other than simple pin
 joints. </p>
 
 <div class="forimg">
-    <a href="linkage.$PL">
+    <a href="linkage.$TEMPL::PL">
         <img class="tut" src="pics/linkage-view.png" />
     </a>
 </div>
