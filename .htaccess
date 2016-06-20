@@ -1,0 +1,11 @@
+
+RewriteEngine On
+
+RewriteRule ^$ http://solvespace.com/index.pl [R]
+RewriteRule ^index.html$ http://solvespace.com/index.pl [R]
+
+RewriteRule ^txtlink$ http://solvespace.com/index.pl [R]
+RewriteRule ^helpmenu$ http://solvespace.com/ref.pl [R]
+
+ErrorDocument 404 http://solvespace.com/index.pl
+
