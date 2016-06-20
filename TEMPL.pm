@@ -261,7 +261,7 @@ sub OutputWithHeader {
 
     Output(qq|
 <div class="header">
-    <a class="header_big" href="index.pl">
+    <a class="header_big" href="index.$PL">
         <span class="header_big">SOLVESPACE</span>
         <span class="header_little"> -- parametric 2d/3d CAD</span>
     </a>
