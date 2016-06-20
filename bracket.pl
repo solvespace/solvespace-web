@@ -1,6 +1,7 @@
 #!/usr/bin/perl
 
 $TITLE = 'SolveSpace - Tutorial - Drawing an Angle Bracket';
+$SHOW_VERSION = 1;
 
 require TEMPL;
 

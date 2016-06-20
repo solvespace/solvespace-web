@@ -8,7 +8,7 @@ html/%.html: %.pl
 all: $(HTMLPAGES)
 
 clean:
-	rm $(HTMLPAGES)
+	rm -f $(HTMLPAGES)
 
 gh-pages: all
 	if [ -z "$(SUBDIR)" -o -z "$(REMOTE)" ]; then \

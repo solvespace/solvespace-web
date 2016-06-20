@@ -32,6 +32,9 @@ if(defined $ENV{'HTML'}) {
 } else {
     $PL = 'pl';
 }
+if(defined $ENV{'VERSION'}) {
+    $VERSION = $ENV{'VERSION'};
+}
 
 @TOC = (
     [ 'Examples',   "examples.$PL",   0 ],
@@ -196,6 +199,9 @@ $TOP = qq|
             color: #112;
             margin-bottom: 1.5em;
         }
+        .subtitle span.version {
+            font-weight: normal;
+        }
 
         div.footer {
             clear: both;
@@ -259,6 +265,10 @@ $BOTTOM = qq|
 sub OutputWithHeader {
     my ($title, $text) = @_;
 
+    if(defined $main::SHOW_VERSION && defined $VERSION) {
+        $version = qq|<span class="version"> (for $VERSION)</span>|;
+    }
+
     Output(qq|
 <div class="header">
     <a class="header_big" href="index.$PL">
@@ -271,7 +281,7 @@ sub OutputWithHeader {
     $TEMPL::TOC
 </div>
 <div class="main">
-    <div class="subtitle">$title</div>
+    <div class="subtitle">$title$version</div>
     $text
 </div>
 |);

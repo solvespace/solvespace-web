@@ -1,6 +1,7 @@
 #!/usr/bin/perl
 
 $TITLE = 'SolveSpace - Tutorial - Assemblies';
+$SHOW_VERSION = 1;
 
 require TEMPL;
 

@@ -1,6 +1,7 @@
 #!/usr/bin/perl
 
 $TITLE = 'SolveSpace - Examples';
+$SHOW_VERSION = 1;
 
 require TEMPL;
 
