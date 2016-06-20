@@ -24,7 +24,7 @@ TEMPL::OutputWithHeader("DOWNLOAD PROGRAM", <<EOT
     <td>2.0</td>
     <td>July 28, 2013</td>
     <td>Windows XP&ndash;10</td>
-    <td><a href="dl/solvespace.exe">solvespace.exe</a></td>
+    <td><a href="https://github.com/solvespace/solvespace/releases/download/v2.0/solvespace.exe">solvespace.exe</a></td>
 </tr>
 </table>
 
