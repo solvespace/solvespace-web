@@ -27,17 +27,22 @@ sub SizeInfoForImage {
     return "width=$width height=$height";
 }
 
+if(defined $ENV{'HTML'}) {
+    $PL = 'html';
+} else {
+    $PL = 'pl';
+}
 
 @TOC = (
-    [ 'Examples',   'examples.pl',   0 ],
-    [ 'Tutorials',  'tutorial.pl',   0 ],
-    [ 'Features',   'features.pl',   0 ],
-    [ 'Download',   'download.pl',   0 ],
-    [ 'Reference',  'ref.pl',        0 ],
-    [ 'Technology', 'tech.pl',       0 ],
-    [ 'Library',    'library.pl',    0 ],
-    [ 'Forum',      'forum.pl',      0 ],
-    [ 'Contact',    'contact.pl',    0 ],
+    [ 'Examples',   "examples.$PL",   0 ],
+    [ 'Tutorials',  "tutorial.$PL",   0 ],
+    [ 'Features',   "features.$PL",   0 ],
+    [ 'Download',   "download.$PL",   0 ],
+    [ 'Reference',  "ref.$PL",        0 ],
+    [ 'Technology', "tech.$PL",       0 ],
+    [ 'Library',    "library.$PL",    0 ],
+    [ 'Forum',      "forum.$PL",      0 ],
+    [ 'Contact',    "contact.$PL",    0 ],
 );
 $TOC = '';
 for (@TOC) {
@@ -132,9 +137,9 @@ $TOP = qq|
             width: 7em;
             background: #dfdfdf;
         }
-        div.toc { padding: 0.5em 1em 0.5em 0.3em; 
+        div.toc { padding: 0.5em 1em 0.5em 0.3em;
             font-size: 110%; }
-        div.tocsub { padding: 0.3em 1em 0.8em 1.8em; 
+        div.tocsub { padding: 0.3em 1em 0.8em 1.8em;
             font-size: 110%; }
 
         a {

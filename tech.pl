@@ -20,7 +20,7 @@ after solving three equations in three unknowns. A real sketch may involve
 hundreds of unknowns.</p>
 
 <div class="forimg">
-    <img src="/pics/tech-example.png" />
+    <img src="pics/tech-example.png" />
 </div>
 
 <p>In SolveSpace, constraints are represented as equations in a
@@ -52,7 +52,7 @@ point-coincident, and point-on-curve constraints are similarly available
 in projected forms.</p>
 
 <p>The constraint solver used in SolveSpace is available separately
-as a <a href="library.pl">library</a>.</p>
+as a <a href="library.$PL">library</a>.</p>
 
 EOT
 );

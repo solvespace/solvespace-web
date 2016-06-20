@@ -15,7 +15,7 @@ TEMPL::OutputWithHeader("TUTORIAL: DRAWING AN ANGLE BRACKET", <<EOT
 </p>
 
 <div class="forimg">
-    <img src="/pics/tut-finished-all-hidden.png" />
+    <img src="pics/tut-finished-all-hidden.png" />
 </div>
 
 <p>
@@ -39,7 +39,7 @@ TEMPL::OutputWithHeader("TUTORIAL: DRAWING AN ANGLE BRACKET", <<EOT
 </p>
 
 <div class="forimg">
-    <img src="/pics/tut-planes.png" />
+    <img src="pics/tut-planes.png" />
 </div>
 
 <p>
@@ -82,7 +82,7 @@ TEMPL::OutputWithHeader("TUTORIAL: DRAWING AN ANGLE BRACKET", <<EOT
     us that the profile is not yet a closed contour.
 </p>
 <div class="forimg">
-    <img src="/pics/tut-open-contour.png" />
+    <img src="pics/tut-open-contour.png" />
 </div>
 <p>
     Before left-clicking the last time, place the mouse over the first
@@ -94,7 +94,7 @@ TEMPL::OutputWithHeader("TUTORIAL: DRAWING AN ANGLE BRACKET", <<EOT
     wanted to draw until we had a complete closed contour.)
 </p>
 <div class="forimg">
-    <img src="/pics/tut-closed-contour.png" />
+    <img src="pics/tut-closed-contour.png" />
 </div>
 <p>
     The profile now consists of six line segments, that join at six
@@ -122,7 +122,7 @@ TEMPL::OutputWithHeader("TUTORIAL: DRAWING AN ANGLE BRACKET", <<EOT
     about that now.
 
 <div class="forimg">
-    <img src="/pics/tut-points-selected.png" />
+    <img src="pics/tut-points-selected.png" />
 </div>
 
 <p>
@@ -142,7 +142,7 @@ TEMPL::OutputWithHeader("TUTORIAL: DRAWING AN ANGLE BRACKET", <<EOT
     selection works the same for lines and curves as for points.
 </p>
 <div class="forimg">
-    <img src="/pics/tut-line-selected.png" />
+    <img src="pics/tut-line-selected.png" />
 </div>
 <p>
     Now choose Constrain &rarr; Horizontal, or use the equivalent button
@@ -165,7 +165,7 @@ TEMPL::OutputWithHeader("TUTORIAL: DRAWING AN ANGLE BRACKET", <<EOT
     appear highlighted in red.
 </p>
 <div class="forimg">
-    <img src="/pics/tut-lines-selected.png" />
+    <img src="pics/tut-lines-selected.png" />
 </div>
 <p>
     We then choose Constrain &rarr; Parallel / Tangent, or use the
@@ -177,7 +177,7 @@ TEMPL::OutputWithHeader("TUTORIAL: DRAWING AN ANGLE BRACKET", <<EOT
     a way as to still satisfy all of the constraints.
 </p>
 <div class="forimg">
-    <img src="/pics/tut-parallel.png" />
+    <img src="pics/tut-parallel.png" />
 </div>
 <p>
     Then constrain the short endcap of the roughly-vertical leg of the
@@ -208,7 +208,7 @@ TEMPL::OutputWithHeader("TUTORIAL: DRAWING AN ANGLE BRACKET", <<EOT
     or center of the arc to change the radius.
 </p>
 <div class="forimg">
-    <img src="/pics/tut-section-done.png" />
+    <img src="pics/tut-section-done.png" />
 </div>
 <p>
     This completes our section. It's not fully constrained, so if we
@@ -234,7 +234,7 @@ TEMPL::OutputWithHeader("TUTORIAL: DRAWING AN ANGLE BRACKET", <<EOT
     center-dragging with the mouse.
 </p>
 <div class="forimg">
-    <img src="/pics/tut-extruded.png" />
+    <img src="pics/tut-extruded.png" />
 </div>
 <p>
     By default, extrusions are one-sided; so our original sketch is the
@@ -266,7 +266,7 @@ TEMPL::OutputWithHeader("TUTORIAL: DRAWING AN ANGLE BRACKET", <<EOT
     window.
 </p>
 <div class="forimg">
-    <img src="/pics/tut-both-sides.png" />
+    <img src="pics/tut-both-sides.png" />
 </div>
 <p>
     The extrusion now
@@ -286,7 +286,7 @@ TEMPL::OutputWithHeader("TUTORIAL: DRAWING AN ANGLE BRACKET", <<EOT
     transparent.)
 </p>
 <div class="forimg">
-    <img src="/pics/tut-hidden-lines.png" />
+    <img src="pics/tut-hidden-lines.png" />
 </div>
 <p>
     We have left-clicked to select that point here, so it is highlighted
@@ -317,7 +317,7 @@ TEMPL::OutputWithHeader("TUTORIAL: DRAWING AN ANGLE BRACKET", <<EOT
     contour will be filled in very dark blue, as before.
 </p>
 <div class="forimg">
-    <img src="/pics/tut-triangle.png" />
+    <img src="pics/tut-triangle.png" />
 </div>
 <p>
     One point of the triangle should lie exactly on the inside corner of
@@ -341,7 +341,7 @@ TEMPL::OutputWithHeader("TUTORIAL: DRAWING AN ANGLE BRACKET", <<EOT
     Constrain &rarr; Equal. This is the same equal-line-length constraint
     that we used in the first sketch.
 <div class="forimg">
-    <img src="/pics/tut-triangle-constrained.png" />
+    <img src="pics/tut-triangle-constrained.png" />
 </div>
 <p>
     Once the sketch is complete, we can rotate our view (center-drag) to
@@ -352,7 +352,7 @@ TEMPL::OutputWithHeader("TUTORIAL: DRAWING AN ANGLE BRACKET", <<EOT
     to hide the hidden lines, to make the view less confusing.
 </p>
 <div class="forimg">
-    <img src="/pics/tut-triangle-3d.png" />
+    <img src="pics/tut-triangle-3d.png" />
 </div>
 <p>
     We then extrude that section, by choosing New Group &rarr; Extrude,
@@ -366,7 +366,7 @@ TEMPL::OutputWithHeader("TUTORIAL: DRAWING AN ANGLE BRACKET", <<EOT
     constraint), but it would have been more complex.
 </p>
 <div class="forimg">
-    <img src="/pics/tut-triangle-extruded.png" />
+    <img src="pics/tut-triangle-extruded.png" />
 </div>
 <p>
     We can change the thickness of the gusset by dragging a point on
@@ -393,7 +393,7 @@ TEMPL::OutputWithHeader("TUTORIAL: DRAWING AN ANGLE BRACKET", <<EOT
     to do anything special.)
 </p>
 <div class="forimg">
-    <img src="/pics/tut-triangle-thickness.png" />
+    <img src="pics/tut-triangle-thickness.png" />
 </div>
 <p>
     The constraint has now forced the gusset to have the same thickness
@@ -427,7 +427,7 @@ TEMPL::OutputWithHeader("TUTORIAL: DRAWING AN ANGLE BRACKET", <<EOT
     below. Then choose New Group &rarr; Sketch in New Workplane.
 </p>
 <div class="forimg">
-    <img src="/pics/tut-back-lines.png" />
+    <img src="pics/tut-back-lines.png" />
 </div>
 <p>
     The view is aligned to our new workplane, as usual. This time we want
@@ -438,7 +438,7 @@ TEMPL::OutputWithHeader("TUTORIAL: DRAWING AN ANGLE BRACKET", <<EOT
     Repeat the process to draw a second circle.
 </p>
 <div class="forimg">
-    <img src="/pics/tut-circles.png" />
+    <img src="pics/tut-circles.png" />
 </div>
 <p>
     We want the circles to have the same radius/diameter, and to be
@@ -455,7 +455,7 @@ TEMPL::OutputWithHeader("TUTORIAL: DRAWING AN ANGLE BRACKET", <<EOT
     as a pair of magenta arrows, pointing inwards.
 </p>
 <div class="forimg">
-    <img src="/pics/tut-circles-constrained.png" />
+    <img src="pics/tut-circles-constrained.png" />
 </div>
 <p>
     In this case, the points have been placed symmetrically about the
@@ -473,14 +473,14 @@ TEMPL::OutputWithHeader("TUTORIAL: DRAWING AN ANGLE BRACKET", <<EOT
     This creates two cylinders, as shown below.
 </p>
 <div class="forimg">
-    <img src="/pics/tut-circles-extruded.png" />
+    <img src="pics/tut-circles-extruded.png" />
 </div>
 <p>
     First, the extrusion is going in the wrong direction. We could fix
     that by dragging the end face of the extrusion to the other side. But
     once again, it's better to specify what we want exactly, using a
     constraint. Select the center of the circle on the extruded face. Then
-    select the inside face of that leg of the angle, as shown below. 
+    select the inside face of that leg of the angle, as shown below.
     Faces can be selected, in the same way that points or lines can be
     selected. Hover the mouse over the face, and it will appear
     highlighted in yellow. Left-click, and it will appear highlighted in
@@ -491,7 +491,7 @@ TEMPL::OutputWithHeader("TUTORIAL: DRAWING AN ANGLE BRACKET", <<EOT
     to rotate our view of the part. This is not a problem.
 </p>
 <div class="forimg">
-    <img src="/pics/tut-circles-pt-on-face.png" />
+    <img src="pics/tut-circles-pt-on-face.png" />
 </div>
 <p>
     Then choose Constrain &rarr; On Plane. This places the point on the
@@ -505,7 +505,7 @@ TEMPL::OutputWithHeader("TUTORIAL: DRAWING AN ANGLE BRACKET", <<EOT
     holes, and we're done.
 </p>
 <div class="forimg">
-    <img src="/pics/tut-finished.png" />
+    <img src="pics/tut-finished.png" />
 </div>
 <p>
     Try dragging each point on the model, to see which degrees of freedom
@@ -521,7 +521,7 @@ TEMPL::OutputWithHeader("TUTORIAL: DRAWING AN ANGLE BRACKET", <<EOT
     the one below.
 </p>
 <div class="forimg">
-    <img src="/pics/tut-group-list.png" />
+    <img src="pics/tut-group-list.png" />
 </div>
 <p>
     Each entry in the list corresponds to a group in the part. The first
@@ -558,7 +558,7 @@ TEMPL::OutputWithHeader("TUTORIAL: DRAWING AN ANGLE BRACKET", <<EOT
     that actually form the edges of the solid model.
 </p>
 <div class="forimg">
-    <img src="/pics/tut-finished-all-hidden.png" />
+    <img src="pics/tut-finished-all-hidden.png" />
 </div>
 <p>
     This solid model can be used in several different ways. We could just

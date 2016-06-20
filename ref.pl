@@ -8,7 +8,7 @@ TEMPL::OutputWithHeader("REFERENCE MANUAL", <<EOT
 
 <p>This is a reference manual for SolveSpace. It is not intended as an
 introduction to the program; for that, see the
-<a href="tutorial.pl">tutorials</a>.</p>
+<a href="tutorial.$PL">tutorials</a>.</p>
 
 <h2>General Navigation</h2>
 <div class="refind">
@@ -22,7 +22,7 @@ introduction to the program; for that, see the
 </p>
 
 <h3>Graphics Window and Model View</h3>
-    
+
 <p>
     To pan the view, right-drag with the mouse.
 
@@ -123,7 +123,7 @@ introduction to the program; for that, see the
     example, the "home" screen is a list of groups in the sketch:
 
 <div class="forimg">
-    <img src="/pics/ref-text-window.png" />
+    <img src="pics/ref-text-window.png" />
 </div>
 
 <p>
@@ -581,7 +581,7 @@ is useful when drawing a sketch that lies within the volume of the part.
     fonts appears in the text window; click the font name to select
     it. To change the displayed text, select the text entity and
     click the [change] link in the text window.
-    
+
 <h3>Splitting and Trimming Entities</h3>
 
 <p>
@@ -591,7 +591,7 @@ is useful when drawing a sketch that lies within the volume of the part.
     the short arc are then deleted, to form a single closed shape.
 
 <div class="forimg">
-    <img src="/pics/ref-split.png" />
+    <img src="pics/ref-split.png" />
 </div>
 
 <p>
@@ -644,7 +644,7 @@ is useful when drawing a sketch that lies within the volume of the part.
     For example, consider the line shown below:
 
 <div class="forimg">
-    <img src="/pics/ref-projd-constraint.png" />
+    <img src="pics/ref-projd-constraint.png" />
 </div>
 
 <p>
@@ -706,7 +706,7 @@ is useful when drawing a sketch that lies within the volume of the part.
     black), and an error is displayed in the text window:
 
 <div class="forimg">
-    <img src="/pics/ref-inconsistent.png" />
+    <img src="pics/ref-inconsistent.png" />
 </div>
 
 <p>
@@ -801,7 +801,7 @@ is useful when drawing a sketch that lies within the volume of the part.
     known as supplementary angles, and they always sum to 180 degrees.
 
 <div class="forimg">
-    <img src="/pics/ref-line-cross-angles.png" />
+    <img src="pics/ref-line-cross-angles.png" />
 </div>
 
 <p>
@@ -933,7 +933,7 @@ is useful when drawing a sketch that lies within the volume of the part.
 <h3>Parallel / Tangent</h3>
 
 <p>
-    This constraint forces two vectors to be parallel. 
+    This constraint forces two vectors to be parallel.
 
 <p>
     In 2d (i.e., when a workplane is active), a zero-degree angle
@@ -982,7 +982,7 @@ is useful when drawing a sketch that lies within the volume of the part.
     normals are constrained to be parallel:
 
 <div class="forimg">
-    <img src="/pics/ref-parallel-normals.png" />
+    <img src="pics/ref-parallel-normals.png" />
 </div>
 
 <p>
@@ -1455,7 +1455,7 @@ or color.</p>
     a four-bar linkage:
 
 <div class="forimg">
-    <img src="/pics/ref-point-traced.png" />
+    <img src="pics/ref-point-traced.png" />
 </div>
 
 <p>
@@ -1857,7 +1857,7 @@ or color.</p>
     smaller.
 
 <div class="forimg">
-    <img src="/pics/ref-perspective.png" />
+    <img src="pics/ref-perspective.png" />
 </div>
 
 <p>
@@ -1867,7 +1867,7 @@ or color.</p>
     because the eye is accustomed to seeing images with perspective.)
 
 <div class="forimg">
-    <img src="/pics/ref-no-perspective.png" />
+    <img src="pics/ref-no-perspective.png" />
 </div>
 
 <p>
@@ -1930,7 +1930,7 @@ or color.</p>
 <p>
     The cutter radius compensation works only on piecewise linear
     segments. This means that curves (circles, Beziers, etc.) will be
-    approximated as line segments in the output file, even if 
+    approximated as line segments in the output file, even if
     "curves as piecewise linear" is set to "no".
 </p>
 

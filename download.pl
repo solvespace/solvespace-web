@@ -61,8 +61,8 @@ it, type a number, and hit Enter.</li>
 </ul>
 
 <p>To learn more about SolveSpace, see the
-<a href="tutorial.pl">tutorials</a>, or the 
-<a href="ref.pl">reference manual.</a>
+<a href="tutorial.$PL">tutorials</a>, or the
+<a href="ref.$PL">reference manual.</a>
 </p>
 
 $TEMPL::SEP

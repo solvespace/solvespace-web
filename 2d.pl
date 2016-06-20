@@ -173,7 +173,7 @@ Edit &rarr; Delete.
 Next, we'll draw the inner cutout. Once again, we'll draw some overlapping
 shapes, and trim out the pieces that we don't want, to make a single
 contour. In this case, it's a circle (Sketch &rarr; Circle), and two
-rectangles (Sketch &rarr; Rectangle). 
+rectangles (Sketch &rarr; Rectangle).
 </p>
 
 <div class="forimg">
@@ -309,7 +309,7 @@ For the inner contour, we wish to use a different radius: 0.050 inch
 Point with nothing selected, to view the screen in the text window again.
 We enter our new radius of 0.050 inches, and leave the other settings
 unchanged. We then select one of the points to be rounded, and choose
-Sketch &rarr; Tangent Arc at Point. 
+Sketch &rarr; Tangent Arc at Point.
 </p>
 
 <div class="forimg">
@@ -680,7 +680,7 @@ on that drawing to be different from the ones used to specify the part.
 This completes the tutorial. Other features in SolveSpace may be specially
 useful when drawing in 2d; for example, cut and paste work exclusively
 within workplanes. To learn more about these features, see the
-<a href="ref.pl">reference manual</a>, 
+<a href="ref.$PL">reference manual</a>,
 or follow the prompts and messages within the program.
 </p>
 

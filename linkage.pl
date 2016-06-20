@@ -27,7 +27,7 @@ the linkage is worked.</p>
 motion. It appears as below:</p>
 
 <div class="forimg">
-    <img src="/pics/linkage-view.png" />
+    <img src="pics/linkage-view.png" />
 </div>
 
 <p>The pink plate is held stationary. The mechanism is driven at the blue
@@ -49,7 +49,7 @@ the resulting motion.<p>
 <p>A dimensioned drawing of that skeleton appears as below:</p>
 
 <div class="forimg">
-    <img src="/pics/linkage-dimensioned.png" />
+    <img src="pics/linkage-dimensioned.png" />
 </div>
 
 <p>It's an eight-bar linkage (since it consists of eight
@@ -77,7 +77,7 @@ approximately correct scale, and minimize how much it will change when
 it gets dimensioned.</p>
 
 <div class="forimg">
-    <img src="/pics/linkage-lines.png" />
+    <img src="pics/linkage-lines.png" />
 </div>
 
 <p>Then, we insert line length constraints for each link, by hovering
@@ -86,7 +86,7 @@ turns red), and then choosing Constrain &rarr; Distance / Diameter. We
 double-click each dimension on the sketch, and type in the desired length.
 
 <div class="forimg">
-    <img src="/pics/linkage-constrained.png" />
+    <img src="pics/linkage-constrained.png" />
 </div>
 
 <p>We also constrain the fixed links (drawn earlier in green), by
@@ -97,10 +97,10 @@ This fully constrains the linkage; we should therefore have only one
 degree of freedom, corresponding to the rotation of our driving link. We
 can confirm this by clicking the home link at the top left of the text
 browser window, and then clicking the name of the group in which we're
-sketching, the default "g002-sketch-in-plane". 
+sketching, the default "g002-sketch-in-plane".
 
 <div class="forimg">
-    <img src="/pics/linkage-dof.png" />
+    <img src="pics/linkage-dof.png" />
 </div>
 
 <p>We can now work the linkage, by dragging a link with the mouse. The
@@ -120,7 +120,7 @@ horizontal link, which corresponds to the rotation of the motor or other
 actuator driving the linkage.</p>
 
 <div class="forimg">
-    <img src="/pics/linkage-angle.png" />
+    <img src="pics/linkage-angle.png" />
 </div>
 
 <p>The sketch is now fully constrained, with 0 DOF. To trace the
@@ -137,7 +137,7 @@ then we should probably increase that step count, because the solver
 will otherwise work too quickly for us to see it animate.</p>
 
 <div class="forimg">
-    <img src="/pics/linkage-step-dim.png" />
+    <img src="pics/linkage-step-dim.png" />
 </div>
 
 <p>We also can record the position of a point on the linkage as the
@@ -146,7 +146,7 @@ then choose Analyze &rarr; Trace Point. Any motion of that point will now
 be recorded with a cyan curve.</p>
 
 <div class="forimg">
-    <img src="/pics/linkage-trace.png" />
+    <img src="pics/linkage-trace.png" />
 </div>
 
 <p>To stop tracing, we choose Analyze &rarr; Stop Tracing. A file dialog
@@ -162,7 +162,7 @@ and we then plotted the output point's x as a function of y (in Scilab;
 but many programs could do this, for example most spreadsheets).</p>
 
 <div class="forimg">
-    <img src="/pics/linkage-graph-geo.png" />
+    <img src="pics/linkage-graph-geo.png" />
 </div>
 
 <p>If the linkage was worked with Step Dimension, then that speed is
@@ -172,7 +172,7 @@ with Step Dimension, and we plot the change in x (the blue trace) and y
 (the black trace) as a function of time or, equivalently, angle.</p>
 
 <div class="forimg">
-    <img src="/pics/linkage-graph-speed.png" />
+    <img src="pics/linkage-graph-speed.png" />
 </div>
 
 <p>Once the skeleton of the linkage exists, solid models may be
@@ -211,7 +211,7 @@ constrained parallel to it. The handle is assigned to a custom line style,
 so that we can mark it in blue, and hide it in any exported file.</p>
 
 <div class="forimg">
-    <img src="/pics/linkage-handle.png" />
+    <img src="pics/linkage-handle.png" />
 </div>
 
 <p>The linkage drawn above used only pin joints. Other kinds of joints
@@ -220,7 +220,7 @@ slides in a slot may be modeled as a point-on-line constraint. That
 constraint is used here, to model a Whitworth quick-return mechanism:
 
 <div class="forimg">
-    <img src="/pics/linkage-whitworth.png" />
+    <img src="pics/linkage-whitworth.png" />
 </div>
 
 <p>This mechanism contains rotating links: one 15 mm long, about the
@@ -242,7 +242,7 @@ direction.</p>
 they will follow the motion of the mechanism.</p>
 
 <div class="forimg">
-    <img src="/pics/linkage-whitworth-solid.png" />
+    <img src="pics/linkage-whitworth-solid.png" />
 </div>
 
 <p>Here, we've once again provided a handle to aid in working the linkage,
@@ -254,7 +254,7 @@ on the output point and then Analyze &rarr; Step Dimension to work the
 linkage, and finally Analyze &rarr; Stop Tracing to save the results.</p>
 
 <div class="forimg">
-    <img src="/pics/linkage-whitworth-graph.png" />
+    <img src="pics/linkage-whitworth-graph.png" />
 </div>
 
 <p>The "quick return" feature is visible here, as the output position
@@ -266,7 +266,7 @@ two points on a line to lie on the x and y axes. Any other point on that
 line will trace out an axis-aligned ellipse:
 
 <div class="forimg">
-    <img src="/pics/linkage-ellipse.png" />
+    <img src="pics/linkage-ellipse.png" />
 </div>
 
 <p>The SolveSpace models used in this tutorial are available for download

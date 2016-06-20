@@ -17,7 +17,7 @@ TEMPL::Output(<<EOT
 <div class="movie">
 <table cellpadding=0 cellspacing=0>
 <tr><td>
-<!-- 
+<!--
     <OBJECT id='mediaPlayer' width="620" height="420"
     classid='CLSID:22d6f312-b0f6-11d0-94ab-0080c74c7e95'
     codebase='http://activex.microsoft.com/activex/controls/ mplayer/en/nsmp2inf.cab#Version=5,1,52,701'
@@ -47,7 +47,7 @@ TEMPL::Output(<<EOT
 </div>
 
 <div class="footer">
-<p><b>Release 2.1 is <a href="download.pl">available for download</a></b>, now with Linux and Mac support, and various new features; thanks to whitequark and associates.</p>
+<p><b>Release 2.1 is <a href="download.$PL">available for download</a></b>, now with Linux and Mac support, and various new features; thanks to whitequark and associates.</p>
 
 <p style="margin-top: 30px;">SOLVESPACE is a parametric 3d CAD program. Applications include:</p>
 <div class="list">
@@ -56,15 +56,15 @@ TEMPL::Output(<<EOT
         draw with extrudes, revolves, and Boolean
         (union / difference) operations</li>
 
-    <li><b>modeling 2d parts</b> &mdash; 
+    <li><b>modeling 2d parts</b> &mdash;
         draw the part as a single section, and
         export DXF, PDF, SVG; use 3d assembly to verify fit</li>
 
-    <li><b>3d-printed parts</b> &mdash; 
+    <li><b>3d-printed parts</b> &mdash;
         export the STL or other triangle mesh expected by most
         3d printers</li>
 
-    <li><b>preparing CAM data</b> &mdash; 
+    <li><b>preparing CAM data</b> &mdash;
         export 2d vector art for a waterjet
         machine or laser cutter; or generate STEP or STL, for import
         into third-party CAM software for machining</li>
@@ -79,8 +79,8 @@ TEMPL::Output(<<EOT
 </ul>
 </div>
 
-<p>Learn more about SolveSpace in the <a href="tutorial.pl">tutorials</a>,
-or  <a href="download.pl">download</a> it now.</p>
+<p>Learn more about SolveSpace in the <a href="tutorial.$PL">tutorials</a>,
+or  <a href="download.$PL">download</a> it now.</p>
 
 </div>
 EOT
