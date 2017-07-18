@@ -15,16 +15,16 @@ TEMPL::OutputWithHeader("DOWNLOAD PROGRAM", <<EOT
     <th>Link</th>
 </tr>
 <tr>
-    <td>2.1</td>
-    <td>June 11, 2016</td>
+    <td>2.3</td>
+    <td>December 23, 2016</td>
     <td>Windows XP&ndash;10, Linux, Mac</td>
-    <td><a href="https://github.com/solvespace/solvespace/releases/tag/v2.1"><b>via GitHub</b></a></td>
+    <td><a rel="nofollow" href="https://github.com/solvespace/solvespace/releases/tag/v2.3"><b>via GitHub</b></a></td>
 </tr>
 <tr>
     <td>2.0</td>
     <td>July 28, 2013</td>
     <td>Windows XP&ndash;10</td>
-    <td><a href="https://github.com/solvespace/solvespace/releases/download/v2.0/solvespace.exe">solvespace.exe</a></td>
+    <td><a rel="nofollow" href="https://github.com/solvespace/solvespace/releases/tag/v2.0"><b>via GitHub</b></a></td>
 </tr>
 </table>
 
@@ -33,11 +33,11 @@ you can run it immediately. If you wish to continue using SolveSpace,
 then save solvespace.exe somewhere convenient (e.g., on your desktop).</p>
 
 <p>Under OS X, run the .app file directly from the disk image, or drag it
-to Applications to install. Under Linux, install the .deb package in the
-obvious way.</p>
+to Applications to install. Under Linux,
+<a rel="nofollow" href="https://github.com/solvespace/solvespace/tree/2.x#building-on-linux">build</a> and install, or get SolveSpace through your distribution's package manager.</p>
 
-<p>Files saved by 2.1 are usually readable by 2.0, but some
-<a href="https://github.com/solvespace/solvespace/blob/v2.1/CHANGELOG.md">
+<p>Files saved by 2.3 are usually readable by 2.0, but some
+<a rel="nofollow" href="https://github.com/solvespace/solvespace/blob/v2.3/CHANGELOG.md">
 new features
 </a>
 are unsupported in older versions.</p>

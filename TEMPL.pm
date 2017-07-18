@@ -256,7 +256,7 @@ $main::ADD_TO_HEAD
 $BOTTOM = qq|
 <div class="copyouter">
 <div class="copyfooter">
-    &copy; 2008-2016 Jonathan Westhues and contributors. Most recent update June 11 2016.
+    &copy; 2008-2016 SolveSpace contributors. Most recent update Oct 16 2016.
 </div>
 </div>
 </body>
