@@ -22,6 +22,9 @@ TEMPL::OutputWithHeader("CONTACT", <<EOT
 <a href="https://whitequark.org/">whitequark</a> and others through
 <a href="https://m-labs.hk/">M-Labs Limited</a>.</p>
 
+<p>Bug reports and feature requests may be posted to the
+<a href="https://github.com/solvespace/solvespace/issues">issue tracker</a>.
+
 <p>For commercial support and licensing, please contact:</p>
 
 <blockquote>
