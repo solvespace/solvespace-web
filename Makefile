@@ -3,7 +3,7 @@ PAGES=2d box bracket constraints contact download examples features index librar
 HTMLPAGES=$(patsubst %,html/%.html,$(PAGES))
 
 html/%.html: %.pl
-	HTML=1 perl $^ | sed -e '1,/^$$/d' >$@
+	HTML=1 PERL5LIB=. perl $^ | sed -e '1,/^$$/d' >$@
 
 all: $(HTMLPAGES)
 
