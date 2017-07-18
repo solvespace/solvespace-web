@@ -1,3 +1,5 @@
+REMOTE?=git@github.com:solvespace/website
+
 PAGES=2d box bracket constraints contact download examples features index library linkage \
 	ref tech tutorial
 HTMLPAGES=$(patsubst %,html/%.html,$(PAGES))
@@ -11,16 +13,14 @@ clean:
 	rm -f $(HTMLPAGES)
 
 gh-pages: all
-	if [ -z "$(SUBDIR)" -o -z "$(REMOTE)" ]; then \
-		echo "Usage: make gh-pages SUBDIR=master REMOTE=git@github.com:solvespace/solvespace"; \
-	fi
-	git clone `git config --get remote.origin.url` .gh-pages --reference .
-	git -C .gh-pages checkout gh-pages
-	rm -rf .gh-pages/$(SUBDIR)
-	cp -rL html .gh-pages/$(SUBDIR)
-	git -C .gh-pages add -A
-	git -C .gh-pages commit -m "Documentation update."
-	git -C .gh-pages push $(REMOTE) gh-pages
+	mkdir .gh-pages
+	cp .gitattributes .gh-pages/
+	git -C .gh-pages init -q
+	git -C .gh-pages checkout -q -b gh-pages
+	cp -rLT html .gh-pages
+	git -C .gh-pages add .
+	git -C .gh-pages commit -q -m "Generate documentation."
+	git -C .gh-pages push -f -q $(REMOTE) gh-pages
 	rm -rf .gh-pages
 
 .PHONY: all clean
