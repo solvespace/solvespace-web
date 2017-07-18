@@ -37,15 +37,15 @@ if(defined $ENV{'VERSION'}) {
 }
 
 @TOC = (
-    [ 'Examples',   "examples.$PL",   0 ],
-    [ 'Tutorials',  "tutorial.$PL",   0 ],
-    [ 'Features',   "features.$PL",   0 ],
-    [ 'Download',   "download.$PL",   0 ],
-    [ 'Reference',  "ref.$PL",        0 ],
-    [ 'Technology', "tech.$PL",       0 ],
-    [ 'Library',    "library.$PL",    0 ],
-    [ 'Forum',      "forum.$PL",      0 ],
-    [ 'Contact',    "contact.$PL",    0 ],
+    [ 'Examples',   "examples",   0 ],
+    [ 'Tutorials',  "tutorial",   0 ],
+    [ 'Features',   "features",   0 ],
+    [ 'Download',   "download",   0 ],
+    [ 'Reference',  "ref",        0 ],
+    [ 'Technology', "tech",       0 ],
+    [ 'Library',    "library",    0 ],
+    [ 'Forum',      "forum",      0 ],
+    [ 'Contact',    "contact",    0 ],
 );
 $TOC = '';
 for (@TOC) {
@@ -56,7 +56,7 @@ for (@TOC) {
     }
     $toc = $where ? "tocsub" : "toc";
 
-    if($0 =~ /$link$/) {
+    if($0 =~ /$link\.pl$/) {
         $TOC .= qq#
             <div class="$toc">
                 $title
@@ -65,7 +65,7 @@ for (@TOC) {
     } else {
         $TOC .= qq#
             <div class="$toc">
-                <a class="toc" href="$link">$title</a>
+                <a class="toc" href="$link.$PL">$title</a>
             </div>
         #;
     }
