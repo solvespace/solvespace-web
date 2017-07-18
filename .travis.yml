@@ -13,12 +13,15 @@ script: |
       -in .ssh-deploy-key.enc -out ~/.ssh/id_rsa -d
     chmod 0600 ~/.ssh/id_rsa
 
+    export REMOTE=git@github.com:solvespace/website
     if [ -n "${TRAVIS_TAG}" ]; then
-      export VERSION="${TRAVIS_TAG}"
+      export SUBDIR="${TRAVIS_TAG}"
+      export VERSION="release ${TRAVIS_TAG/v/}"
     else
-      export VERSION="${TRAVIS_BRANCH}"
+      export SUBDIR="${TRAVIS_BRANCH}"
+      export VERSION="development branch <tt>${TRAVIS_BRANCH}</tt>"
     fi
-    make gh-pages SUBDIR=${VERSION} REMOTE=git@github.com:solvespace/website
+    make gh-pages
     echo "Deployed to https://solvespace.github.io/website/${SUBDIR}/"
   else
     make
