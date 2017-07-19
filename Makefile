@@ -1,4 +1,4 @@
-REMOTE?=git@github.com:solvespace/website
+REMOTE?=git@github.com:solvespace/solvespace-web
 
 PAGES=2d box bracket constraints contact download examples features index library linkage \
 	ref tech tutorial

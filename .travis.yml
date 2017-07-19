@@ -10,5 +10,5 @@ after_success:
   - echo "$DEPLOY_KEY" | base64 -d >~/.ssh/id_rsa && chmod 0600 ~/.ssh/id_rsa
   - git config --global user.name  "Travis CI"
   - git config --global user.email "travis@travis-ci.org"
-  - make gh-pages REMOTE=git@github.com:solvespace/website
-  - echo "Deployed to https://solvespace.github.io/website/"
+  - make gh-pages REMOTE=git@github.com:solvespace/solvespace-web
+  - echo "Deployed to https://solvespace.github.io/solvespace-web/"
