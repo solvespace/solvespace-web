@@ -64,7 +64,7 @@ joints. </p>
 </div>
 <br><br>
 
-<p>A <a href="2d.pl"><b>2d drawing tutorial</b></a>. We use SolveSpace
+<p>A <a href="2d.$TEMPL::PL"><b>2d drawing tutorial</b></a>. We use SolveSpace
 to draw a pure 2d part. So we start with a contour, and specify it using
 dimensions and constraints. We also use special tools to split lines and
 curves where they intersect, and trim them against each other, and to
@@ -72,7 +72,7 @@ round sharp corners. After drawing the part, we place cosmetic dimensions
 on the geometry, and export a human-readable dimensioned drawing.</p>
 
 <div class="forimg">
-    <a href="2d.pl">
+    <a href="2d.$TEMPL::PL">
         <img class="tut" src="pics/2d-part-to-draw.png" />
     </a>
 </div>

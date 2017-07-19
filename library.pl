@@ -21,7 +21,7 @@ you may be able to use the library interface exposed by SolveSpace.
 $TEMPL::SEP
 
 <p>This library is built from the same code used in SolveSpace; you
-can evaluate its performance by <a href="download.pl">downloading</a>
+can evaluate its performance by <a href="download.$TEMPL::PL">downloading</a>
 and running solvespace.exe. Constraints and entities exposed in the
 program's user interface correspond very closely to constraints and
 entities defined by this library.</p>
@@ -45,7 +45,7 @@ are included, in:</p>
 <p>SolveSpace is distributed under the GPLv3, which permits most
 use in free software but generally forbids linking the library with
 proprietary software. For commercial support and licensing, please <a
-href="contact.pl">contact us</a>.</p>
+href="contact.$TEMPL::PL">contact us</a>.</p>
 
 EOT
 );
