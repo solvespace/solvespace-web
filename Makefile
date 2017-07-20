@@ -1,16 +1,25 @@
-REMOTE?=git@github.com:solvespace/solvespace-web
+REMOTE ?= git@github.com:solvespace/solvespace-web
 
-PAGES=2d box bracket constraints contact download examples features index library linkage \
-	ref tech tutorial
-HTMLPAGES=$(patsubst %,html/%.html,$(PAGES))
+PAGES  := \
+	index examples tutorial bracket box constraints linkage 2d \
+	features download ref tech library contact
+ASSETS := \
+	$(wildcard pics/*) $(wildcard vids/*) $(wildcard dl/*)
+OUTPUT := \
+	$(patsubst %,html/%.html,$(PAGES)) \
+	$(patsubst %,html/%,$(ASSETS))
 
-html/%.html: %.pl
-	HTML=1 PERL5LIB=. perl $^ | sed -e '1,/^$$/d' >$@
+html/%.html: %.pl TEMPL.pm
+	HTML=1 perl -I. $< >$@
 
-all: $(HTMLPAGES)
+html/%: %
+	@mkdir -p $(dir $@)
+	cp $< $@
+
+all: $(OUTPUT)
 
 clean:
-	rm -f $(HTMLPAGES)
+	@rm -rf html/*
 
 gh-pages: all
 	mkdir .gh-pages

@@ -28,8 +28,10 @@ sub SizeInfoForImage {
 }
 
 if(defined $ENV{'HTML'}) {
+    $HTML = 1;
     $PL = 'html';
 } else {
+    $HTML = 0;
     $PL = 'pl';
 }
 if(defined $ENV{'VERSION'}) {
@@ -304,7 +306,9 @@ sub Output {
         }->();
         ]iseg;
 
-    print CGI::header();
+    if(!$HTML) {
+        print CGI::header();
+    }
     print $TOP . $str . $BOTTOM;
 }
 
