@@ -16,14 +16,14 @@ the `CGI` and `GD` modules.
 
 On Debian, Ubuntu, and compatible distributions the dependencies can be installed with:
 
-    apt-get install perl-base libcgi-pm-perl libgd-gd2-perl
+    apt-get install perl-base libgd-gd2-perl
 
 ### macOS
 
 When using Homebrew, the dependencies can be installed with:
 
     brew install perl libgd
-    cpan install cgi gd
+    cpan install gd
 
 ### Windows
 
@@ -34,7 +34,7 @@ On any version of Windows, the dependencies can be installed using [Cygwin]:
 
   * `git`
   * `make`
-  * `perl`, `perl-CGI`, `perl-GD`
+  * `perl`, `perl-GD`
 
 [wsl]: https://msdn.microsoft.com/en-us/commandline/wsl/install_guide
 [cygwin]: https://cygwin.com/

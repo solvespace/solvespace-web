@@ -1,7 +1,6 @@
 
 package TEMPL;
 
-use CGI;
 use GD;
 
 sub SizeInfoForImage {
@@ -307,7 +306,7 @@ sub Output {
         ]iseg;
 
     if(!$HTML) {
-        print CGI::header();
+        print "Content-Type: text/html; charset=utf-8\n";
     }
     print $TOP . $str . $BOTTOM;
 }
