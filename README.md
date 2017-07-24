@@ -9,8 +9,7 @@ This repository contains the source code of the official website of [SolveSpace]
 Prerequisites
 -------------
 
-The templating engine that generates this website is written in Perl and requires
-the `CGI` and `GD` modules.
+The templating engine that generates this website is written in Perl and requires the `GD` module.
 
 ### Linux
 
