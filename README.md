@@ -58,4 +58,4 @@ You can modify the website as follows:
 License
 -------
 
-TBD
+[CC BY-SA 4.0](LICENSE.txt)
