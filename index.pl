@@ -47,7 +47,6 @@ TEMPL::Output(<<EOT
 </div>
 
 <div class="footer">
-<p><b>Release 2.1 is <a href="download.$TEMPL::PL">available for download</a></b>, now with Linux and Mac support, and various new features; thanks to whitequark and associates.</p>
 
 <p style="margin-top: 30px;">SOLVESPACE is a parametric 3d CAD program. Applications include:</p>
 <div class="list">
