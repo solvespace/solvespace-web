@@ -1,7 +1,7 @@
 #!/usr/bin/perl
 
 $TITLE = 'SolveSpace - Contact';
-$ADD_TO_BODY = 'onload="fixemail()"';
+$ADD_TO_BODY = 'onload="fixEmail()"';
 
 require TEMPL;
 

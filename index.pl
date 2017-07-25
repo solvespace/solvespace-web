@@ -15,35 +15,24 @@ TEMPL::Output(<<EOT
 </div>
 
 <div class="movie">
-<table cellpadding="0" cellspacing="0">
-<tr><td>
-<!--
-    <OBJECT id='mediaPlayer' width="620" height="420"
-    classid='CLSID:22d6f312-b0f6-11d0-94ab-0080c74c7e95'
-    codebase='http://activex.microsoft.com/activex/controls/ mplayer/en/nsmp2inf.cab#Version=5,1,52,701'
-    standby='Loading Microsoft Windows Media Player components...' type='application/x-oleobject'>
-        <param name='fileName' value="vids/demo.wmv">
-        <param name='animationatStart' value='1'>
-        <param name='transparentatStart' value='1'>
-        <param name='autoStart' value='1'>
-        <param name='ShowControls' value='0'>
-        <param name='ShowDisplay' value='0'>
-        <param name='ShowStatusBar' value='0'>
-        <param name='loop' value='1'>
-        <EMBED type='application/x-mplayer2'
-        pluginspage='http://microsoft.com/windows/mediaplayer/ en/download/'
-        id='mediaPlayer' name='mediaPlayer' displaysize='4' autosize='0'
-        bgcolor='darkblue' showcontrols='0' showtracker='1'
-        showdisplay='0' showstatusbar='0' videoborder3d='0' width="620" height="420"
-        src="vids/demo.wmv" autostart='1' designtimesp='5311' loop='1'>
-        </EMBED>
-    </OBJECT> -->
-    <img src="pics/front-page-pic.png">
-</td></tr>
-<tr><td align="right">
-[<a href="vids/demo.wmv">download demo vid</a>]
-</td></tr>
-</table>
+    <video preload="metadata" height="420"
+           poster="pics/front-page-pic.png" onerror="videoFailed(event)">
+        <source src="vids/demo.webm" type="video/webm">
+        <source src="vids/demo.mp4" type="video/mp4" onerror="videoFallback(parentNode)">
+
+        <!-- fall back to showing a picture and a download link -->
+        <table cellpadding="0" cellspacing="0">
+        <tr><td>
+            <img src="pics/front-page-pic.png">
+        </td></tr>
+        <tr><td align="right">
+            [<a href="vids/demo.mp4">download demo video</a>]
+        </td></tr>
+        </table>
+    </video>
+    <a class="playbutton" href="#" onclick="videoPlay(event)">
+        demo video&nbsp;&nbsp;&nbsp;▶
+    </a>
 </div>
 
 <div class="footer">

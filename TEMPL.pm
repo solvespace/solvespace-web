@@ -83,19 +83,7 @@ $TOP = qq|
 <head>
     <title>$main::TITLE</title>
     <link rel="stylesheet" type="text/css" href="style.css">
-    <script type="text/javascript">
-        <!--
-            function fixemail()
-            {
-                document.getElementById('emailheader').innerHTML =
-                '<a href="mailto:' +
-                String.fromCharCode(210/2 + 1) +
-                'westhues\@cq.cx">' +
-                String.fromCharCode(210/2 + 1) +
-                'westhues\@cq.cx</a>';
-            }
-        -->
-    </script>
+    <script type="text/javascript" src="support.js"></script>
 $main::ADD_TO_HEAD
 </head>
 

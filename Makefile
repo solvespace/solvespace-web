@@ -5,7 +5,7 @@ PAGES  := \
 	features download ref tech library contact
 ASSETS := \
 	$(wildcard pics/*) $(wildcard vids/*) $(wildcard dl/*) \
-	style.css
+	style.css support.js
 OUTPUT := \
 	$(patsubst %,html/%.html,$(PAGES)) \
 	$(patsubst %,html/%,$(ASSETS))
