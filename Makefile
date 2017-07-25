@@ -4,7 +4,8 @@ PAGES  := \
 	index examples tutorial bracket box constraints linkage 2d \
 	features download ref tech library contact
 ASSETS := \
-	$(wildcard pics/*) $(wildcard vids/*) $(wildcard dl/*)
+	$(wildcard pics/*) $(wildcard vids/*) $(wildcard dl/*) \
+	style.css
 OUTPUT := \
 	$(patsubst %,html/%.html,$(PAGES)) \
 	$(patsubst %,html/%,$(ASSETS))
