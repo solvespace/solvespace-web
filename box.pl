@@ -40,7 +40,7 @@ TEMPL::OutputWithHeader("TUTORIAL: ASSEMBLIES", <<EOT
     to form a box with six compartments:
 </p>
     <div class="forimg">
-        <img src="pics/box-asm-perspective.png" />
+        <img src="pics/box-asm-perspective.png">
     </div>
 <p>
     We wish to assemble these parts&mdash;a base, two sides, and seven
@@ -53,7 +53,7 @@ TEMPL::OutputWithHeader("TUTORIAL: ASSEMBLIES", <<EOT
     base.slvs appears in that list. This is exactly equivalent.)
 </p>
 <div class="forimg">
-    <img src="pics/box-base-1.png" />
+    <img src="pics/box-base-1.png">
 </div>
 <p>
     The part will appear in our assembly. We can grab any point with the
@@ -71,7 +71,7 @@ TEMPL::OutputWithHeader("TUTORIAL: ASSEMBLIES", <<EOT
     screen, we can Ctrl+left-drag either a point or a normal.
 </p>
 <div class="forimg">
-    <img src="pics/box-base-2.png" />
+    <img src="pics/box-base-2.png">
 </div>
 <p>
     It's difficult to precisely define the orientation or position of a
@@ -95,7 +95,7 @@ TEMPL::OutputWithHeader("TUTORIAL: ASSEMBLIES", <<EOT
     &rarr; Same Orientation, or the equivalent constraint from the toolbar.
 </p>
 <div class="forimg">
-    <img src="pics/box-base-3.png" />
+    <img src="pics/box-base-3.png">
 </div>
 <p>
     The two normals are now each marked with a magenta X, which is visible
@@ -138,7 +138,7 @@ TEMPL::OutputWithHeader("TUTORIAL: ASSEMBLIES", <<EOT
     indicating the two normals that are in the same orientation.
 </p>
 <div class="forimg">
-    <img src="pics/box-divider-1.png" />
+    <img src="pics/box-divider-1.png">
 </div>
 <p>
     And we have again indicated two points in red that could be constrained
@@ -154,7 +154,7 @@ TEMPL::OutputWithHeader("TUTORIAL: ASSEMBLIES", <<EOT
     distance and direction:
 </p>
 <div class="forimg">
-    <img src="pics/box-divider-2.png" />
+    <img src="pics/box-divider-2.png">
 </div>
 <p>
     Note that we have now hidden points and normals, by clicking the
@@ -173,7 +173,7 @@ TEMPL::OutputWithHeader("TUTORIAL: ASSEMBLIES", <<EOT
     and direction for the step and repeat.
 </p>
 <div class="forimg">
-    <img src="pics/box-divider-3.png" />
+    <img src="pics/box-divider-3.png">
 </div>
 <p>
     We can drag the parts into roughly the correct position, and then, as
@@ -184,7 +184,7 @@ TEMPL::OutputWithHeader("TUTORIAL: ASSEMBLIES", <<EOT
     coincident, and the seven dividers will be placed as desired.
 </p>
 <div class="forimg">
-    <img src="pics/box-divider-4.png" />
+    <img src="pics/box-divider-4.png">
 </div>
 <p>
     Finally, we wish to place the two sides. We choose New Group &rarr; Import /
@@ -193,7 +193,7 @@ TEMPL::OutputWithHeader("TUTORIAL: ASSEMBLIES", <<EOT
     not what's desired.
 </p>
 <div class="forimg">
-    <img src="pics/box-side-1.png" />
+    <img src="pics/box-side-1.png">
 </div>
 <p>
     In this particular default position and orientation, it is interfering
@@ -207,7 +207,7 @@ TEMPL::OutputWithHeader("TUTORIAL: ASSEMBLIES", <<EOT
     define the orientation than by Shift+left-dragging with the mouse.
 </p>
 <div class="forimg">
-    <img src="pics/box-side-2.png" />
+    <img src="pics/box-side-2.png">
 </div>
 <p>
     Once again, constrain the orientation of the imported part using a
@@ -232,7 +232,7 @@ TEMPL::OutputWithHeader("TUTORIAL: ASSEMBLIES", <<EOT
     other entities are getting highlighted instead, then try zooming in more.
 </p>
 <div class="forimg">
-    <img src="pics/box-side-3.png" />
+    <img src="pics/box-side-3.png">
 </div>
 <p>
     Select Constrain &rarr; On Plane; the part may now move only in such a way
@@ -247,7 +247,7 @@ TEMPL::OutputWithHeader("TUTORIAL: ASSEMBLIES", <<EOT
     freedom, and the point-on-face constraint has subtracted one.
 </p>
 <div class="forimg">
-    <img src="pics/box-side-4.png" />
+    <img src="pics/box-side-4.png">
 </div>
 <p>
     Next, select the plane of the top of the grey base and a point on the
@@ -258,7 +258,7 @@ TEMPL::OutputWithHeader("TUTORIAL: ASSEMBLIES", <<EOT
     orange divider's tabs, as indicated below.
 </p>
 <div class="forimg">
-    <img src="pics/box-side-5.png" />
+    <img src="pics/box-side-5.png">
 </div>
 <p>
     Again constrain the point on the face. The green side's position is now
@@ -309,7 +309,7 @@ TEMPL::OutputWithHeader("TUTORIAL: ASSEMBLIES", <<EOT
     or in some other way.
 </p>
 <div class="forimg">
-    <img src="pics/box-asm.png" />
+    <img src="pics/box-asm.png">
 </div>
 <p>
     The assembly is now complete. We can view it on-screen, and produce
@@ -347,7 +347,7 @@ TEMPL::OutputWithHeader("TUTORIAL: ASSEMBLIES", <<EOT
 </p>
 <div class="forimg">
     <a href="dl/box-view.pdf">
-        <img border=0 src="pics/box-asm-line.png" />
+        <img border="0" src="pics/box-asm-line.png">
     </a>
 </div>
 <p>

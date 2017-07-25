@@ -20,7 +20,7 @@ after solving three equations in three unknowns. A real sketch may involve
 hundreds of unknowns.</p>
 
 <div class="forimg">
-    <img src="pics/tech-example.png" />
+    <img src="pics/tech-example.png">
 </div>
 
 <p>In SolveSpace, constraints are represented as equations in a

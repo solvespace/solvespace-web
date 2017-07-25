@@ -23,7 +23,7 @@ sub SizeInfoForImage {
 
     my ($width, $height) = $img->getBounds();
 
-    return "width=$width height=$height";
+    return qq|width="$width" height="$height"|;
 }
 
 if(defined $ENV{'HTML'}) {
@@ -78,12 +78,11 @@ $SEP = qq{<p style="text-align: center;">*$sp*$sp*$sp2</p>};
 
 
 $TOP = qq|
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!DOCTYPE html>
 
 <head>
     <title>$main::TITLE</title>
-    <script type=text/javascript>
+    <script type="text/javascript">
         <!--
             function fixemail()
             {

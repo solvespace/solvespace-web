@@ -15,7 +15,7 @@ TEMPL::Output(<<EOT
 </div>
 
 <div class="movie">
-<table cellpadding=0 cellspacing=0>
+<table cellpadding="0" cellspacing="0">
 <tr><td>
 <!--
     <OBJECT id='mediaPlayer' width="620" height="420"
@@ -38,9 +38,9 @@ TEMPL::Output(<<EOT
         src="vids/demo.wmv" autostart='1' designtimesp='5311' loop='1'>
         </EMBED>
     </OBJECT> -->
-    <img src="pics/front-page-pic.png" />
+    <img src="pics/front-page-pic.png">
 </td></tr>
-<tr><td align=right>
+<tr><td align="right">
 [<a href="vids/demo.wmv">download demo vid</a>]
 </td></tr>
 </table>

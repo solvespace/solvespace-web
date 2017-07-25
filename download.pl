@@ -7,7 +7,7 @@ require TEMPL;
 TEMPL::OutputWithHeader("DOWNLOAD PROGRAM", <<EOT
 <p>The following builds are available:</p>
 
-<table class=dltab>
+<table class="dltab">
 <tr>
     <th>Version</th>
     <th>Released</th>

@@ -37,7 +37,7 @@ drawn as tiny magenta dots at the centers of the green square points.
 </p>
 
 <div class="forimg">
-    <img src="pics/constraints-triangle.png" />
+    <img src="pics/constraints-triangle.png">
 </div>
 
 <p>
@@ -56,7 +56,7 @@ sketch accordingly.
 </p>
 
 <div class="forimg">
-    <img src="pics/constraints-triangle-dim-1.png" />
+    <img src="pics/constraints-triangle-dim-1.png">
 </div>
 
 <p>
@@ -75,7 +75,7 @@ one DOF, so the sketch now has three DOF.
 </p>
 
 <div class="forimg">
-    <img src="pics/constraints-triangle-dim-2.png" />
+    <img src="pics/constraints-triangle-dim-2.png">
 </div>
 
 <p>
@@ -102,7 +102,7 @@ case they can't ever be satisfied.
 </p>
 
 <div class="forimg">
-    <img src="pics/constraints-triangle-fail-1.png" />
+    <img src="pics/constraints-triangle-fail-1.png">
 </div>
 
 <p>
@@ -115,7 +115,7 @@ know that we can fully describe a triangle by side-side-angle.
 </p>
 
 <div class="forimg">
-    <img src="pics/constraints-triangle-fail-2.png" />
+    <img src="pics/constraints-triangle-fail-2.png">
 </div>
 
 <p>
@@ -149,7 +149,7 @@ the result is that the solution does not converge.
 </p>
 
 <div class="forimg">
-    <img src="pics/constraints-nonconverging.png" />
+    <img src="pics/constraints-nonconverging.png">
 </div>
 
 <p>
@@ -184,7 +184,7 @@ arc symmetric about the horizontal axis.
 </p>
 
 <div class="forimg">
-    <img src="pics/constraints-arc-1.png" />
+    <img src="pics/constraints-arc-1.png">
 </div>
 
 <p>
@@ -200,7 +200,7 @@ constraint removes two. It therefore must overconstrain the sketch.
 </p>
 
 <div class="forimg">
-    <img src="pics/constraints-arc-2.png" />
+    <img src="pics/constraints-arc-2.png">
 </div>
 
 <p>
@@ -212,7 +212,7 @@ end up equidistant from the horizontal axis and therefore symmetric.
 </p>
 
 <div class="forimg">
-    <img src="pics/constraints-arc-3.png" />
+    <img src="pics/constraints-arc-3.png">
 </div>
 
 <p>
@@ -231,7 +231,7 @@ Consider the triangle below:
 </p>
 
 <div class="forimg">
-    <img src="pics/constraints-ambiguous-1.png" />
+    <img src="pics/constraints-ambiguous-1.png">
 </div>
 
 <p>
@@ -251,7 +251,7 @@ to the right, and the vertical edge go down as up.
 </p>
 
 <div class="forimg">
-    <img src="pics/constraints-ambiguous-2.png" />
+    <img src="pics/constraints-ambiguous-2.png">
 </div>
 
 <p>
@@ -272,7 +272,7 @@ draw a regular pentagon.
 </p>
 
 <div class="forimg">
-    <img src="pics/constraints-ambiguous-3.png" />
+    <img src="pics/constraints-ambiguous-3.png">
 </div>
 
 <p>
@@ -284,7 +284,7 @@ close as possible to the desired geometry before constraining it.
 </p>
 
 <div class="forimg">
-    <img src="pics/constraints-ambiguous-4.png" />
+    <img src="pics/constraints-ambiguous-4.png">
 </div>
 
 <p>
@@ -330,7 +330,7 @@ about to sketch onto the highlighted face of the resulting solid.
 </p>
 
 <div class="forimg">
-    <img src="pics/constraints-projected-1.png" />
+    <img src="pics/constraints-projected-1.png">
 </div>
 
 <p>
@@ -342,11 +342,11 @@ the two lines now appear to have the same length.
 </p>
 
 <div class="forimg">
-    <img src="pics/constraints-projected-2.png" />
+    <img src="pics/constraints-projected-2.png">
 </div>
 
 <div class="forimg">
-    <img src="pics/constraints-projected-3.png" />
+    <img src="pics/constraints-projected-3.png">
 </div>
 
 <p>
@@ -358,7 +358,7 @@ and not the true length of the lines.
 </p>
 
 <div class="forimg">
-    <img src="pics/constraints-projected-4.png" />
+    <img src="pics/constraints-projected-4.png">
 </div>
 
 <p>
@@ -369,7 +369,7 @@ our workplane, this seems like a reasonable thing to do.
 </p>
 
 <div class="forimg">
-    <img src="pics/constraints-projected-5.png" />
+    <img src="pics/constraints-projected-5.png">
 </div>
 
 <p>
@@ -389,7 +389,7 @@ a different result.
 </p>
 
 <div class="forimg">
-    <img src="pics/constraints-projected-6.png" />
+    <img src="pics/constraints-projected-6.png">
 </div>
 
 <p>
@@ -426,7 +426,7 @@ We are about to drag the point that's indicated in red.
 </p>
 
 <div class="forimg">
-    <img src="pics/constraints-ref.png" />
+    <img src="pics/constraints-ref.png">
 </div>
 
 <p>

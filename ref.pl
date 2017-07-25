@@ -124,7 +124,7 @@ introduction to the program; for that, see the
     example, the "home" screen is a list of groups in the sketch:
 
 <div class="forimg">
-    <img src="pics/ref-text-window.png" />
+    <img src="pics/ref-text-window.png">
 </div>
 
 <p>
@@ -180,7 +180,7 @@ introduction to the program; for that, see the
     make it possible to hide and show different elements in the sketch:
 </p>
 
-<table class="showtab" cellspacing=0 cellpadding=0>
+<table class="showtab" cellspacing="0" cellpadding="0">
 
 <td class="showleft"><p>workplanes from inactive groups</p></td>
 <td class="showright"><p>
@@ -592,7 +592,7 @@ is useful when drawing a sketch that lies within the volume of the part.
     the short arc are then deleted, to form a single closed shape.
 
 <div class="forimg">
-    <img src="pics/ref-split.png" />
+    <img src="pics/ref-split.png">
 </div>
 
 <p>
@@ -645,7 +645,7 @@ is useful when drawing a sketch that lies within the volume of the part.
     For example, consider the line shown below:
 
 <div class="forimg">
-    <img src="pics/ref-projd-constraint.png" />
+    <img src="pics/ref-projd-constraint.png">
 </div>
 
 <p>
@@ -707,7 +707,7 @@ is useful when drawing a sketch that lies within the volume of the part.
     black), and an error is displayed in the text window:
 
 <div class="forimg">
-    <img src="pics/ref-inconsistent.png" />
+    <img src="pics/ref-inconsistent.png">
 </div>
 
 <p>
@@ -802,7 +802,7 @@ is useful when drawing a sketch that lies within the volume of the part.
     known as supplementary angles, and they always sum to 180 degrees.
 
 <div class="forimg">
-    <img src="pics/ref-line-cross-angles.png" />
+    <img src="pics/ref-line-cross-angles.png">
 </div>
 
 <p>
@@ -983,7 +983,7 @@ is useful when drawing a sketch that lies within the volume of the part.
     normals are constrained to be parallel:
 
 <div class="forimg">
-    <img src="pics/ref-parallel-normals.png" />
+    <img src="pics/ref-parallel-normals.png">
 </div>
 
 <p>
@@ -1456,7 +1456,7 @@ or color.</p>
     a four-bar linkage:
 
 <div class="forimg">
-    <img src="pics/ref-point-traced.png" />
+    <img src="pics/ref-point-traced.png">
 </div>
 
 <p>
@@ -1858,7 +1858,7 @@ or color.</p>
     smaller.
 
 <div class="forimg">
-    <img src="pics/ref-perspective.png" />
+    <img src="pics/ref-perspective.png">
 </div>
 
 <p>
@@ -1868,7 +1868,7 @@ or color.</p>
     because the eye is accustomed to seeing images with perspective.)
 
 <div class="forimg">
-    <img src="pics/ref-no-perspective.png" />
+    <img src="pics/ref-no-perspective.png">
 </div>
 
 <p>

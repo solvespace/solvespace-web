@@ -11,12 +11,12 @@ TEMPL::OutputWithHeader("EXAMPLES", <<EOT
 
 <div class="forex" style="padding-left: 2em;">
     <a href="dl/ex-stand.pdf">
-        <img border=0 src="pics/ex-stand.png" />
+        <img border="0" src="pics/ex-stand.png">
     </a>
 </div>
 
 <div class="forex">
-    <img src="pics/ex-stand-detail.jpg" />
+    <img src="pics/ex-stand-detail.jpg">
 </div>
 
 <p>A stand made from notched angle iron. Notice the way that parts for
@@ -37,12 +37,12 @@ the orientation of subsequent slanted parts with just a single constraint.</p>
 $sep
 <div class="forex">
     <a href="dl/ex-collet.pdf">
-        <img border=0 src="pics/ex-collet.png" />
+        <img border="0" src="pics/ex-collet.png">
     </a>
 </div>
 
 <div class="forex">
-    <img src="pics/ex-collet.jpg" />
+    <img src="pics/ex-collet.jpg">
 </div>
 
 <p>
@@ -62,16 +62,16 @@ directly.
 $sep
 
 <div class="forex">
-    <img src="pics/ball-mill-side.png" />
+    <img src="pics/ball-mill-side.png">
 </div>
 <div class="forex">
-    <img src="pics/ball-mill-top.png" />
+    <img src="pics/ball-mill-top.png">
 </div>
 <div class="forex">
-    <img src="pics/ball-mill-view-1.jpg" />
+    <img src="pics/ball-mill-view-1.jpg">
 </div>
 <div class="forex">
-    <img src="pics/ball-mill-view-2.jpg" />
+    <img src="pics/ball-mill-view-2.jpg">
 </div>
 
 <p>A belt-driven ball mill. The images above are a mixture of
@@ -102,11 +102,11 @@ reference dimension.</p>
 $sep
 
 <div class="forex">
-    <img src="pics/ex-case.jpg" />
+    <img src="pics/ex-case.jpg">
 </div>
 
 <div class="forex">
-    <img src="pics/ex-case-outline.png" />
+    <img src="pics/ex-case-outline.png">
 </div>
 
 <p>A case for a printed circuit board, made by stacking up four parts cut
@@ -123,7 +123,7 @@ propagate through to all the parts.</p>
 $sep
 
 <div class="forex">
-    <img src="pics/ex-peaucellier.png" />
+    <img src="pics/ex-peaucellier.png">
 </div>
 
 <p>Peaucellier's linkage. The rightmost point moves in an exact vertical
@@ -137,7 +137,7 @@ curiosity. The linkage is too complex to be of practical value.
 $sep
 
 <div class="forex">
-    <img src="pics/ex-chebyshev.png" />
+    <img src="pics/ex-chebyshev.png">
 </div>
 
 <p>Chebyshev's linkage. The path traced by the midpoint of the short
@@ -151,7 +151,7 @@ is practical.</p>
 $sep
 
 <div class="forex">
-    <img src="pics/ex-isometric.png" />
+    <img src="pics/ex-isometric.png">
 </div>
 
 <p>Geometric construction of an isometric view. We

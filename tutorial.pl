@@ -15,7 +15,7 @@ constraints, extrusions, and Boolean operations.</p>
 
 <div class="forimg">
     <a href="bracket.$TEMPL::PL">
-        <img class="tut" src="pics/tut-finished-all-hidden.png" />
+        <img class="tut" src="pics/tut-finished-all-hidden.png">
     </a>
 </div>
 <br><br>
@@ -29,7 +29,7 @@ assembled in the desired configuration.</p>
 
 <div class="forimg">
     <a href="box.$TEMPL::PL">
-        <img class="tut" src="pics/box-asm-perspective.png" />
+        <img class="tut" src="pics/box-asm-perspective.png">
     </a>
 </div>
 <br><br>
@@ -44,7 +44,7 @@ projected into a workplane.</p>
 
 <div class="forimg">
     <a href="constraints.$TEMPL::PL">
-        <img class="tut" src="pics/constraints-nonconverging.png" />
+        <img class="tut" src="pics/constraints-nonconverging.png">
     </a>
 </div>
 <br><br>
@@ -59,7 +59,7 @@ joints. </p>
 
 <div class="forimg">
     <a href="linkage.$TEMPL::PL">
-        <img class="tut" src="pics/linkage-view.png" />
+        <img class="tut" src="pics/linkage-view.png">
     </a>
 </div>
 <br><br>
@@ -73,7 +73,7 @@ on the geometry, and export a human-readable dimensioned drawing.</p>
 
 <div class="forimg">
     <a href="2d.$TEMPL::PL">
-        <img class="tut" src="pics/2d-part-to-draw.png" />
+        <img class="tut" src="pics/2d-part-to-draw.png">
     </a>
 </div>
 
@@ -90,7 +90,7 @@ some slight differences in the user interface may be visible.</p>
 
 <div class="tut">
     <a href="vids/simple-flat-part.wmv">
-        <img class="tut" src="pics/vid-simple-flat-part.png" />
+        <img class="tut" src="pics/vid-simple-flat-part.png">
     </a>
     <div class="tutcap">
        The introductory tutorial. We review the basic user interface,
@@ -101,7 +101,7 @@ some slight differences in the user interface may be visible.</p>
 
 <div class="tut">
     <a href="vids/angle-bracket.wmv">
-        <img class="tut" src="pics/vid-angle-bracket.png" />
+        <img class="tut" src="pics/vid-angle-bracket.png">
     </a>
     <div class="tutcap">
         We draw a slightly more complex part, by combining multiple
@@ -113,7 +113,7 @@ some slight differences in the user interface may be visible.</p>
 
 <div class="tut">
     <a href="vids/constraints.wmv">
-        <img class="tut" src="pics/vid-constraints.png" />
+        <img class="tut" src="pics/vid-constraints.png">
     </a>
     <div class="tutcap">
         We look at constraints in more detail. Covers inconsistent and
@@ -126,7 +126,7 @@ some slight differences in the user interface may be visible.</p>
 
 <div class="tut">
     <a href="vids/step-and-repeat.wmv">
-        <img class="tut" src="pics/vid-step-and-repeat.png" />
+        <img class="tut" src="pics/vid-step-and-repeat.png">
     </a>
     <div class="tutcap">
         We look at step and repeat; this takes entities, and copies
@@ -139,7 +139,7 @@ some slight differences in the user interface may be visible.</p>
 
 <div class="tut">
     <a href="vids/assembly.wmv">
-        <img class="tut" src="pics/vid-assembly.png" />
+        <img class="tut" src="pics/vid-assembly.png">
     </a>
     <div class="tutcap">
         We build an assembly from multiple parts. The positions and
@@ -153,7 +153,7 @@ some slight differences in the user interface may be visible.</p>
 
 <div class="tut">
     <a href="vids/mechanism.wmv">
-        <img class="tut" src="pics/vid-mechanism.png" />
+        <img class="tut" src="pics/vid-mechanism.png">
     </a>
     <div class="tutcap">
         We draw linkages and other mechanisms, and simulate their

@@ -19,7 +19,7 @@ We wish to draw the following sketch:
 </p>
 
 <div class="forimg">
-    <img src="pics/2d-part-to-draw.png" />
+    <img src="pics/2d-part-to-draw.png">
 </div>
 
 <p>
@@ -62,7 +62,7 @@ equal radius, both circles now have diameter of 1.850 inches.
 </p>
 
 <div class="forimg">
-    <img src="pics/2d-circles-1.png" />
+    <img src="pics/2d-circles-1.png">
 </div>
 
 <p>
@@ -77,7 +77,7 @@ of the circle to lie on a horizontal line through the origin.
 </p>
 
 <div class="forimg">
-    <img src="pics/2d-circles-2.png" />
+    <img src="pics/2d-circles-2.png">
 </div>
 
 <p>
@@ -91,7 +91,7 @@ datum points in the sketch:
 </p>
 
 <div class="forimg">
-    <img src="pics/2d-circles-3.png" />
+    <img src="pics/2d-circles-3.png">
 </div>
 
 <p>
@@ -115,7 +115,7 @@ adjusted accordingly.
 </p>
 
 <div class="forimg">
-    <img src="pics/2d-circles-4.png" />
+    <img src="pics/2d-circles-4.png">
 </div>
 
 <p>
@@ -128,7 +128,7 @@ Curves at Intersection. Each circle is split into two arcs:
 </p>
 
 <div class="forimg">
-    <img src="pics/2d-circles-5.png" />
+    <img src="pics/2d-circles-5.png">
 </div>
 
 <p>
@@ -141,7 +141,7 @@ which appear highlighted below in red:
 </p>
 
 <div class="forimg">
-    <img src="pics/2d-circles-6.png" />
+    <img src="pics/2d-circles-6.png">
 </div>
 
 <p>
@@ -177,7 +177,7 @@ rectangles (Sketch &rarr; Rectangle).
 </p>
 
 <div class="forimg">
-    <img src="pics/2d-inner-1.png" />
+    <img src="pics/2d-inner-1.png">
 </div>
 
 <p>
@@ -198,7 +198,7 @@ coordinate axis:
 </p>
 
 <div class="forimg">
-    <img src="pics/2d-inner-2.png" />
+    <img src="pics/2d-inner-2.png">
 </div>
 
 <p>
@@ -208,7 +208,7 @@ one of the rectangles (select the line, then Constrain &rarr; Distance).
 </p>
 
 <div class="forimg">
-    <img src="pics/2d-inner-3.png" />
+    <img src="pics/2d-inner-3.png">
 </div>
 
 <p>
@@ -222,7 +222,7 @@ Constrain &rarr; Distance.
 </p>
 
 <div class="forimg">
-    <img src="pics/2d-inner-4.png" />
+    <img src="pics/2d-inner-4.png">
 </div>
 
 <p>
@@ -236,7 +236,7 @@ select the inner pieces of the curves, four in all:
 </p>
 
 <div class="forimg">
-    <img src="pics/2d-inner-5.png" />
+    <img src="pics/2d-inner-5.png">
 </div>
 
 <p>
@@ -259,7 +259,7 @@ to specify an arithmetic expression anywhere that a number is expected.)
 </p>
 
 <div class="forimg">
-    <img src="pics/2d-tangent-arc-1.png" />
+    <img src="pics/2d-tangent-arc-1.png">
 </div>
 
 <p>
@@ -270,7 +270,7 @@ check that box. The settings now appear as below:
 </p>
 
 <div class="forimg">
-    <img src="pics/2d-tangent-arc-2.png" />
+    <img src="pics/2d-tangent-arc-2.png">
 </div>
 
 <p>
@@ -279,7 +279,7 @@ where the two outer circles join, so that it appears highlighted in red:
 </p>
 
 <div class="forimg">
-    <img src="pics/2d-tangent-arc-3.png" />
+    <img src="pics/2d-tangent-arc-3.png">
 </div>
 
 <p>
@@ -300,7 +300,7 @@ it will use the same radius as before. This completes the outer contour:
 </p>
 
 <div class="forimg">
-    <img src="pics/2d-tangent-arc-4.png" />
+    <img src="pics/2d-tangent-arc-4.png">
 </div>
 
 <p>
@@ -313,7 +313,7 @@ Sketch &rarr; Tangent Arc at Point.
 </p>
 
 <div class="forimg">
-    <img src="pics/2d-tangent-arc-5.png" />
+    <img src="pics/2d-tangent-arc-5.png">
 </div>
 
 <p>
@@ -345,7 +345,7 @@ To select a font, click it in that list.
 </p>
 
 <div class="forimg">
-    <img src="pics/2d-text-1.png" />
+    <img src="pics/2d-text-1.png">
 </div>
 
 <p>
@@ -357,7 +357,7 @@ window and on the drawing.
 </p>
 
 <div class="forimg">
-    <img src="pics/2d-text-2.png" />
+    <img src="pics/2d-text-2.png">
 </div>
 
 <p>
@@ -374,7 +374,7 @@ and scale.
 </p>
 
 <div class="forimg">
-    <img src="pics/2d-text-3.png" />
+    <img src="pics/2d-text-3.png">
 </div>
 
 <p>
@@ -405,7 +405,7 @@ now), or to create a new custom style.
 </p>
 
 <div class="forimg">
-    <img src="pics/2d-style-1.png" />
+    <img src="pics/2d-style-1.png">
 </div>
 
 <p>
@@ -422,7 +422,7 @@ and press Enter. We see that on the drawing, the text turns blue.
 </p>
 
 <div class="forimg">
-    <img src="pics/2d-style-2.png" />
+    <img src="pics/2d-style-2.png">
 </div>
 
 <p>
@@ -442,7 +442,7 @@ appropriate radio button. We then specify our desired width, of 0.040".
 </p>
 
 <div class="forimg">
-    <img src="pics/2d-style-3.png" />
+    <img src="pics/2d-style-3.png">
 </div>
 
 <p>
@@ -458,7 +458,7 @@ entities are selected.
 </p>
 
 <div class="forimg">
-    <img src="pics/2d-style-4.png" />
+    <img src="pics/2d-style-4.png">
 </div>
 
 <p>
@@ -480,7 +480,7 @@ includes all the default styles:
 </p>
 
 <div class="forimg">
-    <img src="pics/2d-style-5.png" />
+    <img src="pics/2d-style-5.png">
 </div>
 
 <p>
@@ -502,7 +502,7 @@ then we will get a view like this:
 </p>
 
 <div class="forimg">
-    <img src="pics/2d-exported-1.png" />
+    <img src="pics/2d-exported-1.png">
 </div>
 
 <p>
@@ -518,7 +518,7 @@ window.
 </p>
 
 <div class="forimg">
-    <img src="pics/2d-exported-2.png" />
+    <img src="pics/2d-exported-2.png">
 </div>
 
 <p>
@@ -559,7 +559,7 @@ finer detail for export.
 </p>
 
 <div class="forimg">
-    <img src="pics/2d-chord-tol.png" />
+    <img src="pics/2d-chord-tol.png">
 </div>
 
 <p>
@@ -609,7 +609,7 @@ to create our dimensions in g003, so we want g003 to be active.
 </p>
 
 <div class="forimg">
-    <img src="pics/2d-refdim-1.png" />
+    <img src="pics/2d-refdim-1.png">
 </div>
 
 <p>
@@ -628,7 +628,7 @@ reference". We select that checkbox.
 </p>
 
 <div class="forimg">
-    <img src="pics/2d-refdim-2.png" />
+    <img src="pics/2d-refdim-2.png">
 </div>
 
 <p>
@@ -639,7 +639,7 @@ on the sketch, as desired.
 </p>
 
 <div class="forimg">
-    <img src="pics/2d-refdim-3.png" />
+    <img src="pics/2d-refdim-3.png">
 </div>
 
 <p>
@@ -662,7 +662,7 @@ since these are all just reference dimensions, that's not possible.
 </p>
 
 <div class="forimg">
-    <img src="pics/2d-refdim-4.png" />
+    <img src="pics/2d-refdim-4.png">
 </div>
 
 <p>
