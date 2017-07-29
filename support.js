@@ -1,7 +1,7 @@
 function fixEmail() {
   var email = String.fromCharCode(210/2 + 1) + 'westhues@cq.cx';
   document.getElementById('emailheader').innerHTML =
-    '<a href="mailto:' + email + '>' + email + '</a>';
+    '<a href="mailto:' + email + '">' + email + '</a>';
 }
 
 function videoFallback(video) {
