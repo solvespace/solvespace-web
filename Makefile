@@ -19,6 +19,11 @@ html/%: %
 
 all: $(OUTPUT)
 
+check: all
+	# requires w3c-linkchecker
+	checklink -qr html/index.html -X 'html/forum.html$$' | tee checklink.txt
+	if grep "Code:\ 404" checklink.txt >/dev/null; then exit 1; else rm checklink.txt; fi
+
 clean:
 	@rm -rf html/*
 
