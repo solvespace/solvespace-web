@@ -15,7 +15,7 @@ TEMPL::Output(<<EOT
 </div>
 
 <div class="movie">
-    <video preload="metadata" height="420"
+    <video preload="metadata" height="420" width="620"
            poster="pics/front-page-pic.png" onerror="videoFailed(event)">
         <source src="vids/demo.webm" type="video/webm">
         <source src="vids/demo.mp4" type="video/mp4" onerror="videoFallback(parentNode)">
