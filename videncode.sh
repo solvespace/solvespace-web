@@ -16,5 +16,12 @@ UPSAMPLE="-vf scale=iw*2:ih*2 -pix_fmt yuv420p \
 WEBM="-c:v libvpx -crf:v 25"
 H264="-c:v libx264 -profile:v main -preset slow -crf:v 25"
 
-ffmpeg -y -i ${INPUT} ${UPSAMPLE} ${WEBM} ${INPUT%.*}.webm
-ffmpeg -y -i ${INPUT} ${UPSAMPLE} ${H264} ${INPUT%.*}.mp4
+# Some of the original WMV videos have tbr/tbn/tbc values
+# that imply a bizarre 1000fps framerate, which doesn't
+# do much harm with webm, but completely cripples the h264
+# encoder. Recompute the timestamps using the correct fps.
+
+TSFIX="-fflags +genpts -r 8"
+
+ffmpeg -y -i ${INPUT} ${TSFIX} ${UPSAMPLE} ${WEBM} ${INPUT%.*}.webm
+ffmpeg -y -i ${INPUT} ${TSFIX} ${UPSAMPLE} ${H264} ${INPUT%.*}.mp4

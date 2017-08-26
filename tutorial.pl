@@ -78,9 +78,6 @@ on the geometry, and export a human-readable dimensioned drawing.</p>
 </div>
 
 
-
-
-<!--
 <br><br>
 $TEMPL::SEP
 <br>
@@ -89,9 +86,16 @@ tutorials were recorded using an earlier version of SolveSpace, so
 some slight differences in the user interface may be visible.</p>
 
 <div class="tut">
-    <a href="vids/simple-flat-part.wmv">
-        <img class="tut" src="pics/vid-simple-flat-part.png">
-    </a>
+    <video preload="metadata" width="640" height="480" controls
+           poster="pics/vid-simple-flat-part.png">
+        <source src="vids/simple-flat-part.webm" type="video/webm">
+        <source src="vids/simple-flat-part.mp4" type="video/mp4"
+                onerror="videoFallback(parentNode)">
+
+        <a href="vids/simple-flat-part.mp4">
+            <img class="tut" src="pics/vid-simple-flat-part.png">
+        </a>
+    </video>
     <div class="tutcap">
        The introductory tutorial. We review the basic user interface,
        and draw a simple 2d part. Covers rectangles, symmetry constraints,
@@ -100,9 +104,16 @@ some slight differences in the user interface may be visible.</p>
 </div>
 
 <div class="tut">
-    <a href="vids/angle-bracket.wmv">
-        <img class="tut" src="pics/vid-angle-bracket.png">
-    </a>
+    <video preload="metadata" width="640" height="480" controls
+           poster="pics/vid-angle-bracket.png">
+        <source src="vids/angle-bracket.webm" type="video/webm">
+        <source src="vids/angle-bracket.mp4" type="video/mp4"
+                onerror="videoFallback(parentNode)">
+
+        <a href="vids/angle-bracket.mp4">
+            <img class="tut" src="pics/vid-angle-bracket.png">
+        </a>
+    </video>
     <div class="tutcap">
         We draw a slightly more complex part, by combining multiple
         extrusions.  Introduces workplanes and Boolean ops, and several
@@ -112,9 +123,16 @@ some slight differences in the user interface may be visible.</p>
 
 
 <div class="tut">
-    <a href="vids/constraints.wmv">
-        <img class="tut" src="pics/vid-constraints.png">
-    </a>
+    <video preload="metadata" width="640" height="480" controls
+           poster="pics/vid-constraints.png">
+        <source src="vids/constraints.webm" type="video/webm">
+        <source src="vids/constraints.mp4" type="video/mp4"
+                onerror="videoFallback(parentNode)">
+
+        <a href="vids/constraints.mp4">
+            <img class="tut" src="pics/vid-constraints.png">
+        </a>
+    </video>
     <div class="tutcap">
         We look at constraints in more detail. Covers inconsistent and
         nonconverging sketches (two common error conditions), projected
@@ -125,9 +143,16 @@ some slight differences in the user interface may be visible.</p>
 
 
 <div class="tut">
-    <a href="vids/step-and-repeat.wmv">
-        <img class="tut" src="pics/vid-step-and-repeat.png">
-    </a>
+    <video preload="metadata" width="640" height="480" controls
+           poster="pics/vid-step-and-repeat.png">
+        <source src="vids/step-and-repeat.webm" type="video/webm">
+        <source src="vids/step-and-repeat.mp4" type="video/mp4"
+                onerror="videoFallback(parentNode)">
+
+        <a href="vids/step-and-repeat.mp4">
+            <img class="tut" src="pics/vid-step-and-repeat.png">
+        </a>
+    </video>
     <div class="tutcap">
         We look at step and repeat; this takes entities, and copies
         them multiple times along a line (translating) or the arc of a
@@ -138,9 +163,16 @@ some slight differences in the user interface may be visible.</p>
 
 
 <div class="tut">
-    <a href="vids/assembly.wmv">
-        <img class="tut" src="pics/vid-assembly.png">
-    </a>
+    <video preload="metadata" width="640" height="480" controls
+           poster="pics/vid-assembly.png">
+        <source src="vids/assembly.webm" type="video/webm">
+        <source src="vids/assembly.mp4" type="video/mp4"
+                onerror="videoFallback(parentNode)">
+
+        <a href="vids/assembly.mp4">
+            <img class="tut" src="pics/vid-assembly.png">
+        </a>
+    </video>
     <div class="tutcap">
         We build an assembly from multiple parts. The positions and
         orientations of the parts are enforced using constraints. We
@@ -152,9 +184,16 @@ some slight differences in the user interface may be visible.</p>
 
 
 <div class="tut">
-    <a href="vids/mechanism.wmv">
-        <img class="tut" src="pics/vid-mechanism.png">
-    </a>
+    <video preload="metadata" width="640" height="480" controls
+           poster="pics/vid-mechanism.png">
+        <source src="vids/mechanism.webm" type="video/webm">
+        <source src="vids/mechanism.mp4" type="video/mp4"
+                onerror="videoFallback(parentNode)">
+
+        <a href="vids/mechanism.mp4">
+            <img class="tut" src="pics/vid-mechanism.png">
+        </a>
+    </video>
     <div class="tutcap">
         We draw linkages and other mechanisms, and simulate their
         operation using the constraint solver. The trajectory of certain
@@ -163,14 +202,6 @@ some slight differences in the user interface may be visible.</p>
         the linkage.
     </div>
 </div>
-
-$TEMPL::SEP
-
-<p>These videos are encoded with the Windows Media Video 9 Screen codec.
-If you are unable to view them, then ensure that you are using a
-recent version of
-<a href="http://www.microsoft.com/windows/windowsmedia/default.mspx">
-Windows Media Player</a>.</p> -->
 
 EOT
 );
