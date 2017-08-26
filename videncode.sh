@@ -14,7 +14,7 @@ INPUT="$1"
 UPSAMPLE="-vf scale=iw*2:ih*2 -pix_fmt yuv420p \
   -sws_flags full_chroma_inp+full_chroma_int+bitexact+neighbor"
 WEBM="-c:v libvpx -crf:v 25"
-H264="-c:v libx264 -profile:v main -preset slow -crf:v 23"
+H264="-c:v libx264 -profile:v main -preset slow -crf:v 25"
 
 ffmpeg -y -i ${INPUT} ${UPSAMPLE} ${WEBM} ${INPUT%.*}.webm
 ffmpeg -y -i ${INPUT} ${UPSAMPLE} ${H264} ${INPUT%.*}.mp4
