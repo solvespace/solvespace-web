@@ -3,7 +3,11 @@ addons:
   apt:
     packages:
       - libgd-gd2-perl
-script: make
+      - w3c-linkchecker
+script:
+  - make
+  - checklink -qr html/index.html -X 'html/forum.html$' | tee checklink.txt
+  - if grep "Code:\ 404" checklink.txt >/dev/null; then exit 1; fi
 after_success:
   - if [ "${TRAVIS_SECURE_ENV_VARS}" != "true" ]; then exit 0; fi
   - if [ "${TRAVIS_BRANCH}" != "master" ]; then exit 0; fi
