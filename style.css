@@ -88,7 +88,7 @@ div.movie {
     width: 43em;
     padding: 2em 0em 0em 2.5em;
 }
-div.movie video {
+div.movie video, div.movie table {
     background-color: black;
 }
 

@@ -4,10 +4,10 @@ function fixEmail() {
     '<a href="mailto:' + email + '">' + email + '</a>';
 }
 
-function showPlayButtons() {
-  var buttons = document.querySelectorAll('a.playbutton');
-  for(var i = 0; i < buttons.length; i++) {
-    buttons[i].style.display = "";
+function videoPrepare(video) {
+  var button = video.parentNode.querySelector('a.playbutton');
+  if(button) {
+    button.style.display = "";
   }
 }
 

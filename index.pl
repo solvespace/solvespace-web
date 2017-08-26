@@ -1,7 +1,6 @@
 #!/usr/bin/perl
 
 $TITLE = 'SolveSpace - parametric 3d CAD';
-$ADD_TO_BODY = 'onload="showPlayButtons()"';
 
 require TEMPL;
 
@@ -17,14 +16,14 @@ TEMPL::Output(<<EOT
 
 <div class="movie">
     <video preload="metadata" height="420" width="620"
-           poster="pics/front-page-pic.png" onerror="videoFailed(event)">
+           poster="pics/front-page-pic.png" onloadedmetadata="videoPrepare(this)">
         <source src="vids/demo.webm" type="video/webm">
         <source src="vids/demo.mp4" type="video/mp4" onerror="videoFallback(parentNode)">
 
         <!-- fall back to showing a picture and a download link -->
         <table cellpadding="0" cellspacing="0">
         <tr><td>
-            <img src="pics/front-page-pic.png">
+            <img src="pics/front-page-pic.png" width="548" height="410">
         </td></tr>
         <tr><td align="right">
             [<a href="vids/demo.mp4">download demo video</a>]
