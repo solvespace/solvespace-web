@@ -1,6 +1,7 @@
 #!/usr/bin/perl
 
 $TITLE = 'SolveSpace - parametric 3d CAD';
+$ADD_TO_BODY = 'onload="showPlayButtons()"';
 
 require TEMPL;
 
@@ -30,7 +31,7 @@ TEMPL::Output(<<EOT
         </td></tr>
         </table>
     </video>
-    <a class="playbutton" href="#" onclick="videoPlay(event)">
+    <a class="playbutton" href="#" onclick="videoPlay(event)" style="display:none">
         demo video&nbsp;&nbsp;&nbsp;▶
     </a>
 </div>
