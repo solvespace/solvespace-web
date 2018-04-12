@@ -37,7 +37,7 @@ TEMPL::Output(<<EOT
 
 <div class="footer">
 
-<p style="margin-top: 30px;">SOLVESPACE is a parametric 3d CAD program. Applications include:</p>
+<p style="margin-top: 30px;">SOLVESPACE is a free (GPLv3) parametric 3d CAD tool. Applications include:</p>
 <div class="list">
 <ul>
     <li><b>modeling 3d parts</b> &mdash;
