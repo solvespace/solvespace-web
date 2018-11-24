@@ -1,9 +1,10 @@
 #!/usr/bin/perl
 
-$TITLE = 'SolveSpace - Tutorial - Assemblies';
-$SHOW_VERSION = 1;
+use TEMPL;
+TEMPL::Init();
 
-require TEMPL;
+$TEMPL::TITLE = 'SolveSpace - Tutorial - Assemblies';
+$TEMPL::SHOW_VERSION = 1;
 
 TEMPL::OutputWithHeader("TUTORIAL: ASSEMBLIES", <<EOT
 

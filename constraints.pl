@@ -1,9 +1,10 @@
 #!/usr/bin/perl
 
-$TITLE = 'SolveSpace - Tutorial - Constraints';
-$SHOW_VERSION = 1;
+use TEMPL;
+TEMPL::Init();
 
-require TEMPL;
+$TEMPL::TITLE = 'SolveSpace - Tutorial - Constraints';
+$TEMPL::SHOW_VERSION = 1;
 
 TEMPL::OutputWithHeader("TUTORIAL: CONSTRAINTS", <<EOT
 

@@ -1,8 +1,9 @@
 #!/usr/bin/perl
 
-$TITLE = 'SolveSpace - As a Library';
+use TEMPL;
+TEMPL::Init();
 
-require TEMPL;
+$TEMPL::TITLE = 'SolveSpace - As a Library';
 
 TEMPL::OutputWithHeader("AS A LIBRARY", <<EOT
 

@@ -1,9 +1,10 @@
 #!/usr/bin/perl
 
-$TITLE = 'SolveSpace - Features';
-$SHOW_VERSION = 1;
+use TEMPL;
+TEMPL::Init();
 
-require TEMPL;
+$TEMPL::TITLE = 'SolveSpace - Features';
+$TEMPL::SHOW_VERSION = 1;
 
 TEMPL::OutputWithHeader("FEATURES", <<EOT
 <div class="featureblock">

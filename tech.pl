@@ -1,8 +1,9 @@
 #!/usr/bin/perl
 
-$TITLE = 'SolveSpace - Technology';
+use TEMPL;
+TEMPL::Init();
 
-require TEMPL;
+$TEMPL::TITLE = 'SolveSpace - Technology';
 
 TEMPL::OutputWithHeader("TECHNOLOGY: SOLVING CONSTRAINTS", <<EOT
 

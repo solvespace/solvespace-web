@@ -1,9 +1,10 @@
 #!/usr/bin/perl
 
-$TITLE = 'SolveSpace - Tutorial - Drawing an Angle Bracket';
-$SHOW_VERSION = 1;
+use TEMPL;
+TEMPL::Init();
 
-require TEMPL;
+$TEMPL::TITLE = 'SolveSpace - Tutorial - Drawing an Angle Bracket';
+$TEMPL::SHOW_VERSION = 1;
 
 TEMPL::OutputWithHeader("TUTORIAL: DRAWING AN ANGLE BRACKET", <<EOT
 

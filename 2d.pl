@@ -1,8 +1,9 @@
 #!/usr/bin/perl
 
-$TITLE = 'SolveSpace - Tutorial - 2d Sketching';
+use TEMPL;
+TEMPL::Init();
 
-require TEMPL;
+$TEMPL::TITLE = 'SolveSpace - Tutorial - 2d Sketching';
 
 TEMPL::OutputWithHeader("TUTORIAL: 2D SKETCHING", <<EOT
 

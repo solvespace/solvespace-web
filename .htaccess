@@ -9,3 +9,11 @@ RewriteRule ^helpmenu$ http://solvespace.com/ref.pl [R]
 
 ErrorDocument 404 http://solvespace.com/index.pl
 
+RedirectMatch 404 ^/*\.git
+RedirectMatch 404 \.sh$
+
+<FilesMatch "\.slvs$">
+    ForceType application/octet-stream
+    Header set Content-Disposition attachment
+</FilesMatch>
+

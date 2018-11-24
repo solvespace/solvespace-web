@@ -1,8 +1,11 @@
 #!/usr/bin/perl
 
-$TITLE = 'SolveSpace - parametric 3d CAD';
+use TEMPL;
+TEMPL::Init();
 
-require TEMPL;
+$TEMPL::TITLE = 'SolveSpace - parametric 3d CAD';
+
+TEMPL::MakeTemplate();
 
 TEMPL::Output(<<EOT
 <div class="header">

@@ -1,8 +1,9 @@
 #!/usr/bin/perl
 
-$TITLE = 'SolveSpace - Download';
+use TEMPL;
+TEMPL::Init();
 
-require TEMPL;
+$TEMPL::TITLE = 'SolveSpace - Download';
 
 TEMPL::OutputWithHeader("DOWNLOAD PROGRAM", <<EOT
 <p>The following builds are available:</p>

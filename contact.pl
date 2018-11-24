@@ -1,9 +1,10 @@
 #!/usr/bin/perl
 
-$TITLE = 'SolveSpace - Contact';
-$ADD_TO_BODY = 'onload="fixEmail()"';
+use TEMPL;
+TEMPL::Init();
 
-require TEMPL;
+$TEMPL::TITLE = 'SolveSpace - Contact';
+$TEMPL::ADD_TO_BODY = 'onload="fixEmail()"';
 
 TEMPL::OutputWithHeader("CONTACT", <<EOT
 

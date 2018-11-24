@@ -1,9 +1,10 @@
 #!/usr/bin/perl
 
-$TITLE = 'SolveSpace - Examples';
-$SHOW_VERSION = 1;
+use TEMPL;
+TEMPL::Init();
 
-require TEMPL;
+$TEMPL::TITLE = 'SolveSpace - Examples';
+$TEMPL::SHOW_VERSION = 1;
 
 $sep = '<div class="vspace"></div>';
 

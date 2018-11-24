@@ -1,9 +1,10 @@
 #!/usr/bin/perl
 
-$TITLE = 'SolveSpace - Tutorials';
-$SHOW_VERSION = 1;
+use TEMPL;
+TEMPL::Init();
 
-require TEMPL;
+$TEMPL::TITLE = 'SolveSpace - Tutorials';
+$TEMPL::SHOW_VERSION = 1;
 
 TEMPL::OutputWithHeader("TUTORIALS", <<EOT
 <p>

@@ -1,9 +1,10 @@
 #!/usr/bin/perl
 
-$TITLE = 'SolveSpace - Reference';
-$SHOW_VERSION = 1;
+use TEMPL;
+TEMPL::Init();
 
-require TEMPL;
+$TEMPL::TITLE = 'SolveSpace - Reference';
+$TEMPL::SHOW_VERSION = 1;
 
 TEMPL::OutputWithHeader("REFERENCE MANUAL", <<EOT
 
