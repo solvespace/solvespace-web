@@ -29,7 +29,7 @@ TEMPL::OutputWithHeader("CONTACT", <<EOT
 <p>For commercial support and licensing, please contact:</p>
 
 <blockquote>
-    <span id="emailheader">
+    <span>
         <a href="mailto:support\@solvespace.com">
             support\@solvespace.com
         </a>
