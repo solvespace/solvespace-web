@@ -18,6 +18,8 @@ sub SizeInfoForImage {
     $file =~ s#.*/##;
     $file = "pics/$file";
 
+    (-r $file) or return "";
+
     my $img = GD::Image->new($file);
     defined($img) or return "";
 
