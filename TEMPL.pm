@@ -45,6 +45,10 @@ sub Init {
     if(defined $ENV{'VERSION'}) {
         $VERSION = $ENV{'VERSION'};
     }
+
+    $sp = "&nbsp;" x 20;
+    $sp2 = "&nbsp;" x 4;
+    $SEP = qq{<p style="text-align: center;">*$sp*$sp*$sp2</p>};
 }
 
 sub MakeTemplate {
@@ -82,10 +86,6 @@ sub MakeTemplate {
             #;
         }
     }
-    
-    $sp = "&nbsp;" x 20;
-    $sp2 = "&nbsp;" x 4;
-    $SEP = qq{<p style="text-align: center;">*$sp*$sp*$sp2</p>};
     
     $TOP = qq|
 <!DOCTYPE html>

@@ -78,6 +78,11 @@ on the geometry, and export a human-readable dimensioned drawing.</p>
     </a>
 </div>
 
+<br><br>
+$TEMPL::SEP
+Thomas Knight
+has <b><a href="http://www.farwire.net/SolveSpace-LearningGuide.htm">
+some additional tutorials</a></b> (external site).
 
 <br><br>
 $TEMPL::SEP
