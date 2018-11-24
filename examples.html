@@ -1,0 +1,232 @@
+
+<!DOCTYPE html>
+
+<head>
+<title>SolveSpace - Examples</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+<script type="text/javascript" src="support.js"></script>
+
+</head>
+
+<body >
+
+<div class="header">
+    <a class="header_big" href="index.html">
+        <span class="header_big">SOLVESPACE</span>
+        <span class="header_little"> -- parametric 2d/3d CAD</span>
+    </a>
+</div>
+
+<div class="tocbox">
+    
+                <div class="toc">
+                    Examples
+                </div>
+            
+                <div class="toc">
+                    <a class="toc" href="tutorial.html">Tutorials</a>
+                </div>
+            
+                <div class="toc">
+                    <a class="toc" href="features.html">Features</a>
+                </div>
+            
+                <div class="toc">
+                    <a class="toc" href="download.html">Download</a>
+                </div>
+            
+                <div class="toc">
+                    <a class="toc" href="ref.html">Reference</a>
+                </div>
+            
+                <div class="toc">
+                    <a class="toc" href="tech.html">Technology</a>
+                </div>
+            
+                <div class="toc">
+                    <a class="toc" href="library.html">Library</a>
+                </div>
+            
+                <div class="toc">
+                    <a class="toc" href="forum.html">Forum</a>
+                </div>
+            
+                <div class="toc">
+                    <a class="toc" href="contact.html">Contact</a>
+                </div>
+            
+</div>
+<div class="main">
+    <div class="subtitle">EXAMPLES<span class="version"> (for )</span></div>
+    
+<div class="forex" style="padding-left: 2em;">
+    <a href="dl/ex-stand.pdf">
+        <img border="0" src="pics/ex-stand.png" width="481" height="822">
+    </a>
+</div>
+
+<div class="forex">
+    <img src="pics/ex-stand-detail.jpg" width="555" height="431">
+</div>
+
+<p>A stand made from notched angle iron. Notice the way that parts for
+the slanting front are constrained: point-on-plane constraints are used
+to fix the orientation (and not just the position) of one part to the
+correct angle. This means that a change in the angle of the other part
+will propagate through to the assembly without user
+intervention. Subsequent slanted parts are just constrained same-orientation
+against the first slanted part, in the same way that parts at right angles
+are typically constrained same-orientation against the coordinate (x, y, z)
+axes. So once the first slanted part is placed, we can specify
+the orientation of subsequent slanted parts with just a single constraint.</p>
+
+<ul>
+<li><b><a href="dl/ex-stand.zip">ex-stand.zip</a></b></li>
+</ul>
+
+<div class="vspace"></div>
+<div class="forex">
+    <a href="dl/ex-collet.pdf">
+        <img border="0" src="pics/ex-collet.png" width="564" height="709">
+    </a>
+</div>
+
+<div class="forex">
+    <img src="pics/ex-collet.jpg" width="599" height="332">
+</div>
+
+<p>
+A mostly-2d part cut from sheet: a collet to clamp a 1.000" round shaft.
+The entire part is drawn in a single 2d sketch (except for the screw hole,
+which is out-of-plane). This is not necessarily the best way to draw the
+part; the part could instead have been drawn in multiple steps with Boolean
+operations, for example. But 2d parts may be drawn this way, and then not
+even extruded or otherwise modeled as solids. The sketch may be exported
+directly.
+</p>
+
+<ul>
+<li><b><a href="dl/ex-collet.slvs">ex-collet.slvs</a></b></li>
+</ul>
+
+<div class="vspace"></div>
+
+<div class="forex">
+    <img src="pics/ball-mill-side.png" width="716" height="287">
+</div>
+<div class="forex">
+    <img src="pics/ball-mill-top.png" width="748" height="344">
+</div>
+<div class="forex">
+    <img src="pics/ball-mill-view-1.jpg" width="689" height="649">
+</div>
+<div class="forex">
+    <img src="pics/ball-mill-view-2.jpg" width="689" height="649">
+</div>
+
+<p>A belt-driven ball mill. The images above are a mixture of
+parallel projections, as for the top and side views, and perspective
+projections for the pictorials. All were generated directly from the
+3d model.</p>
+
+<p>This model makes use of lathed (solid of revolution) features for
+the pulleys, and for the rounded end caps of the canister. It also uses
+a variety of assembly constraints, including point-on-line constraints
+(for example, to align the shafts to the bearings). Try lengthening
+the orange and red canister, and then lengthening the rest of the machine
+accordingly. This should require only changes to the dimensions, and the
+model will regenerate with the parts assembled as desired.</p>
+
+<p>Note the group where the belt is drawn (g013-belt). The belt
+is drawn from lines and arcs constrained against the pulleys, and then
+"stretched out" using equal-length constraints and measured using a
+reference dimension.</p>
+
+
+<ul>
+<li><b><a href="dl/ex-ball-mill.zip">ex-ball-mill.zip</a></b></li>
+</ul>
+
+
+
+<div class="vspace"></div>
+
+<div class="forex">
+    <img src="pics/ex-case.jpg" width="613" height="561">
+</div>
+
+<div class="forex">
+    <img src="pics/ex-case-outline.png" width="573" height="438">
+</div>
+
+<p>A case for a printed circuit board, made by stacking up four parts cut
+from sheet. The outline of the case is drawn only once, in outline.slvs.
+Each part that uses the outline (the top, the sides, a spacer sheet, and
+the base) imports that outline and modifies it as required. To change that
+outline, we can change it in a single location, and our changes will
+propagate through to all the parts.</p>
+
+<ul>
+<li><b><a href="dl/ex-case.zip">ex-case.zip</a></b></li>
+</ul>
+
+<div class="vspace"></div>
+
+<div class="forex">
+    <img src="pics/ex-peaucellier.png" width="707" height="433">
+</div>
+
+<p>Peaucellier's linkage. The rightmost point moves in an exact vertical
+line. This is only a demonstration of the constraint solver, and a mathematical
+curiosity. The linkage is too complex to be of practical value.
+
+<ul>
+<li><b><a href="dl/ex-peaucellier.slvs">ex-peaucellier.slvs</a></b></li>
+</ul>
+
+<div class="vspace"></div>
+
+<div class="forex">
+    <img src="pics/ex-chebyshev.png" width="546" height="602">
+</div>
+
+<p>Chebyshev's linkage. The path traced by the midpoint of the short
+link approximates a straight line; and with only four bars, the linkage
+is practical.</p>
+
+<ul>
+<li><b><a href="dl/ex-chebyshev.slvs">ex-chebyshev.slvs</a></b></li>
+</ul>
+
+<div class="vspace"></div>
+
+<div class="forex">
+    <img src="pics/ex-isometric.png" width="604" height="482">
+</div>
+
+<p>Geometric construction of an isometric view. We
+know that in an isometric view, the three coordinate axes are projected
+to the same length. So we draw our three coordinate axes, and then in a
+new group create a workplane, and constrain our coordinate axes to have
+equal projected length in that workplane. Since the coordinate axes cannot
+move, the workplane is rotated to produce the required projection; select
+the workplane's normal to read that projection out as a 3x3 rotation
+matrix.</p>
+
+<p>(To get an isometric projection in normal drawing, you would just
+choose View &rarr; Nearest Iso View. This is a demonstration of the
+constraint solver, not a practical way to generate an isometric view.)</p>
+
+<ul>
+<li><b><a href="dl/ex-isometric.slvs">ex-isometric.slvs</a></b></li>
+</ul>
+
+
+</div>
+
+<div class="copyouter">
+<div class="copyfooter">
+&copy; 2008-2018 SolveSpace contributors. Most recent update Nov 22 2018.
+</div>
+</div>
+</body>
