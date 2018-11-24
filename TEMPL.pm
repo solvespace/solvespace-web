@@ -103,7 +103,7 @@ $ADD_TO_HEAD
     $BOTTOM = qq|
 <div class="copyouter">
 <div class="copyfooter">
-&copy; 2008-2016 SolveSpace contributors. Most recent update Nov 22 2018.
+&copy; 2008-2018 SolveSpace contributors. Most recent update Nov 22 2018.
 </div>
 </div>
 </body>
