@@ -29,15 +29,24 @@ TEMPL::OutputWithHeader("DOWNLOAD PROGRAM", <<EOT
 </tr>
 </table>
 
-<p>Under Windows, no installation is required. After downloading solvespace.exe,
+<p>Under <b>Windows</b>, no installation is required. After downloading solvespace.exe,
 you can run it immediately. If you wish to continue using SolveSpace,
-then save solvespace.exe somewhere convenient (e.g., on your desktop).</p>
+then save solvespace.exe somewhere convenient (e.g., on your desktop). A second
+version for windows called solvespace-openmp can take advantage of multi-core
+processors for higher performance. To run this version you will also need to
+install the <a rel="nofollow"
+href="https://support.microsoft.com/en-us/help/2977003/the-latest-supported-visual-c-downloads">
+Microsoft Redistributable Components</a> for Visual Studio 2015. File: vc_redist.x86.exe
+</p>
 
-<p>Under OS X, run the .app file directly from the disk image, or drag it
-to Applications to install. Under Linux,
-<a rel="nofollow" href="https://github.com/solvespace/solvespace/tree/2.x#building-on-linux">build</a> and install, or get SolveSpace through your distribution's package manager.</p>
+<p>Under <b>OS X</b>, run the .app file directly from the disk image, or drag it
+to Applications to install.
 
-<p>Files saved by 2.3 are usually readable by 2.0, but some
+<p>Under <b>Linux</b>, you may find SolveSpace in your distribution's package manager, or you
+can obtain it from the <a rel="nofollow" href="https://snapcraft.io/solvespace">Snap Store</a>.
+You may also <a rel="nofollow" href="https://github.com/solvespace/solvespace/tree/2.x#building-on-linux">build</a> SolveSpace from source and install it youself.
+
+<p>Files saved by 3.0 may be readable by earlier versions, but some
 <a rel="nofollow" href="https://github.com/solvespace/solvespace/blob/v2.3/CHANGELOG.md">
 new features
 </a>
