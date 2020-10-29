@@ -8,25 +8,21 @@ $TEMPL::ADD_TO_BODY = 'onload="fixEmail()"';
 
 TEMPL::OutputWithHeader("CONTACT", <<EOT
 
-<p>SolveSpace was developed by
-<a href="http://cq.cx/">Jonathan Westhues</a>. I can be reached at:</p>
+<p>SolveSpace was developed by:</p>
+<ul>
+<li><a href="http://cq.cx/">Jonathan Westhues</a> - original release 2.0</li>
+<li><a href="https://whitequark.org/">whitequark</a> - maintainer, 2015-2020</li>
+<li>Paul Kahler - maintainer, 2020-</li>
+</ul>
+<p>and many others.</p>
 
-<blockquote>
-    <span id="emailheader">
-        <a href="mailto:jwesthues-pleaseremove\@nospam-cq.cx">
-            jwesthues-pleaseremove\@nospam-cq.cx
-        </a>
-    </span>
-</blockquote>
-
-<p>SolveSpace is now maintained by
-<a href="https://whitequark.org/">whitequark</a> and others through
-<a href="https://m-labs.hk/">M-Labs Limited</a>.</p>
+<p>If you have a question, please post it on the
+<a href="forum.pl">forum</a>.</p>
 
 <p>Bug reports and feature requests may be posted to the
 <a href="https://github.com/solvespace/solvespace/issues">issue tracker</a>.
 
-<p>For commercial support and licensing, please contact:</p>
+<!-- <p>For commercial support and licensing, please contact:</p>
 
 <blockquote>
     <span>
@@ -34,7 +30,7 @@ TEMPL::OutputWithHeader("CONTACT", <<EOT
             support\@solvespace.com
         </a>
     </span>
-</blockquote>
+</blockquote> -->
 
 
 EOT

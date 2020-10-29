@@ -161,7 +161,7 @@ sub Output {
         if($DYNAMIC) {
             print "Cache-Control: private, no-cache\r\n";
         } else {
-            print "Cache-Control: public, max-age=300\r\n";
+            print "Cache-Control: public, max-age=3000\r\n";
         }
         print "Content-Type: text/html; charset=utf-8\r\n\r\n";
     }
