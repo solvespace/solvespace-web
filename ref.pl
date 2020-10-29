@@ -687,6 +687,34 @@ is useful when drawing a sketch that lies within the volume of the part.
     appear on the screen, where the new value can be entered. Press
     enter to commit the change, or Esc to cancel.
 
+<h3>Automatic Constraints</h3>
+
+<p>
+    There is an option in the configuration screen labled "enable
+    automatic line constraints". If this option is checked and a line
+    being drawn is nearly horizontal, a horizontal contraint will
+    appear over the middle of the line and will be applied when the
+    second point of the line is clicked in place. Similarly when a
+    nearly vertical line is being drawn a "V" constraint will appear
+    automatically. If the line is not close enough to horizontal or
+    vertical, no constraint will be added.
+    
+<p>
+    If an automatic constraint is redundant or would result in the
+    sketch being over-constrained, it will not be created even if
+    it is shown during line placement. Similarly if a distance or
+    diameter constraint is added that would over-constrain the
+    sketch, it will be created as a reference (REF).
+
+<p>
+    Another option in the configuration screen is "edit newly added
+    dimensions". With this option enabled, when a new Distance, Lenght
+    Ratio, or Length Difference constraint is added the input box will
+    automatically appear so a specific value can be entered. With the
+    option off the user would have to create the constraint and then
+    double-click on it to edit the value, which is almost always what
+    we want to do.
+ 
 <h3>Failure to Solve</h3>
 
 <p>
@@ -1054,7 +1082,9 @@ is useful when drawing a sketch that lies within the volume of the part.
     Groups that create a solid (e.g. extrudes or lathes) have a "solid
     model as" option, which is displayed in the page in the text window.
     The group can be merged as union, which adds material to the
-    model, or as difference, which cuts material away.
+    model, or as difference, which cuts material away. A third option is
+    intersection, which preserves only the material that falls within
+    both solids.
 
 <p>
     The union and difference operations may be performed either as
@@ -1268,6 +1298,10 @@ is useful when drawing a sketch that lies within the volume of the part.
     workplane. This means, for example, that a rectangle is extruded
     to form a rectangular prism. The extrusion has one degree of
     freedom, so a single distance constraint will fully constrain it.
+    It is possible to extrude perpendicular to a workplane other
+    than the one the sketch is drawn in by selecting the other
+    workplane prior to creating the extrusion. This can be used to
+    create skewed extrusions.
 
 <p>
     By default, no workplane is active in a new extrude group. This
@@ -1293,6 +1327,37 @@ is useful when drawing a sketch that lies within the volume of the part.
     The section must not intersect itself as it is swept along the
     curve. If the section crosses the axis of rotation, then it is
     certain to intersect itself and fail.
+
+<h3>Revolve</h3>
+
+<p>
+    This group takes a flat sketch, and sweeps it around a
+    specified axis, to form a solid of revolution. The difference
+    between this and a Lathe group is that Revolve does not sweep
+    a full 360 degrees. The resulting solid can be dragged or constrained
+    to a specific angle. If dragged beyond 360 degrees this will
+    produce the exact same solid as a Lathe group.
+
+<h3>Helix</h3>
+
+<p>
+    This group takes a flat sketch, and sweeps it around a specified
+    axis while also translating along that axis. The result is a
+    helical surface which can be used to model threads or other
+    twisted surfaces. The two most common approaches are to use an
+    axis in the sketch plane to create a spiral shape, or an axis
+    perpendicular to the sketch plane to create what behaves like a
+    twisted version of the standard extrusion.
+
+<p>
+    When a Helix group is created, a construction line will also be
+    created along the axis of the helix. Dragging the ends of that
+    line or any other points on the axis will change the length of
+    the helical extrusion. Dragging points that are not on the axis
+    will change the angle of the helix similar to a Revolve group.
+    The angle of a helix can be much more than 360 degrees to allow
+    creation of very long spiral shapes, or all of the threads on a
+    bolt in a single group.
 
 <h3>Import / Assemble</h3>
 
@@ -1345,6 +1410,13 @@ is useful when drawing a sketch that lies within the volume of the part.
     the scale factor is negative, then the part is scaled by the absolute
     value of the scale factor and mirrored.
 
+<p>
+    SolveSpace also has the ability to import IDF (.emn) files defining
+    printed circuit boards from electronic design tools.
+    This is useful for designing enclosures and checking fit within
+    an assembly. Sketch entities and an extrusion of the board will
+    be created and can be used for taking measurements.
+    
 <p>
     Import groups have a special "solid model as" option: in addition
     to the usual "union" and "difference", they have "assemble".
@@ -1817,17 +1889,24 @@ or color.</p>
     be generated, to produce a better approximation.
 
 <p>
-    The chord tolerance is specified in units of screen pixels. This
-    means that when the user zooms in on the model, a better approximation
-    is produced. To regenerate the model with a finer mesh, zoom in and
-    then choose Edit &rarr; Regenerate All.
-
+    There are two chord tolerance values in the configuration screen.
+    The first is specified as a percent of the overall size of the
+    sketch and its value in length units is also calculated and shown.
+    This means a sketch consisting of a single circle will have very
+    smooth curves, while a large object with small holes may have
+    fewer segments because the hole is much smaller than the overall
+    sketch and closer in size to the chord tolerance.
+    
+<p> The second value is the "export chord tolerance" which is an
+    absolute value in mm. When exporting a triangle mesh for 3d printing
+    or g-code for machining, this value will determine how much the
+    resulting part can deviate from the ideal curved surfaces.
+    
 <p>
-    The same tolerance is used for the mesh that's displayed on
-    screen, and for the mesh that is used to export to a file. It
-    may be helpful to use a large chord tolerance (2-5 pixels) while
-    drawing, for fast response, and then temporarily specify a small
-    chord tolerance (~0.5 pixels) before exporting an STL or DXF file.
+    When combining NURBS surface or triangle meshes from different
+    groups, SovleSpace uses the chord tolerance in some calculations.
+    That means when a boolean operation fails, making adjustments to
+    the chord tolerance can "fix" the problem in some cases.
 
 <p>
     The fineness of the mesh is also limited by the specified maximum
