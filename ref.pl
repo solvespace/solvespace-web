@@ -297,7 +297,7 @@ is useful when drawing a sketch that lies within the volume of the part.
         is hidden.
 
         The show / hide status of groups is saved in the part file. If
-        a part is imported into an assembly, then entities that were
+        a part is linked into an assembly, then entities that were
         visible in the part file will be visible in the assembly, and
         entities that were hidden will be hidden.
 
@@ -1045,7 +1045,7 @@ is useful when drawing a sketch that lies within the volume of the part.
 
 <p>
     This is a useful constraint when building an assemblies; a single
-    "same orientation" constraint will fix all three of the imported
+    "same orientation" constraint will fix all three of a linked
     part's rotational degrees of freedom.
 
 <h3>Comment</h3>
@@ -1234,7 +1234,7 @@ is useful when drawing a sketch that lies within the volume of the part.
     section, and then extrude the step and repeat.
 
 <p>
-    If the active group is a solid (extrude, lathe), then
+    If the active group is a solid (extrude, helix, lathe, revolve), then
     the solid is stepped and repeated. In this case, the user would
     draw a section, extrude the section, and then step and repeat
     the extrusion.
@@ -1374,23 +1374,23 @@ is useful when drawing a sketch that lies within the volume of the part.
     creation of very long spiral shapes, or all of the threads on a
     bolt in a single group.
 
-<h3>Import / Assemble</h3>
+<h3>Link / Assemble</h3>
 
 <p>
     In SolveSpace, there is no distinction between "part" files and
-    "assembly" files; it's always possible to import one file into
-    another. An "assembly" is just a part file that imports one or
+    "assembly" files; it's always possible to link one file into
+    another. An "assembly" is just a part file that links one or
     more other parts.
 
 <p>
-    The imported file is not editable within the assembly. It is
-    imported exactly as it appears in the source file, but with an
-    arbitrary position and orientation. This means that the imported
+    The linked file is not editable within the assembly. It is
+    included exactly as it appears in the source file, but with an
+    arbitrary position and orientation. This means that the linked
     part has six degrees of freedom.
 
 <p>
-    To move (translate) the part, click any point on the imported
-    part and drag it. To rotate the part, click any point and Shift+
+    To move (translate) the part, click any point on it
+    and drag it. To rotate the part, click any point and Shift+
     or Ctrl+drag it. The position and orientation of the part may be
     fixed with constraints, in the same way that any other geometry
     is constrained.
@@ -1407,21 +1407,21 @@ is useful when drawing a sketch that lies within the volume of the part.
 <p>
     To rotate the part by exactly ninety degrees about the coordinate
     axis (x, y, or z axis) closest to perpendicular to the screen, choose
-    Edit &rarr; Rotate Imported 90&deg;. If an entity in an imported group
+    Edit &rarr; Rotate Imported 90&deg;. If an entity in a linked group
     is selected, then the part from that group will be rotated. If an
     import group is active, then the part from the active group will be
     rotated.
 
 <p>
     The Same Orientation constraint is particularly useful when
-    importing parts. This one constraint completely determines the
-    imported part's rotation. (Select a normal on the imported part,
+    linking parts. This one constraint completely determines the
+    linked part's rotation. (Select a normal on the linked part,
     select some other normal to constrain it against, and choose
     Constrain &rarr; Same Orientation).
 
 <p>
-    The imported part also has an associated scale factor. This makes
-    it possible to import a smaller or larger version of the part. If
+    The linked part also has an associated scale factor. This makes
+    it possible to link a smaller or larger version of the part. If
     the scale factor is negative, then the part is scaled by the absolute
     value of the scale factor and mirrored.
 
@@ -1450,19 +1450,19 @@ is useful when drawing a sketch that lies within the volume of the part.
     propagate into file B when the part is regenerated.
 
 <p>
-    Similarly, it's possible to draw an open section in file A, import
+    Similarly, it's possible to draw an open section in file A, link
     that section into file B, and then draw additional lines or curves
     (in the same group or another group) within file B to close that
-    section. If file C imports file B, then the closed section may be
+    section. If file C links in file B, then the closed section may be
     extruded. This allows the user to reuse sections, or portions of a
     section, in multiple files, in such a way that a change in the
     original will propagate to all the parts that use that geometry.
 
 <p>
     When an assembly file is loaded, SolveSpace loads all of the
-    imported files as well. If the imported files are not available,
+    linked files as well. If the linked files are not available,
     then an error occurs. When transfering an assembly file to another
-    computer, it's necessary to transfer all of the imported files
+    computer, it's necessary to transfer all of the linked files
     as well.
 </div>
 
@@ -1517,10 +1517,10 @@ is aligned. The snap grid (View &rarr; Show Snap Grid, Edit &rarr; Snap to
 Grid) is often useful when creating cosmetic text.</p>
 
 <p>User-created styles are saved in the .slvs file, along with the geometry.
-If a part with user-created styles is imported, then the styles are not
-imported; but the style identifiers for the imported entities are maintained.
-This means that the user can specify the line styles in the importing file
-(i.e., the "assembly").</p>
+If a part with user-created styles is linked in, then the styles are not
+imported; but the style identifiers for the linked in entities are maintained.
+This means that the user can specify the line styles in the file doing the
+linking (i.e., the "assembly").</p>
 
 <p>If a style is hidden, then all objects within that style will be
 hidden, even if their group is shown. If a style is not exportable, then
