@@ -185,10 +185,10 @@ linkage is worked. For a planar linkage, for example, a good choice
 of constraints is:</p>
 
 <ul>
-<li>imported part's z-axis normal parallel to our reference z-axis normal,
-to hold the imported part in a plane parallel to our linkage plane;</li>
-<li>a point from imported part lies in specified workplane (or on specified
-plane face from solid model), to hold the imported part at the desired
+<li>linked part's z-axis normal parallel to our reference z-axis normal,
+to hold the linked part in a plane parallel to our linkage plane;</li>
+<li>a point from linked part lies in specified workplane (or on specified
+plane face from solid model), to hold the linked part at the desired
 translation normal to the plane;</li>
 <li>point-on-point, in 2d (choose a workplane parallel to the linkage plane,
 and choose Sketch &rarr; In Workplane; then select the two points, and

@@ -18,7 +18,7 @@ TEMPL::OutputWithHeader("TUTORIAL: ASSEMBLIES", <<EOT
     and have those changes propagate correctly into our assembly.
 </p>
 <p>
-    Any SolveSpace file can be imported into any other SolveSpace file;
+    Any SolveSpace file can be linked into any other SolveSpace file;
     there is no special type for parts or assemblies. This means that
     sub-assemblies, for example, work in the obvious way. We could draw any
     of our parts from scratch, but they are also available for download
@@ -29,7 +29,7 @@ TEMPL::OutputWithHeader("TUTORIAL: ASSEMBLIES", <<EOT
 </ul>
 <p>
     Extract these files to a directory somewhere on your computer. It's
-    possible to import files from any directory into any file, but for
+    possible to link files from any directory into any file, but for
     simplicity it is best to put the parts and assembly in a single
     directory. If we do this, then we can copy that single directory to
     another computer and retain all the parametric links between the files.
@@ -49,8 +49,8 @@ TEMPL::OutputWithHeader("TUTORIAL: ASSEMBLIES", <<EOT
     course, we could begin with any component that we wanted. But it's
     logical to begin with the base.) Create a new file in SolveSpace by
     choosing File &rarr; New. In that new file, choose New Group &rarr;
-    Import / Assemble. Specify the base.slvs file that you just saved on
-    your computer. (You may also use New Group &rarr; Import Recent, if
+    Link / Assemble. Specify the base.slvs file that you just saved on
+    your computer. (You may also use New Group &rarr; Link Recent, if
     base.slvs appears in that list. This is exactly equivalent.)
 </p>
 <div class="forimg">
@@ -115,17 +115,17 @@ TEMPL::OutputWithHeader("TUTORIAL: ASSEMBLIES", <<EOT
     the translation, we can use a point-coincident constraint. Select the
     two points marked in red in the image above, and choose Constrain &rarr;
     On Point. The two points will now be constrained to be coincident, locking
-    the imported part's translation. The imported part is now fully constrained.
+    the linked part's translation. The imported part is now fully constrained.
 </p>
 <p>
     Next, we wish to place the seven dividers. We will again choose New
-    Group &rarr; Import / Assemble, and specify divider.slvs. The divider
+    Group &rarr; Link / Assemble, and specify divider.slvs. The divider
     will appear in our assembly, initially with the wrong position and
     orientation. We therefore must drag it into roughly the position indicated
     below, with the longer of the divider's two tabs aligned to the
     slot on the base. We can do this with the mouse, by left-dragging the
     position and Shift+left-dragging the orientation. It may also be useful
-    to choose Edit &rarr; Rotate Imported 90&deg;, to rotate the imported
+    to choose Edit &rarr; Rotate Imported 90&deg;, to rotate the linked
     part by exactly ninety degrees about the coordinate axis that's closest
     to normal to the screen. (So if we are looking onto the XY plane, for
     example, then it rotates the part about the Z axis.)
@@ -149,7 +149,7 @@ TEMPL::OutputWithHeader("TUTORIAL: ASSEMBLIES", <<EOT
 </p>
 <p>
     We could repeat this process six more times, to place the seven dividers.
-    But it's easier to step and repeat our one imported part seven times. So
+    But it's easier to step and repeat our one linked part seven times. So
     choose New Group &rarr; Step and Repeat Translating. By default, three
     copies of the original part will appear, stepped along some constant
     distance and direction:
@@ -188,7 +188,7 @@ TEMPL::OutputWithHeader("TUTORIAL: ASSEMBLIES", <<EOT
     <img src="pics/box-divider-4.png">
 </div>
 <p>
-    Finally, we wish to place the two sides. We choose New Group &rarr; Import /
+    Finally, we wish to place the two sides. We choose New Group &rarr; Link /
     Assemble as usual, and specify side.slvs. It appears within our
     assembly with some arbitrary position and orientation, which are probably
     not what's desired.
@@ -211,7 +211,7 @@ TEMPL::OutputWithHeader("TUTORIAL: ASSEMBLIES", <<EOT
     <img src="pics/box-side-2.png">
 </div>
 <p>
-    Once again, constrain the orientation of the imported part using a
+    Once again, constrain the orientation of the linked part using a
     same-orientation constraint, for example on one of that part's normals
     against our coordinate system's Y axis (drawn in green). Note that it
     does not matter if the Y axis and part's normal are pointing in exactly
@@ -304,7 +304,7 @@ TEMPL::OutputWithHeader("TUTORIAL: ASSEMBLIES", <<EOT
     It is therefore invalid.
 </p>
 <p>
-    Place the other side of the box by any method; for example by importing
+    Place the other side of the box by any method; for example by linking
     it again and using a same-orientation and point-coincident constraint,
     or by stepping and repeating the side that we've just place twice,
     or in some other way.

@@ -44,8 +44,8 @@ TEMPL::Output(<<EOT
 <div class="list">
 <ul>
     <li><b>modeling 3d parts</b> &mdash;
-        draw with extrudes, revolves, and Boolean
-        (union / difference) operations</li>
+        draw with extrudes, revolves, helixes and Boolean
+        (union / difference / instersection) operations</li>
 
     <li><b>modeling 2d parts</b> &mdash;
         draw the part as a single section, and

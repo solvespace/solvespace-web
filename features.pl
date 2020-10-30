@@ -46,8 +46,8 @@ TEMPL::OutputWithHeader("FEATURES", <<EOT
 <div class="featureblock">
 <p><b>Build solid model with</b></p>
 <ul>
-    <li>extruded or lathed (solid of revolution) sketch</li>
-    <li>Boolean operations: union (add material), difference (remove material)</li>
+    <li>an extrude, lathe (solid of revolution) or helix from a sketch</li>
+    <li>Boolean operations: union (add material), difference (remove material), intersection (leave only common material)</li>
     <li>parametric step and repeat (pattern), rotating or translating</li>
     <li>operations performed on either meshes or NURBS surfaces</li>
 </ul>
@@ -56,11 +56,11 @@ TEMPL::OutputWithHeader("FEATURES", <<EOT
 <div class="featureblock">
 <p><b>Parametric and associative assembly</b></p>
 <ul>
-    <li>import parts and drag them with six degrees of freedom</li>
-    <li>import mirrored or with arbitrary scale</li>
+    <li>link parts and drag them with six degrees of freedom</li>
+    <li>link mirrored or with arbitrary scale</li>
     <li>place parts in assembly using constraints</li>
-    <li>import surfaces, and merge them using Boolean operations</li>
-    <li>import lines and curves, for 2d work or solid operations later</li>
+    <li>link surfaces, and merge them using Boolean operations</li>
+    <li>link lines and curves, for 2d work or solid operations later</li>
     <li>changes in parts propagate automatically into assembly</li>
 </ul>
 </div>
