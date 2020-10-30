@@ -925,6 +925,21 @@ is useful when drawing a sketch that lies within the volume of the part.
     The order in which the lines are selected matters; if line A is
     selected before line B, then the ratio is length of A:length of B.
 
+<h3>Length Difference</h3>
+
+<p>
+    This constraint sets the difference between the lengths of two line
+    segments. For example, if line A and line B have length difference
+    5 mm, then the constraint is satisfied if A is 50 mm long and B
+    is 55 mm long or 45mm long.
+
+<p>
+    Note that a negative difference can be entered when editing the
+    constraint to change which is the shorter segment. At the same time
+    the value is always displayed as a positive number (the absolute
+    difference) and entering positive numbers does not change the
+    "direction".
+
 <h3>At Midpoint</h3>
 
 <p>
@@ -1087,7 +1102,7 @@ is useful when drawing a sketch that lies within the volume of the part.
     both solids.
 
 <p>
-    The union and difference operations may be performed either as
+    The union, difference and intersection operations may be performed either as
     triangle meshes, or as exact NURBS surfaces. Triangle meshes are
     fast to compute and robust, but they require any smooth curves
     to be approximated as piecewise linear segments. The NURBS surface
@@ -1419,7 +1434,7 @@ is useful when drawing a sketch that lies within the volume of the part.
     
 <p>
     Import groups have a special "solid model as" option: in addition
-    to the usual "union" and "difference", they have "assemble".
+    to the usual "union", "difference" and "intersection", they have "assemble".
     The "assemble" option should be used when combining parts that
     should not interfere with each other into an assembly. To
     verify that the assembly does not interfere, choose Analyze

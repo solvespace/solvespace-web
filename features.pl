@@ -46,8 +46,8 @@ TEMPL::OutputWithHeader("FEATURES", <<EOT
 <div class="featureblock">
 <p><b>Build solid model with</b></p>
 <ul>
-    <li>extruded or lathed (solid of revolution) sketch</li>
-    <li>Boolean operations: union (add material), difference (remove material)</li>
+    <li>an extrude, lathe (solid of revolution) or helix from a sketch</li>
+    <li>Boolean operations: union (add material), difference (remove material), intersection (leave only common material)</li>
     <li>parametric step and repeat (pattern), rotating or translating</li>
     <li>operations performed on either meshes or NURBS surfaces</li>
 </ul>
