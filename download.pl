@@ -13,38 +13,46 @@ TEMPL::OutputWithHeader("DOWNLOAD PROGRAM", <<EOT
     <th>Version</th>
     <th>Released</th>
     <th>Platforms</th>
-    <th>Link</th>
 </tr>
 <tr>
-    <td>2.3</td>
+    <td><a rel="nofollow" href="https://github.com/solvespace/solvespace/releases/tag/v3.0.rc1"><b>3.0.rc1</b></a></td>
+    <td>release candidate</td>
+    <td>Windows XP&ndash;10, Linux, Mac</td>
+</tr>
+<tr>
+    <td><a rel="nofollow" href="https://github.com/solvespace/solvespace/releases/tag/v2.3"><b>2.3 stable</b></a></td>
     <td>December 23, 2016</td>
     <td>Windows XP&ndash;10, Linux, Mac</td>
-    <td><a rel="nofollow" href="https://github.com/solvespace/solvespace/releases/tag/v2.3"><b>via GitHub</b></a></td>
 </tr>
 <tr>
-    <td>2.0</td>
+    <td><a rel="nofollow" href="https://github.com/solvespace/solvespace/releases/tag/v2.0"><b>2.0 stable</b></a></td>
     <td>July 28, 2013</td>
     <td>Windows XP&ndash;10</td>
-    <td><a rel="nofollow" href="https://github.com/solvespace/solvespace/releases/tag/v2.0"><b>via GitHub</b></a></td>
 </tr>
 </table>
 
-<p>Under <b>Windows</b>, no installation is required. After downloading solvespace.exe,
-you can run it immediately. If you wish to continue using SolveSpace,
-then save solvespace.exe somewhere convenient (e.g., on your desktop). A second
-version for windows called solvespace-openmp can take advantage of multi-core
-processors for higher performance. To run this version you will also need to
-install the <a rel="nofollow"
-href="https://support.microsoft.com/en-us/help/2977003/the-latest-supported-visual-c-downloads">
-Microsoft Redistributable Components</a> for Visual Studio 2015. File: vc_redist.x86.exe
+<p><b>Release candidate 3.0.rc1 is now available!</b> Please help us test, and
+report any
+<a rel="nofollow" href="https://github.com/solvespace/solvespace/issues">issues</a>.
+Less adventurous users may still prefer an earlier stable release.</p>
+
+<p>Under <b>Windows</b>, no installation is required. Download
+solvespace.exe and run it immediately. To continue using SolveSpace,
+save solvespace.exe somewhere convenient. For higher performance on
+multi-core processors, try solvespace-openmp.exe
+(but you may need to install 
+<a rel="nofollow" href="https://support.microsoft.com/en-us/help/2977003/the-latest-supported-visual-c-downloads">
+vc_redist.x86.exe</a> first).
 </p>
 
 <p>Under <b>OS X</b>, run the .app file directly from the disk image, or drag it
-to Applications to install.
+to Applications to install. Use 3.0.rc1, since earlier versions have OS X bugs.
+</p>
 
 <p>Under <b>Linux</b>, you may find SolveSpace in your distribution's package manager, or you
 can obtain it from the <a rel="nofollow" href="https://snapcraft.io/solvespace">Snap Store</a>.
 You may also <a rel="nofollow" href="https://github.com/solvespace/solvespace/tree/2.x#building-on-linux">build</a> SolveSpace from source and install it youself.
+</p>
 
 <p>Files saved by 3.0 may be readable by earlier versions, but some
 <a rel="nofollow" href="https://github.com/solvespace/solvespace/blob/v2.3/CHANGELOG.md">
