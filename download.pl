@@ -33,8 +33,7 @@ TEMPL::OutputWithHeader("DOWNLOAD PROGRAM", <<EOT
 
 <p><b>Release candidate 3.0.rc1 is now available!</b> Please help us test 
 <a rel="nofollow" href="https://github.com/solvespace/solvespace/blob/master/CHANGELOG.md">
-its many new features
-</a>, and report any
+its many new features</a>, and report any
 <a rel="nofollow" href="https://github.com/solvespace/solvespace/issues">issues</a>.
 Less adventurous users may still prefer an earlier stable release.</p>
 
