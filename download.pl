@@ -17,7 +17,7 @@ TEMPL::OutputWithHeader("DOWNLOAD PROGRAM", <<EOT
 <tr>
     <td><a rel="nofollow" href="https://github.com/solvespace/solvespace/releases/tag/v3.0.rc1"><b>3.0.rc1</b></a></td>
     <td>release candidate</td>
-    <td>Windows XP&ndash;10, Linux, Mac</td>
+    <td>Windows Vista&ndash;10, Linux, Mac</td>
 </tr>
 <tr>
     <td><a rel="nofollow" href="https://github.com/solvespace/solvespace/releases/tag/v2.3"><b>2.3 stable</b></a></td>
@@ -31,8 +31,10 @@ TEMPL::OutputWithHeader("DOWNLOAD PROGRAM", <<EOT
 </tr>
 </table>
 
-<p><b>Release candidate 3.0.rc1 is now available!</b> Please help us test, and
-report any
+<p><b>Release candidate 3.0.rc1 is now available!</b> Please help us test 
+<a rel="nofollow" href="https://github.com/solvespace/solvespace/blob/master/CHANGELOG.md">
+its many new features
+</a>, and report any
 <a rel="nofollow" href="https://github.com/solvespace/solvespace/issues">issues</a>.
 Less adventurous users may still prefer an earlier stable release.</p>
 
@@ -55,7 +57,7 @@ You may also <a rel="nofollow" href="https://github.com/solvespace/solvespace/tr
 </p>
 
 <p>Files saved by 3.0 may be readable by earlier versions, but some
-<a rel="nofollow" href="https://github.com/solvespace/solvespace/blob/v2.3/CHANGELOG.md">
+<a rel="nofollow" href="https://github.com/solvespace/solvespace/blob/master/CHANGELOG.md">
 new features
 </a>
 are unsupported in older versions.</p>
