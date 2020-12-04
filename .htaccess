@@ -7,6 +7,10 @@ RewriteRule ^index.html$ https://solvespace.com/index.pl [R]
 RewriteRule ^txtlink$ https://solvespace.com/index.pl [R]
 RewriteRule ^helpmenu$ https://solvespace.com/ref.pl [R]
 
+# Somehow DuckDuckGo got a link to solvespace.com/index.pl/, so redirect to fix
+# that instead of breaking with AcceptPathInfo Off
+RewriteRule ^([A-Za-z0-9_]+\.pl)/.*$ $1 [R=301]
+
 ErrorDocument 404 https://solvespace.com/index.pl
 
 RedirectMatch 404 ^/*\.git
