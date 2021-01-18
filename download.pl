@@ -47,7 +47,7 @@ vc_redist.x86.exe</a> first).
 </p>
 
 <p>Under <b>OS X</b>, run the .app file directly from the disk image, or drag it
-to Applications to install. Use 3.0.rc1, since earlier versions have OS X bugs.
+to Applications to install. Use 3.0.rc2, since earlier versions have OS X bugs.
 </p>
 
 <p>Under <b>Linux</b>, you may find SolveSpace in your distribution's package manager, or you
