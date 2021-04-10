@@ -349,6 +349,16 @@ is useful when drawing a sketch that lies within the volume of the part.
     have an unselected radio button in that column.  To activate an
     inactive group, click its radio button.
 
+<p>
+    In order to reduce distraction when sketching in 2D, solid models from
+    inactive groups are "dimmed" (by rendering them using the
+    #def-dim-solid style) so that they blend into the background.  To
+    disable this uncheck View &rarr; Darken Inactive Solids.  By modifying
+    the #def-dim-solid style any color may be assigned to geometry from
+    inactive groups instead of just "dimming" them.  A brighter color may
+    even be assigned to this style to make geometry from inactive groups
+    stand out more clearly instead if desired.
+
 </div>
 
 <h2>Sketch Entities</h2>
@@ -371,10 +381,12 @@ is useful when drawing a sketch that lies within the volume of the part.
 
 <p>
     To mark an entity as construction-only, choose Sketch &rarr; Toggle
-    Construction. A construction entity will behave just like any
-    other entity, except that it is drawn in green, and does not
-    contribute to the geometry for export (or to the section that
-    will be extruded or lathed or swept).
+    Construction. A construction entity will behave just like any other
+    entity, except that it is drawn in green, and does not contribute to
+    the geometry for export by default (or to the section that will be
+    extruded or lathed or swept).  You may also toggle construction
+    geometry while sketching a new entity by using the 'g' keyboard
+    shortcut.
 
 <h3>Datum Point</h3>
 
@@ -567,11 +579,10 @@ is useful when drawing a sketch that lies within the volume of the part.
 <h3>Text in a TrueType Font</h3>
 
 <p>
-    This entity is defined by two points, at the top left and bottom
-    left of the text. The distance between the points determines the
-    height of the text; the angle of the line between them determines
-    the orientation of the text, and their position determines the
-    text's position.
+    This entity is defined by four points, at each corner of the text.  The
+    distance between the points determines the height and width of the
+    text; the angle of the line between them determines the orientation of
+    the text, and their position determines the text's position.
 
 <p>
     To create the text, choose Sketch &rarr; Text in TrueType Font. Then
@@ -583,6 +594,16 @@ is useful when drawing a sketch that lies within the volume of the part.
     fonts appears in the text window; click the font name to select
     it. To change the displayed text, select the text entity and
     click the [change] link in the text window.
+
+<h3>Image</h3>
+
+<p>
+    This entity may be used to place a bitmap reference image in a sketch.
+    The entity is defined by four control points that may be used to
+    position, constrain and orient the image similar to those for TrueType
+    Text entities.  Image entities are typically used as a reference for
+    sketching or tracing other entities and removed later.  As such, Image
+    entities are not exportable.
 
 <h3>Splitting and Trimming Entities</h3>
 
@@ -697,7 +718,8 @@ is useful when drawing a sketch that lies within the volume of the part.
     second point of the line is clicked in place. Similarly when a
     nearly vertical line is being drawn a "V" constraint will appear
     automatically. If the line is not close enough to horizontal or
-    vertical, no constraint will be added.
+    vertical, no constraint will be added.  Holding Ctrl while sketching
+    will also disable this feature.
     
 <p>
     If an automatic constraint is redundant or would result in the
@@ -1047,6 +1069,18 @@ is useful when drawing a sketch that lies within the volume of the part.
     This is a useful constraint when building an assemblies; a single
     "same orientation" constraint will fix all three of a linked
     part's rotational degrees of freedom.
+
+<h3>Lock Point Where Dragged</h3>
+
+<p>
+    Constrain a point such that the solver will not alter its location.
+    This does not prevent direct manipulation by dragging the entity
+    that owns the point or the point itself.  It simply instructs the
+    solver to consider the point fully constrained.  This can be easily
+    demonstrated by drawing an equilateral triangle with sides
+    constrained equal and one point locked.  Dragging the side opposite
+    this locked point will not alter its position but will resize the
+    triangle instead.
 
 <h3>Comment</h3>
 
@@ -1483,9 +1517,9 @@ SolveSpace's basic color scheme is defined by the default styles. To view
 them, choose "line styles" from the home screen in the text window. This
 is where, for example, lines are specified to be white by default, and
 constraints to be magenta, and points to be green. The default styles may
-be modified. These modifications will be saved in the registry, and will
-apply to all files opened on that computer.
-</p>
+be modified. These modifications will be saved in the user config (the
+registry on Windows, a .json file on other platforms), and will apply to
+all files opened on that computer.  </p>
 
 <p>
 It is also possible to create custom styles, for cosmetic or other purposes.
@@ -1522,8 +1556,8 @@ imported; but the style identifiers for the linked in entities are maintained.
 This means that the user can specify the line styles in the file doing the
 linking (i.e., the "assembly").</p>
 
-<p>If a style is hidden, then all objects within that style will be
-hidden, even if their group is shown. If a style is not exportable, then
+<p>If a style is hidden, then all objects within that style will be hidden,
+even if their group is shown. If a style is not marked exportable, then
 objects within that style will appear on-screen, but will not appear in an
 exported file. This behavior is similar to that of construction lines.</p>
 
@@ -1795,6 +1829,10 @@ or color.</p>
     been extruded or lathed, so no solid model is present) then curves
     will be exported in exact form when possible.
 
+<p>
+    Normals, datum points and image entities are not exported for vector
+    formats.
+
 <h3>3d Wireframe</h3>
 
 <p>
@@ -1866,26 +1904,30 @@ or color.</p>
 <h3>Light Directions</h3>
 
 <p>
-    The 3d part is displayed with simulated lighting, to produce
-    the impression of depth. The directions and intensities of these
-    lights may be modified according to user preference.
+    The 3d part is displayed with simulated lighting, to produce the
+    impression of depth. There are two types of lights, directional and
+    ambient.  The directions and intensities of these lights may be
+    modified according to user preference.
 
 <p>
-    The lights do not have a position; they have only a direction,
-    as if they were coming from very far away. This direction is
-    specified in 3 components, "right, top, front". The light with
-    direction "1, 0, 0" is coming from the right of the screen.
-    The light with direction "-1, 0, 0" is coming from the left of
-    the screen. The light with direction "0, 0, 1" is coming from
-    in front of the screen.
+    Directional lights do not have a position; they have only a direction,
+    as if they were coming from very far away. This direction is specified
+    in 3 components, "right, top, front". The light with direction "1, 0,
+    0" is coming from the right of the screen.  The light with direction
+    "-1, 0, 0" is coming from the left of the screen. The light with
+    direction "0, 0, 1" is coming from in front of the screen. The ambient
+    light has no direction and acts as a fill light of uniform intensity
+    from all directions.
 
 <p>
     The intensity must lie between 0 and 1. A light with intensity
-    0 has no effect, and 1 is full brightness.
+    0 has no effect, and 1 is full brightness.  Lighting from ambient and
+    directional lights is additive.  If the ambient light intensity is set
+    to 1 a "flat shading" effect will be achieved.
 
 <p>
-    Two lights are available. If only one is desired, then the second
-    may be disabled by setting its intensity to zero. When the part
+    Two directional lights are available. If only one is desired, then the
+    second may be disabled by setting its intensity to zero. When the part
     is rotated or translated, the lights do not move.
 
 <h3>Chord Tolerance, and Max Segments</h3>
@@ -2071,9 +2113,10 @@ or color.</p>
 <p>
     By default, SolveSpace draws white lines on a black background. But
     most export file formats assume a white background, which means that
-    white lines would be illegible. By default, SolveSpace will rewrite
-    any white (or very light) colors to black when exporting into such a
-    file format. That behavior may be disabled with this option.
+    white lines would be illegible. By default, SolveSpace will rewrite any
+    white (lighter than approximately 75% gray) colors to black when
+    exporting into such a file format. That behavior may be disabled with
+    this option.
 
 <h3>Draw Triangle Back Faces in Red</h3>
 
