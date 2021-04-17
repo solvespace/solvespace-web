@@ -15,8 +15,8 @@ TEMPL::OutputWithHeader("DOWNLOAD PROGRAM", <<EOT
     <th>Platforms</th>
 </tr>
 <tr>
-    <td><a rel="nofollow" href="https://github.com/solvespace/solvespace/releases/tag/v3.0.rc2"><b>3.0.rc2</b></a></td>
-    <td>release candidate</td>
+    <td><a rel="nofollow" href="https://github.com/solvespace/solvespace/releases/tag/v3.0"><b>3.0 stable</b></a></td>
+    <td>April 17, 2021</td>
     <td>Windows Vista&ndash;10, Linux, Mac</td>
 </tr>
 <tr>
@@ -31,11 +31,10 @@ TEMPL::OutputWithHeader("DOWNLOAD PROGRAM", <<EOT
 </tr>
 </table>
 
-<p><b>Release candidate 3.0.rc2 is now available!</b> Please help us test
+<p><b>Release 3.0 is now available!</b>
 <a rel="nofollow" href="https://github.com/solvespace/solvespace/blob/master/CHANGELOG.md">
-its many new features</a>, and report any
-<a rel="nofollow" href="https://github.com/solvespace/solvespace/issues">issues</a>.
-Less adventurous users may still prefer an earlier stable release.</p>
+with many new features</a>, and improvements. Please report any
+<a rel="nofollow" href="https://github.com/solvespace/solvespace/issues">issues</a>.</p>
 
 <p>Under <b>Windows</b>, no installation is required. Download
 solvespace.exe and run it immediately. To continue using SolveSpace,
@@ -47,7 +46,7 @@ vc_redist.x86.exe</a> first).
 </p>
 
 <p>Under <b>OS X</b>, run the .app file directly from the disk image, or drag it
-to Applications to install. Use 3.0.rc2, since earlier versions have OS X bugs.
+to Applications to install. Use 3.0, since it is vast improvement over previous versions.
 </p>
 
 <p>Under <b>Linux</b>, you may find SolveSpace in your distribution's package manager, or you
