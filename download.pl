@@ -49,9 +49,13 @@ vc_redist.x86.exe</a> first).
 to Applications to install. Use 3.0, since it is vast improvement over previous versions.
 </p>
 
-<p>Under <b>Linux</b>, you may find SolveSpace in your distribution's package manager, or you
-can obtain it from the <a rel="nofollow" href="https://snapcraft.io/solvespace">Snap Store</a>.
-You may also <a rel="nofollow" href="https://github.com/solvespace/solvespace/tree/2.x#building-on-linux">build</a> SolveSpace from source and install it youself.
+<p>Under <b>Linux</b>, you may find SolveSpace in your distribution's package manager (check
+packaging status on <a rel="nofollow" href="https://repology.org/project/solvespace/versions">Repology</a>
+or <a rel="nofollow" href="https://pkgs.org/search/?q=solvespace">Packages Search</a>), or you can obtain
+it from the <a rel="nofollow" href="https://snapcraft.io/solvespace">Snap Store</a> and 3rd-party
+<a rel="nofollow" href="https://notesalexp.org/">PPA for Debian and Ubuntu</a>. You may also
+<a rel="nofollow" href="https://github.com/solvespace/solvespace/tree/2.x#building-on-linux">build</a>
+SolveSpace from source and install it youself.
 </p>
 
 <p>Files saved by 3.0 may be readable by earlier versions, but some
