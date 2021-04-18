@@ -20,20 +20,20 @@ TEMPL::OutputWithHeader("DOWNLOAD PROGRAM", <<EOT
     <td>Windows Vista&ndash;10, Linux, Mac</td>
 </tr>
 <tr>
-    <td><a rel="nofollow" href="https://github.com/solvespace/solvespace/releases/tag/v2.3"><b>2.3 stable</b></a></td>
+    <td><a rel="nofollow" href="https://github.com/solvespace/solvespace/releases/tag/v2.3">2.3 stable</a></td>
     <td>December 23, 2016</td>
     <td>Windows XP&ndash;10, Linux, Mac</td>
 </tr>
 <tr>
-    <td><a rel="nofollow" href="https://github.com/solvespace/solvespace/releases/tag/v2.0"><b>2.0 stable</b></a></td>
+    <td><a rel="nofollow" href="https://github.com/solvespace/solvespace/releases/tag/v2.0">2.0 stable</a></td>
     <td>July 28, 2013</td>
     <td>Windows XP&ndash;10</td>
 </tr>
 </table>
 
-<p><b>Release 3.0 is now available!</b>
+<p><b>Release 3.0 is now available</b>, with many
 <a rel="nofollow" href="https://github.com/solvespace/solvespace/blob/master/CHANGELOG.md">
-with many new features</a>, and improvements. Please report any
+new features</a> and improvements. Please report any
 <a rel="nofollow" href="https://github.com/solvespace/solvespace/issues">issues</a>.</p>
 
 <p>Under <b>Windows</b>, no installation is required. Download
