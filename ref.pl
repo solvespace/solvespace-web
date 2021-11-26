@@ -660,7 +660,7 @@ is useful when drawing a sketch that lies within the volume of the part.
     Most constraints are available in both 3d and projected versions.
     If a workplane is active, then the constraint applies on the
     projection of the geometry into that workplane. If no workplane
-    is active, then the constraint applies to the actually geometry
+    is active, then the constraint applies to the actual geometry
     in free space.
 
 <p>
