@@ -28,7 +28,7 @@ hundreds of unknowns.</p>
 symbolic algebra system. In general, these equations are solved
 numerically, by a modified Newton's method. Some special cases are
 handled, for any equation that can be solved by forward-substitution,
-and equations that are soluble alone.</p>
+and equations that are solvable alone.</p>
 
 <p>If the sketch is not fully constrained, then the Jacobian is solved
 in a least squares sense, with each equation written in such a way as
