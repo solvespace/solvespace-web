@@ -124,6 +124,7 @@ sub OutputWithHeader {
     Output(qq|
 <div class="header">
     <a class="header_big" href="index.$PL">
+        <img src="pics/solvespace-128x128.png" alt="SolveSpace Logo" style="max-width: 100%;" width="70" height="70" align="left">
         <span class="header_big">SOLVESPACE</span>
         <span class="header_little"> -- parametric 2d/3d CAD</span>
     </a>
