@@ -175,3 +175,11 @@ table.dltab {
     border-collapse: collapse;
     margin-left: 20px;
 }
+.anchor::before {
+    content:url('pics/solvespace-scalable.svg');
+    display: inline-block;
+    margin: 0;
+    padding: 0;    
+    width: 16px;
+    height: 16px;
+}
