@@ -111,6 +111,14 @@ introduction to the program; for that, see the
     places where a dimension is expected, it's possible to enter an
     arithmetic expression ("4*20 + 7") instead of a single number.
 
+<p>
+    You can use <code>sqrt</code>, <code>square</code>, <code>sin</code>,
+    <code>cos</code>, <code>asin</code>, <code>acos</code>, <code>pi</code>,
+    <code>+</code>, <code>-</code>, <code>*</code>, <code>/</code>,
+    <code>(</code>, <code>)</code> in the expressions. For example
+    "<code>7*pi/(3+cos(45))</code>". The trigonometric functions take
+    degrees.
+
 <h3>Text Window</h3>
 
 <p>
