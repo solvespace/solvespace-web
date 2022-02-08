@@ -12,7 +12,8 @@ TEMPL::OutputWithHeader("REFERENCE MANUAL", <<EOT
 introduction to the program; for that, see the
 <a href="tutorial.$TEMPL::PL">tutorials</a>.</p>
 
-<h2>General Navigation</h2>
+<h2><a id="General" href="#General" class="anchor"></a>
+General Navigation</h2>
 <div class="refind">
 
 <p>
@@ -23,7 +24,8 @@ introduction to the program; for that, see the
     and may also be used to modify settings and numerical parameters.
 </p>
 
-<h3>Graphics Window and Model View</h3>
+<h3><a id="Graphics" href="#Graphics" class="anchor"></a>
+Graphics Window and Model View</h3>
 
 <p>
     To pan the view, right-drag with the mouse.
@@ -92,7 +94,8 @@ introduction to the program; for that, see the
     axes are always conveniently available on-screen, which is useful
     e.g. when constraining a line parallel to the x-axis.)
 
-<h3>Dimension Entry and Units</h3>
+<h3><a id="Dimension" href="#Dimension" class="anchor"></a>
+Dimension Entry and Units</h3>
 
 <p>
     Dimensions may be displayed in either millimeters or inches.
@@ -119,7 +122,8 @@ introduction to the program; for that, see the
     "<code>7*pi/(3+cos(45))</code>". The trigonometric functions take
     degrees.
 
-<h3>Text Window</h3>
+<h3><a id="Text" href="#Text" class="anchor"></a>
+Text Window</h3>
 
 <p>
     The text window appears as a floating palette window. It may
@@ -176,7 +180,8 @@ introduction to the program; for that, see the
 </ul>
 
 
-<h3>Show / Hide Entities</h3>
+<h3><a id="ShowHide" href="#ShowHide" class="anchor"></a>
+Show / Hide Entities</h3>
 
 <p>
     As the sketch becomes more complex, it may be useful to hide
@@ -309,7 +314,8 @@ is useful when drawing a sketch that lies within the volume of the part.
         visible in the part file will be visible in the assembly, and
         entities that were hidden will be hidden.
 
-<h3>Active Workplane</h3>
+<h3><a id="ActiveWorkplane" href="#ActiveWorkplane" class="anchor"></a>
+Active Workplane</h3>
 
 <p>
     SolveSpace represents all geometry in 3d; it's possible to draw
@@ -341,7 +347,8 @@ is useful when drawing a sketch that lies within the volume of the part.
     workplane may be activated by choosing Sketch &rarr; In Workplane;
     there is no need to select it first.
 
-<h3>Active Group</h3>
+<h3><a id="ActiveGroup" href="#ActiveGroup" class="anchor"></a>
+Active Group</h3>
 
 <p>
     When a new line, circle, or other curve is created, it will be created
@@ -369,10 +376,12 @@ is useful when drawing a sketch that lies within the volume of the part.
 
 </div>
 
-<h2>Sketch Entities</h2>
+<h2><a id="Sketch" href="#Sketch" class="anchor"></a>
+Sketch Entities</h2>
 
 <div class="refind">
-<h3>Construction Geometry</h3>
+<h3><a id="Construction" href="#Construction" class="anchor"></a>
+Construction Geometry</h3>
 
 <p>
     In normal operation, the user draws line and curves in a
@@ -396,7 +405,8 @@ is useful when drawing a sketch that lies within the volume of the part.
     geometry while sketching a new entity by using the 'g' keyboard
     shortcut.
 
-<h3>Datum Point</h3>
+<h3><a id="Datum" href="#Datum" class="anchor"></a>
+Datum Point</h3>
 
 <p>
     This entity is defined by a single point.
@@ -413,7 +423,8 @@ is useful when drawing a sketch that lies within the volume of the part.
     might place datum points in order to simplify the dimensioning
     of line segments or other entities.
 
-<h3>Workplane</h3>
+<h3><a id="Workplane" href="#Workplane" class="anchor"></a>
+Workplane</h3>
 
 <p>
     This entity is specified by a point and a normal. The point
@@ -428,7 +439,8 @@ is useful when drawing a sketch that lies within the volume of the part.
     It's almost never necessary to create workplanes explicitly.
     Instead, create a new Sketch in New Workplane group.
 
-<h3>Line Segment</h3>
+<h3><a id="Line" href="#Line" class="anchor"></a>
+Line Segment</h3>
 
 <p>
     This entity is specified by its two endpoints. If a workplane is
@@ -454,7 +466,8 @@ is useful when drawing a sketch that lies within the volume of the part.
     lie on the starting point, and since a constraint was inserted,
     SolveSpace will stop drawing.)
 
-<h3>Rectangle</h3>
+<h3><a id="Rectangle" href="#Rectangle" class="anchor"></a>
+Rectangle</h3>
 
 <p>
     This entity consists of two vertical line segments, and two
@@ -473,7 +486,8 @@ is useful when drawing a sketch that lies within the volume of the part.
     A workplane must be active when the rectangle is drawn, since
     the workplane defines the meaning of "horizontal" and "vertical".
 
-<h3>Circle</h3>
+<h3><a id="Circle" href="#Circle" class="anchor"></a>
+Circle</h3>
 
 <p>
     This entity is specified by its center point, by its diameter,
@@ -496,7 +510,8 @@ is useful when drawing a sketch that lies within the volume of the part.
     and the normal may be dragged (or constrained) to determine the
     circle's orientation.
 
-<h3>Arc of a Circle</h3>
+<h3><a id="Arc" href="#Arc" class="anchor"></a>
+Arc of a Circle</h3>
 
 <p>
     This entity is specified by its center point, the two endpoints,
@@ -517,7 +532,8 @@ is useful when drawing a sketch that lies within the volume of the part.
     The arc must be drawn in a workplane; it cannot be drawn in
     free space.
 
-<h3>Tangent Arc at Point</h3>
+<h3><a id="TangentArc" href="#TangentArc" class="anchor"></a>
+Tangent Arc at Point</h3>
 
 <p>
     To round off a sharp corner (for example, between two lines),
@@ -548,7 +564,8 @@ is useful when drawing a sketch that lies within the volume of the part.
     (which may be useful if you want to place constraints on them),
     or whether they should be deleted.
 
-<h3>Bezier Cubic Spline</h3>
+<h3><a id="Bezier" href="#Bezier" class="anchor"></a>
+Bezier Cubic Spline</h3>
 
 <p>
     This entity is specified by at least two on-curve points, and
@@ -584,7 +601,8 @@ is useful when drawing a sketch that lies within the volume of the part.
     spline, which will be C2 continuous everywhere, including at that
     first point.
 
-<h3>Text in a TrueType Font</h3>
+<h3><a id="TextTT" href="#TextTT" class="anchor"></a>
+Text in a TrueType Font</h3>
 
 <p>
     This entity is defined by four points, at each corner of the text.  The
@@ -603,7 +621,8 @@ is useful when drawing a sketch that lies within the volume of the part.
     it. To change the displayed text, select the text entity and
     click the [change] link in the text window.
 
-<h3>Image</h3>
+<h3><a id="Image" href="#Image" class="anchor"></a>
+Image</h3>
 
 <p>
     This entity may be used to place a bitmap reference image in a sketch.
@@ -613,7 +632,8 @@ is useful when drawing a sketch that lies within the volume of the part.
     sketching or tracing other entities and removed later.  As such, Image
     entities are not exportable.
 
-<h3>Splitting and Trimming Entities</h3>
+<h3><a id="Splitting" href="#Splitting" class="anchor"></a>
+Splitting and Trimming Entities</h3>
 
 <p>
     In some cases, it is desirable to draw by creating overlapping
@@ -644,10 +664,12 @@ is useful when drawing a sketch that lies within the volume of the part.
 
 </div>
 
-<h2>Constraints</h2>
+<h2><a id="Constraints" href="#Constraints" class="anchor"></a>
+Constraints</h2>
 
 <div class="refind">
-<h3>General</h3>
+<h3><a id="GeneralConstraints" href="#GeneralConstraints" class="anchor"></a>
+General</h3>
 
 <p>
     To create a constraint, first select the geometry to be
@@ -716,7 +738,8 @@ is useful when drawing a sketch that lies within the volume of the part.
     appear on the screen, where the new value can be entered. Press
     enter to commit the change, or Esc to cancel.
 
-<h3>Automatic Constraints</h3>
+<h3><a id="Automatic" href="#Automatic" class="anchor"></a>
+Automatic Constraints</h3>
 
 <p>
     There is an option in the configuration screen labled "enable
@@ -745,7 +768,8 @@ is useful when drawing a sketch that lies within the volume of the part.
     double-click on it to edit the value, which is almost always what
     we want to do.
  
-<h3>Failure to Solve</h3>
+<h3><a id="Failure" href="#Failure" class="anchor"></a>
+Failure to Solve</h3>
 
 <p>
     In some cases, the solver will fail. This is usually because the
@@ -788,7 +812,8 @@ is useful when drawing a sketch that lies within the volume of the part.
     Edit &rarr; Undo.
 
 
-<h3>Reference Dimensions</h3>
+<h3><a id="Reference" href="#Reference" class="anchor"></a>
+Reference Dimensions</h3>
 
 <p>
     By default, the dimension drives the geometry. If a line segment
@@ -810,7 +835,8 @@ is useful when drawing a sketch that lies within the volume of the part.
     dimension is specified by the geometry, not the user, so it is
     not meaningful to type in a new value for the reference dimension.
 
-<h3>Specific Constraints</h3>
+<h3><a id="Specific" href="#Specific" class="anchor"></a>
+Specific Constraints</h3>
 
 <p>
     To get help on a specific constraint, choose its menu item without
@@ -824,7 +850,8 @@ is useful when drawing a sketch that lies within the volume of the part.
     the line and then the point, and the result would be identical.
     Some exceptions exist, and are noted below.
 
-<h3>Distance / Diameter</h3>
+<h3><a id="Distance" href="#Distance" class="anchor"></a>
+Distance / Diameter</h3>
 
 <p>
     This constraint sets the diameter of an arc or a circle, or the
@@ -839,7 +866,8 @@ is useful when drawing a sketch that lies within the volume of the part.
     distance is always shown positive on the sketch; to flip to the
     other side, enter a negative value.
 
-<h3>Angle</h3>
+<h3><a id="Angle" href="#Angle" class="anchor"></a>
+Angle</h3>
 
 <p>
     This constraint sets the angle between two vectors. A vector
@@ -882,7 +910,8 @@ is useful when drawing a sketch that lies within the volume of the part.
     constraint of 30 degrees on one supplementary angle is exactly
     equivalent to a constraint of 150 degrees on the other.
 
-<h3>Horizontal / Vertical</h3>
+<h3><a id="Horizontal" href="#Horizontal" class="anchor"></a>
+Horizontal / Vertical</h3>
 
 <p>
     This constraint forces a line segment to be horizontal or
@@ -900,7 +929,8 @@ is useful when drawing a sketch that lies within the volume of the part.
     the workplanes so that lines are horizontal and vertical within
     those workplanes.
 
-<h3>On Point / Curve / Plane</h3>
+<h3><a id="On" href="#On" class="anchor"></a>
+On Point / Curve / Plane</h3>
 
 <p>
     This constraint forces two points to be coincident, or a point
@@ -923,7 +953,8 @@ is useful when drawing a sketch that lies within the volume of the part.
     in the same workplane), then the point will lie on the curve,
     but otherwise it will not.
 
-<h3>Equal Length / Radius / Angle</h3>
+<h3><a id="Equal" href="#Equal" class="anchor"></a>
+Equal Length / Radius / Angle</h3>
 
 <p>
     This constraint forces two lengths, angles, or radiuses to
@@ -943,7 +974,8 @@ is useful when drawing a sketch that lies within the volume of the part.
     the line is forced equal to the length (not the radius) of the
     arc.
 
-<h3>Length Ratio</h3>
+<h3><a id="LengthRatio" href="#LengthRatio" class="anchor"></a>
+Length Ratio</h3>
 
 <p>
     This constraint sets the ratio between the lengths of two line
@@ -955,7 +987,8 @@ is useful when drawing a sketch that lies within the volume of the part.
     The order in which the lines are selected matters; if line A is
     selected before line B, then the ratio is length of A:length of B.
 
-<h3>Length Difference</h3>
+<h3><a id="LengthDifference" href="#LengthDifference" class="anchor"></a>
+Length Difference</h3>
 
 <p>
     This constraint sets the difference between the lengths of two line
@@ -970,7 +1003,8 @@ is useful when drawing a sketch that lies within the volume of the part.
     difference) and entering positive numbers does not change the
     "direction".
 
-<h3>At Midpoint</h3>
+<h3><a id="At" href="#At" class="anchor"></a>
+At Midpoint</h3>
 
 <p>
     This constraint forces a point to lie on the midpoint of a line.
@@ -981,7 +1015,8 @@ is useful when drawing a sketch that lies within the volume of the part.
     constraining it at the midpoint of the line, and then constraining
     that midpoint to lie on the plane.
 
-<h3>Symmetric</h3>
+<h3><a id="Symmetric" href="#Symmetric" class="anchor"></a>
+Symmetric</h3>
 
 <p>
     This constraint forces two points to be symmetric about some
@@ -999,13 +1034,15 @@ is useful when drawing a sketch that lies within the volume of the part.
     or vertical axis is chosen, depending which is closer to the
     configuration in which the points were initially drawn.
 
-<h3>Perpendicular</h3>
+<h3><a id="Perpendicular" href="#Perpendicular" class="anchor"></a>
+Perpendicular</h3>
 
 <p>
     This constraint is exactly equivalent to an angle constraint
     for ninety degrees.
 
-<h3>Parallel / Tangent</h3>
+<h3><a id="Parallel" href="#Parallel" class="anchor"></a>
+Parallel / Tangent</h3>
 
 <p>
     This constraint forces two vectors to be parallel.
@@ -1036,7 +1073,8 @@ is useful when drawing a sketch that lies within the volume of the part.
     constraint. The constraint will force them to also be tangent at
     that point.
 
-<h3>Same Orientation</h3>
+<h3><a id="Same" href="#Same" class="anchor"></a>
+Same Orientation</h3>
 
 <p>
     This constraint forces two normals to have the same orientation.
@@ -1078,7 +1116,8 @@ is useful when drawing a sketch that lies within the volume of the part.
     "same orientation" constraint will fix all three of a linked
     part's rotational degrees of freedom.
 
-<h3>Lock Point Where Dragged</h3>
+<h3><a id="Lock" href="#Lock" class="anchor"></a>
+Lock Point Where Dragged</h3>
 
 <p>
     Constrain a point such that the solver will not alter its location.
@@ -1090,7 +1129,8 @@ is useful when drawing a sketch that lies within the volume of the part.
     this locked point will not alter its position but will resize the
     triangle instead.
 
-<h3>Comment</h3>
+<h3><a id="Comment" href="#Comment" class="anchor"></a>
+Comment</h3>
 
 <p>
     A comment is a single line of text that appears on the drawing.
@@ -1120,7 +1160,8 @@ is useful when drawing a sketch that lies within the volume of the part.
 
 </div>
 
-<h2>Groups</h2>
+<h2><a id="Groups" href="#Groups" class="anchor"></a>
+Groups</h2>
 
 <div class="refind">
 <p>
@@ -1166,7 +1207,8 @@ is useful when drawing a sketch that lies within the volume of the part.
     text window. This is equivalent to hovering over and clicking
     the actual object in the graphics window.
 
-<h3>Sketch in 3d</h3>
+<h3><a id="SketchIn3d" href="#SketchIn3d" class="anchor"></a>
+Sketch in 3d</h3>
 
 <p>
     This creates a new empty group, in which the user may draw lines,
@@ -1185,7 +1227,8 @@ is useful when drawing a sketch that lies within the volume of the part.
     dark blue. This is the area that would be swept or extruded or
     lathed by a subsequent group.
 
-<h3>Sketch in New Workplane</h3>
+<h3><a id="SketchInWorkplane" href="#SketchInWorkplane" class="anchor"></a>
+Sketch in New Workplane</h3>
 
 <p>
     This creates a new empty group, similar to a new "Sketch in 3d".
@@ -1235,7 +1278,8 @@ is useful when drawing a sketch that lies within the volume of the part.
     drawn across the gap. An error is also displayed if the curves
     are not all coplanar.
 
-<h3>Step Translating</h3>
+<h3><a id="StepTranslating" href="#StepTranslating" class="anchor"></a>
+Step Translating</h3>
 
 <p>
     This group takes geometry in the active group, and copies it
@@ -1287,7 +1331,8 @@ is useful when drawing a sketch that lies within the volume of the part.
     isn't parallel to the section plane, then only the second option
     will work.
 
-<h3>Step Rotating</h3>
+<h3><a id="StepRotating" href="#StepRotating" class="anchor"></a>
+Step Rotating</h3>
 
 <p>
     This group takes the geometry in the active group, and copies
@@ -1323,7 +1368,8 @@ is useful when drawing a sketch that lies within the volume of the part.
     Constraints (for example an angle constraint, or a point-on-lie
     constraint) may be used to specify the angle of rotation exactly.
 
-<h3>Extrude</h3>
+<h3><a id="Extrude" href="#Extrude" class="anchor"></a>
+Extrude</h3>
 
 <p>
     This group takes a flat section, and extrudes it to form a solid.
@@ -1368,7 +1414,8 @@ is useful when drawing a sketch that lies within the volume of the part.
     behaviour, but it's possible to activate a workplane in the usual
     way (by selecting it, then choosing Sketch &rarr; In Workplane).
 
-<h3>Lathe</h3>
+<h3><a id="Lathe" href="#Lathe" class="anchor"></a>
+Lathe</h3>
 
 <p>
     This group takes a flat sketch, and sweeps it around a
@@ -1385,7 +1432,8 @@ is useful when drawing a sketch that lies within the volume of the part.
     curve. If the section crosses the axis of rotation, then it is
     certain to intersect itself and fail.
 
-<h3>Revolve</h3>
+<h3><a id="Revolve" href="#Revolve" class="anchor"></a>
+Revolve</h3>
 
 <p>
     This group takes a flat sketch, and sweeps it around a
@@ -1395,7 +1443,8 @@ is useful when drawing a sketch that lies within the volume of the part.
     to a specific angle. If dragged beyond 360 degrees this will
     produce the exact same solid as a Lathe group.
 
-<h3>Helix</h3>
+<h3><a id="Helix" href="#Helix" class="anchor"></a>
+Helix</h3>
 
 <p>
     This group takes a flat sketch, and sweeps it around a specified
@@ -1416,7 +1465,8 @@ is useful when drawing a sketch that lies within the volume of the part.
     creation of very long spiral shapes, or all of the threads on a
     bolt in a single group.
 
-<h3>Link / Assemble</h3>
+<h3><a id="Link" href="#Link" class="anchor"></a>
+Link / Assemble</h3>
 
 <p>
     In SolveSpace, there is no distinction between "part" files and
@@ -1508,7 +1558,8 @@ is useful when drawing a sketch that lies within the volume of the part.
     as well.
 </div>
 
-<h2>Line Styles</h2>
+<h2><a id="LineStyles" href="#LineStyles" class="anchor"></a>
+Line Styles</h2>
 
 <div class="refind">
 <p>
@@ -1575,10 +1626,12 @@ or color.</p>
 
 </div>
 
-<h2>Analysis</h2>
+<h2><a id="Analysis" href="#Analysis" class="anchor"></a>
+Analysis</h2>
 
 <div class="refind">
-<h3>Trace Point</h3>
+<h3><a id="Trace" href="#Trace" class="anchor"></a>
+Trace Point</h3>
 
 <p>
     SolveSpace can draw a "trail" behind a point as it moves. This
@@ -1649,7 +1702,8 @@ or color.</p>
     this case, it may be useful to try stepping the dimension to
     its new value, instead of changing it in a single step.
 
-<h3>Measure Volume</h3>
+<h3><a id="MeasureVolume" href="#MeasureVolume" class="anchor"></a>
+Measure Volume</h3>
 
 <p>
     This feature reports the volume of the part. Depending on
@@ -1663,7 +1717,8 @@ or color.</p>
     that looks fairly smooth on-screen, expect an error around one
     percent. To decrease this error, choose a finer chord tolerance.
 
-<h3>Measure Area</h3>
+<h3><a id="MeasureArea" href="#MeasureArea" class="anchor"></a>
+Measure Area</h3>
 
 <p>
     This feature reports the area of the current sketch. Depending on
@@ -1678,7 +1733,8 @@ or color.</p>
     curve, or if it intersects itself) then an error is reported,
     because the area cannot be defined.
 
-<h3>Show Degrees of Freedom</h3>
+<h3><a id="Show" href="#Show" class="anchor"></a>
+Show Degrees of Freedom</h3>
 
 <p>
     This feature indicates which points in the sketch are not completely
@@ -1696,10 +1752,12 @@ or color.</p>
 
 </div>
 
-<h2>Export</h2>
+<h2><a id="Export" href="#Export" class="anchor"></a>
+Export</h2>
 
 <div class="refind">
-<h3>Bitmap Image</h3>
+<h3><a id="Bitmap" href="#Bitmap" class="anchor"></a>
+Bitmap Image</h3>
 
 <p>
     This option will export a bitmap image of whatever is displayed
@@ -1710,7 +1768,8 @@ or color.</p>
     Choose File &rarr; Export Image. The file is exported as a PNG,
     which most graphics software can open.
 
-<h3>2d Section</h3>
+<h3><a id="2dSection" href="#2dSection" class="anchor"></a>
+2d Section</h3>
 
 <p>
     This option will cut the solid model along a specified plane. All
@@ -1783,7 +1842,8 @@ or color.</p>
     on the color space used by your viewer.
 </p>
 
-<h3>2d View</h3>
+<h3><a id="2dView" href="#2dView" class="anchor"></a>
+2d View</h3>
 
 <p>
     This option will project the 3d model onto a plane, in the same way
@@ -1841,7 +1901,8 @@ or color.</p>
     Normals, datum points and image entities are not exported for vector
     formats.
 
-<h3>3d Wireframe</h3>
+<h3><a id="3dWireframe" href="#3dWireframe" class="anchor"></a>
+3d Wireframe</h3>
 
 <p>
     This option behaves almost identically to File &rarr; Export 2d View;
@@ -1854,7 +1915,8 @@ or color.</p>
     of solid parts. For that, use a triangle mesh or a NURBS surface (STEP)
     file.
 
-<h3>Triangle Mesh (STL, OBJ)</h3>
+<h3><a id="Triangle" href="#Triangle" class="anchor"></a>
+Triangle Mesh (STL, OBJ)</h3>
 
 <p>
     This option will generate a 3d triangle mesh that represents
@@ -1873,7 +1935,8 @@ or color.</p>
     The units of the STL file are determined by the export scale
     factor, which may be specified in the configuration screen.
 
-<h3>NURBS Surfaces (STEP)</h3>
+<h3><a id="NURBS" href="#NURBS" class="anchor"></a>
+NURBS Surfaces (STEP)</h3>
 
 <p>
     If the model is represented as NURBS surfaces (and not just as a triangle
@@ -1887,10 +1950,12 @@ or color.</p>
 
 </div>
 
-<h2>Configuration</h2>
+<h2><a id="Configuration" href="#Configuration" class="anchor"></a>
+Configuration</h2>
 
 <div class="refind">
-<h3>Material Colors</h3>
+<h3><a id="Material" href="#Material" class="anchor"></a>
+Material Colors</h3>
 
 <p>
     In the text window screen for certain groups (extrude, lathe,
@@ -1909,7 +1974,8 @@ or color.</p>
     existing surfaces in the sketch, even if the color of an existing
     surface no longer appears in the palette.
 
-<h3>Light Directions</h3>
+<h3><a id="Light" href="#Light" class="anchor"></a>
+Light Directions</h3>
 
 <p>
     The 3d part is displayed with simulated lighting, to produce the
@@ -1938,7 +2004,8 @@ or color.</p>
     second may be disabled by setting its intensity to zero. When the part
     is rotated or translated, the lights do not move.
 
-<h3>Chord Tolerance, and Max Segments</h3>
+<h3><a id="Chord" href="#Chord" class="anchor"></a>
+Chord Tolerance, and Max Segments</h3>
 
 <p>
     SolveSpace does not always represent curved edges or surfaces
@@ -1979,7 +2046,8 @@ or color.</p>
     be broken down into more than that number of line segments,
     no matter how fine the chord tolerance.
 
-<h3>Perspective Factor</h3>
+<h3><a id="Perspective" href="#Perspective" class="anchor"></a>
+Perspective Factor</h3>
 
 <p>
     To display a 3d part on-screen, it must be projected into 2d. One
@@ -2029,7 +2097,8 @@ or color.</p>
     the model is equal to one thousand pixels divided by the perspective
     factor.
 
-<h3>Snap Grid Spacing</h3>
+<h3><a id="Snap" href="#Snap" class="anchor"></a>
+Snap Grid Spacing</h3>
 
 <p>
     This specifies the pitch of the snap grid, in inches or millimeters. By
@@ -2040,7 +2109,8 @@ or color.</p>
     be snapped to grid in the same way.
 </p>
 
-<h3>Export Scale Factor</h3>
+<h3><a id="ExportScale" href="#ExportScale" class="anchor"></a>
+Export Scale Factor</h3>
 
 <p>
     Internally, SolveSpace represents lengths in millimeters. Before
@@ -2058,7 +2128,8 @@ or color.</p>
     a left-handed coordinate system (so that a right-handed screw
     thread will become left-handed, and text would appear mirrored).
 
-<h3>Cutter Radius Offset</h3>
+<h3><a id="Cutter" href="#Cutter" class="anchor"></a>
+Cutter Radius Offset</h3>
 
 <p>
     When exporting a 2d view or section, this option may be used to
@@ -2080,7 +2151,8 @@ or color.</p>
     "curves as piecewise linear" is set to "no".
 </p>
 
-<h3>Export Shaded 2d Triangles</h3>
+<h3><a id="ExportShaded" href="#ExportShaded" class="anchor"></a>
+Export Shaded 2d Triangles</h3>
 
 <p>
     When exporting a view of the part, the user can export only the
@@ -2092,7 +2164,8 @@ or color.</p>
     Not all export file formats support shaded triangles; currently,
     SVG, EPS, and PDF do, but DXF and HPGL do not.
 
-<h3>Export Curves as Piecewise Linear</h3>
+<h3><a id="ExportCurves" href="#ExportCurves" class="anchor"></a>
+Export Curves as Piecewise Linear</h3>
 
 <p>
     A smooth curve (like a circle, or a Bezier curve) may be exported
@@ -2107,7 +2180,8 @@ or color.</p>
     of importing exact curves, but almost all software will be capable
     of importing piecewise linear segments.
 
-<h3>Export Canvas Size</h3>
+<h3><a id="ExportCanvas" href="#ExportCanvas" class="anchor"></a>
+Export Canvas Size</h3>
 
 <p>
     This specifies the canvas size for any exported 2d geometry. For example,
@@ -2116,7 +2190,8 @@ or color.</p>
     one of two ways: either as a fixed size, or as a set of margins around
     the exported geometry.
 
-<h3>Fix White Exported Lines</h3>
+<h3><a id="FixWhite" href="#FixWhite" class="anchor"></a>
+Fix White Exported Lines</h3>
 
 <p>
     By default, SolveSpace draws white lines on a black background. But
@@ -2126,7 +2201,8 @@ or color.</p>
     exporting into such a file format. That behavior may be disabled with
     this option.
 
-<h3>Draw Triangle Back Faces in Red</h3>
+<h3><a id="Draw" href="#Draw" class="anchor"></a>
+Draw Triangle Back Faces in Red</h3>
 
 <p>
     SolveSpace always works with solid shells. This means that in
@@ -2140,7 +2216,8 @@ or color.</p>
     graphics card renders triangles. This setting determines whether
     those surfaces are discarded, or drawn highlighted in red.
 
-<h3>Check for Closed Contours</h3>
+<h3><a id="Check" href="#Check" class="anchor"></a>
+Check for Closed Contours</h3>
 
 <p>
     Most solid operations (like extrudes and lathes) work only on closed,
@@ -2155,7 +2232,8 @@ or color.</p>
     For general 2d and 3d wireframe CAD work, this behavior may not be
     desired. The warnings may therefore be disabled with this option.
 
-<h3>G Code Parameters</h3>
+<h3><a id="GCode" href="#GCode" class="anchor"></a>
+G Code Parameters</h3>
 
 <p>SolveSpace is not a CAM program, but it is capable of exporting
 simple G code for 2d parts. By applying the correct cutter radius
@@ -2172,7 +2250,8 @@ per minute, for the feeds), according to the current mode.</p>
 
 </div>
 
-<h2>Known Bugs and Issues</h2>
+<h2><a id="Known" href="#Known" class="anchor"></a>
+Known Bugs and Issues</h2>
 
 <div class="refind">
 
