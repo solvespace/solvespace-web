@@ -15,6 +15,11 @@ TEMPL::OutputWithHeader("DOWNLOAD PROGRAM", <<EOT
     <th>Platforms</th>
 </tr>
 <tr>
+    <td><a rel="nofollow" href="https://github.com/solvespace/solvespace/releases/tag/v3.1"><b>3.1 stable</b></a></td>
+    <td>June 01, 2022</td>
+    <td>Windows Vista&ndash;10, Linux, Mac</td>
+</tr>
+<tr>
     <td><a rel="nofollow" href="https://github.com/solvespace/solvespace/releases/tag/v3.0"><b>3.0 stable</b></a></td>
     <td>April 17, 2021</td>
     <td>Windows Vista&ndash;10, Linux, Mac</td>
@@ -31,10 +36,10 @@ TEMPL::OutputWithHeader("DOWNLOAD PROGRAM", <<EOT
 </tr>
 </table>
 
-<p><b>Release 3.0 is now available</b>, with many
+<p><b>Release 3.1 is now available</b>, with
 <a rel="nofollow" href="https://github.com/solvespace/solvespace/blob/master/CHANGELOG.md">
-new features</a> and improvements. Please report any
-<a rel="nofollow" href="https://github.com/solvespace/solvespace/issues">issues</a>.</p>
+significant performance improvements</a>, linking of .STL files and other features and fixes. Please report
+any <a rel="nofollow" href="https://github.com/solvespace/solvespace/issues">issues</a>.</p>
 
 <p>Under <b>Windows</b>, no installation is required. Download
 solvespace.exe and run it immediately. To continue using SolveSpace,
@@ -46,7 +51,7 @@ vc_redist.x86.exe</a> first).
 </p>
 
 <p>Under <b>OS X</b>, run the .app file directly from the disk image, or drag it
-to Applications to install. Use 3.0, since it is vast improvement over previous versions.
+to Applications to install. Use 3.0 or later, since it is a vast improvement over previous versions.
 </p>
 
 <p>Under <b>Linux</b>, you may find SolveSpace in your distribution's package manager, or you
@@ -54,7 +59,7 @@ can obtain it from the <a rel="nofollow" href="https://snapcraft.io/solvespace">
 You may also <a rel="nofollow" href="https://github.com/solvespace/solvespace/tree/version3#via-source-code">build</a> SolveSpace from source and install it youself.
 </p>
 
-<p>Files saved by 3.0 may be readable by earlier versions, but some
+<p>Files saved by newer versions may be readable by earlier ones, but some
 <a rel="nofollow" href="https://github.com/solvespace/solvespace/blob/master/CHANGELOG.md">
 new features
 </a>
