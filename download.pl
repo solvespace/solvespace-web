@@ -20,7 +20,7 @@ TEMPL::OutputWithHeader("DOWNLOAD PROGRAM", <<EOT
     <td>Windows Vista&ndash;10, Linux, Mac</td>
 </tr>
 <tr>
-    <td><a rel="nofollow" href="https://github.com/solvespace/solvespace/releases/tag/v3.0"><b>3.0 stable</b></a></td>
+    <td><a rel="nofollow" href="https://github.com/solvespace/solvespace/releases/tag/v3.0">3.0 stable</a></td>
     <td>April 17, 2021</td>
     <td>Windows Vista&ndash;10, Linux, Mac</td>
 </tr>
