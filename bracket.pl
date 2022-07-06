@@ -350,7 +350,10 @@ TEMPL::OutputWithHeader("TUTORIAL: DRAWING AN ANGLE BRACKET", <<EOT
     sketch is at the center of the part&mdash;in fact, it lies in the
     original XY plane&mdash;and that two of the edges of our gusset lie
     coincident with the faces of the angle. This is probably a good time
-    to hide the hidden lines, to make the view less confusing.
+    to re-hide the occluded lines, to make the view less confusing. Click the
+    button in the far top right of the Property Browser twice more, to cycle
+    from "occluded lines are dashed" through "occluded lines are solid" to
+    arrive back at "occluded lines are hidden".
 </p>
 <div class="forimg">
     <img src="pics/tut-triangle-3d.png">
