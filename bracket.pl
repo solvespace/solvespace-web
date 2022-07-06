@@ -323,8 +323,8 @@ TEMPL::OutputWithHeader("TUTORIAL: DRAWING AN ANGLE BRACKET", <<EOT
 </div>
 <p>
     One point of the triangle should lie exactly on the inside corner of
-    the angle (which is also the origin of our workplane, although that
-    doesn't matter now). So select a point of the triangle, and select
+    the angle. (This is also the origin of our current workplane, although
+    that doesn't matter now.) So select a point of the triangle, and select
     the inside corner of the existing extrusion, and choose Constrain
     &rarr; On Point.
 </p>
