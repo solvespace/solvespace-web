@@ -106,7 +106,7 @@ $ADD_TO_HEAD
 <div class="copyouter">
 <div class="copyfooter">
 &copy; 2008-2022 SolveSpace contributors.
-Most recent update June 2 2022.
+Most recent update July 6 2022.
 </div>
 </div>
 </body>
