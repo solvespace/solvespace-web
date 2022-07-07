@@ -118,9 +118,9 @@ TEMPL::OutputWithHeader("TUTORIAL: DRAWING AN ANGLE BRACKET", <<EOT
     don't want to do that now.)
 </p>
 <p>
-    Similarly, we can select the origin by left-clicking it. In the text
-    window, we see that two points are selected. As a convenience, it
-    tells us their exact coordinates (x, y, z), although we don't care
+    Similarly, we can select the origin by left-clicking it. In the
+    Property Browser, we see that two points are selected. As a convenience,
+    it tells us their exact coordinates (x, y, z), although we don't care
     about that now.
 
 <div class="forimg">
@@ -140,7 +140,7 @@ TEMPL::OutputWithHeader("TUTORIAL: DRAWING AN ANGLE BRACKET", <<EOT
     horizontal. We can do this with a horizontal constraint on those line
     segments. So hover the mouse over the bottom line segment, and left
     click so that the line is selected. The line will be drawn in red,
-    and information about the line will be displayed in the text window;
+    and information about the line will be displayed in the Property Browser;
     selection works the same for lines and curves as for points.
 </p>
 <div class="forimg">
@@ -253,19 +253,18 @@ TEMPL::OutputWithHeader("TUTORIAL: DRAWING AN ANGLE BRACKET", <<EOT
     construct the desired constraints when that symmetry exists.
 </p>
 <p>
-    In the text window, SolveSpace has automatically shown information
+    In the Property Browser, SolveSpace has automatically shown information
     about the extrusion that we've just created. (If it didn't then we
     could view that information by choosing the "home" link at the top
-    left of the text window. We would then see a list of groups,
+    left of the Property Browser. We would then see a list of groups,
     including g003-extrude, the extrusion that we've just created. We
     could click on that name to view the same screen that is shown
-    automatically. If the text window is not visible, then choose View
-    &rarr; Show Text Window or press Tab.)
+    automatically. If the Property Browser is not visible, then choose View
+    &rarr; Show Property Browser or press Tab.)
 </p>
 <p>
     We can see that the extrusion, named g003-extrude, is one-sided.
-    To change it to be two-sided, click "two-sided" in the text
-    window.
+    To change it to be two-sided, click "two-sided" in the Property Browser.
 </p>
 <div class="forimg">
     <img src="pics/tut-both-sides.png">
@@ -283,7 +282,7 @@ TEMPL::OutputWithHeader("TUTORIAL: DRAWING AN ANGLE BRACKET", <<EOT
     exists, but it is currently not visible, because it lies within the
     solid object that we have just extruded. To make it visible, we must
     show "hidden lines", by clicking that icon at the top far right of the
-    text window. This causes all lines and points to be displayed, even
+    Property Browser. This causes all lines and points to be displayed, even
     if they lie within the solid model. (So it's as if the part becomes
     transparent.)
 </p>
@@ -323,8 +322,8 @@ TEMPL::OutputWithHeader("TUTORIAL: DRAWING AN ANGLE BRACKET", <<EOT
 </div>
 <p>
     One point of the triangle should lie exactly on the inside corner of
-    the angle (which is also the origin of our workplane, although that
-    doesn't matter now). So select a point of the triangle, and select
+    the angle. (This is also the origin of our current workplane, although
+    that doesn't matter now.) So select a point of the triangle, and select
     the inside corner of the existing extrusion, and choose Constrain
     &rarr; On Point.
 </p>
@@ -351,7 +350,10 @@ TEMPL::OutputWithHeader("TUTORIAL: DRAWING AN ANGLE BRACKET", <<EOT
     sketch is at the center of the part&mdash;in fact, it lies in the
     original XY plane&mdash;and that two of the edges of our gusset lie
     coincident with the faces of the angle. This is probably a good time
-    to hide the hidden lines, to make the view less confusing.
+    to re-hide the occluded lines, to make the view less confusing. Click the
+    button in the far top right of the Property Browser twice more, to cycle
+    from "occluded lines are dashed" through "occluded lines are solid" to
+    arrive back at "occluded lines are hidden".
 </p>
 <div class="forimg">
     <img src="pics/tut-triangle-3d.png">
@@ -359,8 +361,8 @@ TEMPL::OutputWithHeader("TUTORIAL: DRAWING AN ANGLE BRACKET", <<EOT
 <p>
     We then extrude that section, by choosing New Group &rarr; Extrude,
     in the same way as before. Once again we want a two-sided extrusion,
-    so change that in the text window. We can also change the color of
-    the extrusion, by clicking on one of the color swatches. Notice that
+    so change that in the Property Browser. We can also change the color
+    of the extrusion, by clicking on one of the color swatches. Notice that
     it was very simple to place the gusset in the middle of the angle
     bracket, because we originally drew the angle symmetric about the XY
     plane. If we hadn't, then we could still have drawn the gusset at its
@@ -501,7 +503,7 @@ TEMPL::OutputWithHeader("TUTORIAL: DRAWING AN ANGLE BRACKET", <<EOT
 </p>
 <p>
     In the
-    text window, modify the extrusion so that it is merged as
+    Property Browser, modify the extrusion so that it is merged as
     "difference" instead of "union". This means that instead of adding
     material, this extrusion removes material. So the extrusion cuts two
     holes, and we're done.
@@ -518,8 +520,8 @@ TEMPL::OutputWithHeader("TUTORIAL: DRAWING AN ANGLE BRACKET", <<EOT
 </p>
 <p>
     Also, try going back and making some change to earlier sketches in
-    the part.  In the text window, choose home (from the link at the top
-    left of the text window), or press Escape until we see a list like
+    the part.  In the Property Browser, choose "home" (from the link at the top
+    left of the Property Browser), or press Escape until we see a list like
     the one below.
 </p>
 <div class="forimg">
@@ -555,9 +557,9 @@ TEMPL::OutputWithHeader("TUTORIAL: DRAWING AN ANGLE BRACKET", <<EOT
 <p>
     The current view of the part is rather cluttered. SolveSpace will
     generate many extra lines and points, because they might be useful to
-    constrain against. To hide those, choose "hide all" in the text
-    window, from the home screen. We now see only the lines and curves
-    that actually form the edges of the solid model.
+    constrain against. To hide those, choose "hide all" on the Property
+    Browser home screen. We now see only the lines and curves that
+    actually form the edges of the solid model.
 </p>
 <div class="forimg">
     <img src="pics/tut-finished-all-hidden.png">
