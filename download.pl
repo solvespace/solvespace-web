@@ -56,7 +56,7 @@ to Applications to install. Use 3.0 or later, since it is a vast improvement ove
 
 <p>Under <b>Linux</b>, you may find SolveSpace in your distribution's package manager, or you
 can obtain it from the <a rel="nofollow" href="https://snapcraft.io/solvespace">Snap Store</a>.
-You may also <a rel="nofollow" href="https://github.com/solvespace/solvespace/tree/version3#via-source-code">build</a> SolveSpace from source and install it youself.
+You may also <a rel="nofollow" href="https://github.com/solvespace/solvespace/tree/v3.1#via-source-code">build</a> SolveSpace from source and install it youself.
 </p>
 
 <p>Files saved by newer versions may be readable by earlier ones, but some
