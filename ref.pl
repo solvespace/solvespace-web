@@ -20,7 +20,7 @@ General Navigation</h2>
     The user interface consists of two windows: a larger window that
     contains mostly graphics, and a smaller window that contains mostly
     text. The graphics window is used to draw the geometry, and to view
-    the 3d model. The text window provides information about the model,
+    the 3d model. The Property Browser provides information about the model,
     and may also be used to modify settings and numerical parameters.
 </p>
 
@@ -126,14 +126,14 @@ Dimension Entry and Units</h3>
 Text Window</h3>
 
 <p>
-    The text window appears as a floating palette window. It may
+    The Property Browser appears as a floating palette window. It may
     be shown or hidden by pressing Tab, or by choosing View &rarr;
     Show Text Window.
 
 <p>
-    The text window works like a web browser. Any underlined text is
+    The Property Browser works like a web browser. Any underlined text is
     a link. To activate a link, click it with the mouse. The links
-    may be used to navigate to other pages in the text window. For
+    may be used to navigate to other pages in the Property Browser. For
     example, the "home" screen is a list of groups in the sketch:
 
 <div class="forimg">
@@ -148,9 +148,9 @@ Text Window</h3>
     "shown" column.
 
 <p>
-    As a convenience, the text window will sometimes automatically
+    As a convenience, the Property Browser will sometimes automatically
     navigate to a page that is likely to be relevant. For example,
-    when a new group is created, the text window displays that new
+    when a new group is created, the Property Browser displays that new
     group's page. It's always possible to navigate to a different
     page, by clicking the "home" link at the top left corner (or
     pressing Esc), and following the links from there.
@@ -158,12 +158,12 @@ Text Window</h3>
 <p>
     When sketch entities are selected (e.g., the user has clicked
     on them with the mouse), information about those entities is
-    displayed in the text window. If a single entity is selected,
+    displayed in the Property Browser. If a single entity is selected,
     then information about that entity is displayed. For example,
     the window display's a circle's center and radius.
 
 <p>
-    If multiple entities are selected, then the text window can
+    If multiple entities are selected, then the Property Browser can
     sometimes display information about all of them. These cases
     include:
 
@@ -190,7 +190,7 @@ Show / Hide Entities</h3>
 </p>
 
 <p>
-    Along the top of the text window, a row of icons appears. These icons
+    Along the top of the Property Browser, a row of icons appears. These icons
     make it possible to hide and show different elements in the sketch:
 </p>
 
@@ -302,7 +302,7 @@ is useful when drawing a sketch that lies within the volume of the part.
         cylinder will remain visible.
 
 <p>
-        To hide a group, go to the home screen in the text window, by
+        To hide a group, go to the home screen in the Property Browser, by
         pressing Esc or choosing the link at the top left. A list of
         groups is displayed, along with their visibility. If a group
         is visible, then the checkbox in the "shown" column is checked.
@@ -326,7 +326,7 @@ Active Workplane</h3>
     it possible to draw in a plane. If a workplane is active, then
     all entities that are drawn will be forced to lie that plane.
     The active workplane ("in plane:") is indicated in the top line of
-    the text window, at the right.
+    the Property Browser, at the right.
 
 <p>
     When SolveSpace starts with a new empty file, a workplane parallel
@@ -357,7 +357,7 @@ Active Group</h3>
     are hidden.
 
 <p>
-    In the text window's home screen (press Escape, or choose the link
+    In the Property Browser's home screen (press Escape, or choose the link
     in the top left corner), the active group's line in the list of
     groups has a selected radio button in the "active" column. All
     other groups (except g001-#references, which cannot be activated)
@@ -558,7 +558,7 @@ Tangent Arc at Point</h3>
 <p>
     By default, the radius of the tangent arc is chosen automatically.
     To change that, choose Sketch &rarr; Tangent Arc at Point with nothing
-    selected. A screen will appear in the text window, where the radius
+    selected. A screen will appear in the Property Browser, where the radius
     may be specified. It is also possible to specify whether the original
     lines and curves should be kept, but changed to construction lines
     (which may be useful if you want to place constraints on them),
@@ -617,9 +617,9 @@ Text in a TrueType Font</h3>
 
 <p>
     To change the font, select the text entity. A list of installed
-    fonts appears in the text window; click the font name to select
+    fonts appears in the Property Browser; click the font name to select
     it. To change the displayed text, select the text entity and
-    click the [change] link in the text window.
+    click the [change] link in the Property Browser.
 
 <h3><a id="Image" href="#Image" class="anchor"></a>
 Image</h3>
@@ -787,7 +787,7 @@ Failure to Solve</h3>
 <p>
     If the sketch is inconsistent or redundant, then the background
     of the graphics window is drawn in red (instead of the usual
-    black), and an error is displayed in the text window:
+    black), and an error is displayed in the Property Browser:
 
 <div class="forimg">
     <img src="pics/ref-inconsistent.png">
@@ -797,7 +797,7 @@ Failure to Solve</h3>
     As a convenience, SolveSpace calculates a list of constraints
     that could be removed to make the sketch consistent again. To
     see which constraints those are, hover the mouse over the links
-    in the text window; the constraint will appear highlighted in
+    in the Property Browser; the constraint will appear highlighted in
     the graphics window. By deleting one or more of the constraints
     in that list, the user can make the sketch consistent again.
 
@@ -1165,7 +1165,7 @@ Groups</h2>
 
 <div class="refind">
 <p>
-    To view a list of groups, go to the home page of the text window.
+    To view a list of groups, go to the home page of the Property Browser.
     This is accessible from the link at the top left of the text
     window, or by pressing Esc. To view a group's page, click
     its name in the list.
@@ -1173,12 +1173,12 @@ Groups</h2>
 <p>
     All groups have a name. When the group is created, a default name
     (e.g., "g008-extrude") is assigned. The user may change this name;
-    to do so, go to the group's page in the text window, and choose
+    to do so, go to the group's page in the Property Browser, and choose
     [rename].
 
 <p>
     Groups that create a solid (e.g. extrudes or lathes) have a "solid
-    model as" option, which is displayed in the page in the text window.
+    model as" option, which is displayed in the page in the Property Browser.
     The group can be merged as union, which adds material to the
     model, or as difference, which cuts material away. A third option is
     intersection, which preserves only the material that falls within
@@ -1197,14 +1197,14 @@ Groups</h2>
 <p>
     These groups also have a color, which determines the color of
     the surfaces they produce. To change the color, click one of
-    the swatches in the group's page in the text window.
+    the swatches in the group's page in the Property Browser.
 
 <p>
-    The group's page in the text window also includes a list of all
+    The group's page in the Property Browser also includes a list of all
     requests, and of all constraints. To identify a constraint or a
     request, hover the mouse over its name; it will appear highlighted
     in the graphics window. To select it, click the link in the
-    text window. This is equivalent to hovering over and clicking
+    Property Browser. This is equivalent to hovering over and clicking
     the actual object in the graphics window.
 
 <h3><a id="SketchIn3d" href="#SketchIn3d" class="anchor"></a>
@@ -1294,7 +1294,7 @@ Step Translating</h3>
 <p>
     The number of copies to create is specified by the user. To
     change this value, click the [change] link in the group's page
-    in the text window.
+    in the Property Browser.
 
 <p>
     The copies may be translated on one side, or on two sides. If
@@ -1573,7 +1573,7 @@ appears on-screen and in an exported file.
 
 <p>
 SolveSpace's basic color scheme is defined by the default styles. To view
-them, choose "line styles" from the home screen in the text window. This
+them, choose "line styles" from the home screen in the Property Browser. This
 is where, for example, lines are specified to be white by default, and
 constraints to be magenta, and points to be green. The default styles may
 be modified. These modifications will be saved in the user config (the
@@ -1600,7 +1600,7 @@ thicker compared to the model in the exported file.</p>
 <p>Entities (like lines, circles, or arcs) may be assigned to a line style.
 One way to do so is to enter the desired line style's screen in the text
 window, and then select the desired entities. Then click the "assign to
-style" link in the text window. Another way to do so is to right-click
+style" link in the Property Browser. Another way to do so is to right-click
 the entity, and assign it to the style using the context menu.</p>
 
 <p>Comments (Constrain &rarr; Comment) may also be assigned to styles. The
@@ -1791,7 +1791,7 @@ Bitmap Image</h3>
     <td class="showright"><p>
         Any surfaces coplanar with that plane face will appear in the
         file. The faces must be shown before they can be selected;
-        click the link in the third line of the text window.
+        click the link in the third line of the Property Browser.
     </p></td>
 
     </tr><tr>
@@ -1958,7 +1958,7 @@ Configuration</h2>
 Material Colors</h3>
 
 <p>
-    In the text window screen for certain groups (extrude, lathe,
+    In the Property Browser screen for certain groups (extrude, lathe,
     sweep), a palette of eight colors is displayed. This palette
     allows the user to choose the color of any surfaces generated
     by that group.

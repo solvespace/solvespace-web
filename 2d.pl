@@ -250,7 +250,7 @@ sharp corners where the entities intersect.
 <p>
 To round these, we will use the "Tangent Arc" tool. We can start by
 setting up some parameters of that tool. So with nothing selected, choose
-Sketch &rarr; Tangent Arc at Point. In the text window, we see that by
+Sketch &rarr; Tangent Arc at Point. In the Property Browser, we see that by
 default, the radius of this arc will be chosen automatically. This is not
 what we want, so we left-click to un-check that box. We now can enter
 our desired radius, which for the outer contour is 0.200 inches. (It
@@ -307,7 +307,7 @@ it will use the same radius as before. This completes the outer contour:
 <p>
 For the inner contour, we wish to use a different radius: 0.050 inch
 (or the diameter of 0.100/2). So we choose Sketch &rarr; Tangent Arc at
-Point with nothing selected, to view the screen in the text window again.
+Point with nothing selected, to view the screen in the Property Browser again.
 We enter our new radius of 0.050 inches, and leave the other settings
 unchanged. We then select one of the points to be rounded, and choose
 Sketch &rarr; Tangent Arc at Point.
@@ -319,7 +319,7 @@ Sketch &rarr; Tangent Arc at Point.
 
 <p>
 Note that points are hidden in the above image, by clicking the
-appropriate icon in the strip at the top of the text window. The points
+appropriate icon in the strip at the top of the Property Browser. The points
 would otherwise clutter the view, and obscure the small arc.
 </p>
 
@@ -339,7 +339,7 @@ We then left-click once on the drawing, to define the top left point of the
 text, and click again to define the bottom left. By default, the text will
 consist of the letters "Abc", and the font will be Arial. To change these,
 we left-click the text to select it. A description of the text appears in
-the text window, along with a list of available fonts. (Any TrueType font
+the Property Browser, along with a list of available fonts. (Any TrueType font
 installed through Windows will be available here; the exact list will
 vary with what programs and special fonts you have chosen to install.)
 To select a font, click it in that list.
@@ -350,7 +350,7 @@ To select a font, click it in that list.
 </div>
 
 <p>
-Then to change the text, we scroll to the top of the text window. The
+Then to change the text, we scroll to the top of the Property Browser. The
 current text ("Abc") is listed, and a link next to that text permits us
 to change the text. We click that link, type the new string in the text
 box, and hit Enter to confirm. The text will change, both in the text
@@ -412,7 +412,7 @@ now), or to create a new custom style.
 <p>
 We choose the latter. Initially, nothing changes, since the new custom
 style is created with the same line width and color as the default style.
-But in the text window, we see a description of our new style, which
+But in the Property Browser, we see a description of our new style, which
 we can edit according to our preference. First, we should name the
 style something meaningful, by clicking the "rename" link at the top of
 the page.  We might, for example, choose to name it "blue-text". We then
@@ -474,7 +474,7 @@ If we wanted to change something about the styles&mdash;for example, if we
 wanted to change the color of the contour from white to green&mdash;then
 we could go back to the list of styles, and edit the appropriate style
 (in this case, s101-fat-contour) accordingly. From the home screen of
-the text window (click the link at the top left of the window, or press
+the Property Browser (click the link at the top left of the window, or press
 Esc a few times), we choose the "line styles" link at the bottom of the
 page. We now see a list of all the styles. The list is long, because it
 includes all the default styles:
@@ -598,7 +598,7 @@ have chosen something else.
 
 <p>
 This creates a new group. If we return to the home screen in the
-text window (by clicking the link at the top left, or pressing Esc a
+Property Browser (by clicking the link at the top left, or pressing Esc a
 few times), then we see that there are now two sketch groups in our
 file: g002-..., which contains the lines and curves that we've drawn,
 and g003-..., which is the new empty group we've just created for our
@@ -620,7 +620,7 @@ could mark each dimension individually as a reference dimension, but
 that would be tedious (and they would all appear with "REF" next to the
 number, which is not what we want). So we wish to make all dimensions
 in this group behave as reference dimensions. We can do that by viewing
-the group's screen in the text window, by clicking its name in the list.
+the group's screen in the Property Browser, by clicking its name in the list.
 </p>
 
 <p>
