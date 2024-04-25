@@ -159,12 +159,12 @@ TEMPL::OutputWithHeader("TUTORIAL: ASSEMBLIES", <<EOT
 </div>
 <p>
     Note that we have now hidden points and normals, by clicking the
-    respective icons at the top of the text window. The assembly is getting
+    respective icons at the top of the Property Browser. The assembly is getting
     more complex, so those were cluttering the screen. We can show or hide
     those as desired at any time.
 </p>
 <p>
-    In the step and repeat group's text window screen (press Tab to show
+    In the step and repeat group's Property Browser screen (press Tab to show
     that window if it is hidden), we can change the number of times repeated
     to seven. We now see seven copies of that divider. We can drag these
     copies with the mouse. The first one is locked, and the orientation of
@@ -316,9 +316,9 @@ TEMPL::OutputWithHeader("TUTORIAL: ASSEMBLIES", <<EOT
     The assembly is now complete. We can view it on-screen, and produce
     isometric (View &rarr; Nearest Isometric View) or top, bottom and side
     (View &rarr; Nearest Ortho View) views of all the parts. We can suppress
-    the display of a part by changing that setting in its text window screen.
+    the display of a part by changing that setting in its Property Browser screen.
     For example, to hide the base, we would click the home link at the
-    top of the text window, and then choose its group&mdash;which in our
+    top of the Property Browser, and then choose its group&mdash;which in our
     assembly was the first import group, g003-import&mdash;from the list of
     groups. We then click the box labeled "suppress this group's solid model"
     to check it. To show that part again, we click that box again to uncheck
@@ -357,7 +357,7 @@ TEMPL::OutputWithHeader("TUTORIAL: ASSEMBLIES", <<EOT
     View &rarr; Use Perspective Projection. To adjust the amount of
     perspective, change the perspective factor in the configuration
     screen. The configuration screen is reachable from the link at the
-    bottom of the home screen in the text window.)
+    bottom of the home screen in the Property Browser.)
 </p>
 <p>
     We can make changes to one of the parts, and then regenerate the

@@ -62,7 +62,7 @@ sketch accordingly.
 
 <p>
 This constraint removes one DOF, so the sketch now has five DOF. To
-confirm this, go to the home screen in the text window (by pressing Esc,
+confirm this, go to the home screen in the Property Browser (by pressing Esc,
 or clicking the home link at the top left), and select the sketch,
 probably g002-sketch-in-plane, from the list. A list of constraints
 appears, and the number of degrees of freedom is indicated.
@@ -94,7 +94,7 @@ triangle should have three DOF, and it does.
 We could attempt to constrain the length of another side of the triangle,
 again by choosing Constrain &rarr; Distance. If we do so, then we see
 that the background of the sketch turns red, to indicate an error. In the
-text window, we are informed that the solver has failed. This is because
+Property Browser, we are informed that the solver has failed. This is because
 we have attempted to overconstrain the sketch. We had already specified
 enough constraints to exactly describe our triangle. This means that
 any additional constraints are not useful&mdash;either they are redundant,
