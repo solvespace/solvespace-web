@@ -15,6 +15,11 @@ TEMPL::OutputWithHeader("DOWNLOAD PROGRAM", <<EOT
     <th>Platforms</th>
 </tr>
 <tr>
+    <td><a rel="nofollow" href="https://github.com/solvespace/solvespace/releases/tag/v3.2"><b>3.2 stable</b></a></td>
+    <td>Mar 26, 2026</td>
+    <td>Windows Vista&ndash;11, Linux, Mac</td>
+</tr>
+<tr>
     <td><a rel="nofollow" href="https://github.com/solvespace/solvespace/releases/tag/v3.1"><b>3.1 stable</b></a></td>
     <td>June 01, 2022</td>
     <td>Windows Vista&ndash;10, Linux, Mac</td>
@@ -36,21 +41,22 @@ TEMPL::OutputWithHeader("DOWNLOAD PROGRAM", <<EOT
 </tr>
 </table>
 
-<p><b>Release 3.1 is now available</b>, with
+<p><b>Release 3.2 is now available</b>, with
 <a rel="nofollow" href="https://github.com/solvespace/solvespace/blob/master/CHANGELOG.md">
-significant performance improvements</a>, linking of .STL files and other features and fixes. Please report
+Lots of usability improvements, multi-constraint, an optional QT front end for Linux, merged the experimental web version.<br />
+Please report
 any <a rel="nofollow" href="https://github.com/solvespace/solvespace/issues">issues</a>.</p>
 
 <p>Under <b>Windows</b>, no installation is required. Download
-solvespace.exe and run it immediately. To continue using SolveSpace,
-save solvespace.exe somewhere convenient. For higher performance on
-multi-core processors, try solvespace-openmp.exe
+solvespace_<architecture>.exe and run it immediately. To continue using SolveSpace,
+save solvespace_<architecture>.exe somewhere convenient. SolveSpace uses OpenMP to utilize multiple cores for higher performance. 
 (but you may need to install 
 <a rel="nofollow" href="https://support.microsoft.com/en-us/help/2977003/the-latest-supported-visual-c-downloads">
-vc_redist.x86.exe</a> first).
+vc_redist.x86.exe</a> first).<br />
+Alternatively, you can download solvespace_single_core_<architecture>.exe, which does not use OpenMP.<br />
 </p>
 
-<p>Under <b>OS X</b>, run the .app file directly from the disk image, or drag it
+<p>Under <b>macOS</b>, run the .app file directly from the disk image, or drag it
 to Applications to install. Use 3.0 or later, since it is a vast improvement over previous versions.
 </p>
 
