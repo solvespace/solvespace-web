@@ -48,12 +48,12 @@ Please report
 any <a rel="nofollow" href="https://github.com/solvespace/solvespace/issues">issues</a>.</p>
 
 <p>Under <b>Windows</b>, no installation is required. Download
-solvespace_<architecture>.exe and run it immediately. To continue using SolveSpace,
-save solvespace_<architecture>.exe somewhere convenient. SolveSpace uses OpenMP to utilize multiple cores for higher performance. 
+solvespace_&lt;architecture&gt;.exe and run it immediately. To continue using SolveSpace,
+save solvespace_&lt;architecture&gt;.exe somewhere convenient. SolveSpace uses OpenMP to utilize multiple cores for higher performance. 
 (but you may need to install 
 <a rel="nofollow" href="https://support.microsoft.com/en-us/help/2977003/the-latest-supported-visual-c-downloads">
 vc_redist.x86.exe</a> first).<br />
-Alternatively, you can download solvespace_single_core_<architecture>.exe, which does not use OpenMP.<br />
+Alternatively, you can download solvespace_single_core_&lt;architecture&gt;.exe, which does not use OpenMP.<br />
 </p>
 
 <p>Under <b>macOS</b>, run the .app file directly from the disk image, or drag it
