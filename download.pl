@@ -16,11 +16,11 @@ TEMPL::OutputWithHeader("DOWNLOAD PROGRAM", <<EOT
 </tr>
 <tr>
     <td><a rel="nofollow" href="https://github.com/solvespace/solvespace/releases/tag/v3.2"><b>3.2 stable</b></a></td>
-    <td>Mar 26, 2026</td>
+    <td>March 26, 2026</td>
     <td>Windows Vista&ndash;11, Linux, Mac</td>
 </tr>
 <tr>
-    <td><a rel="nofollow" href="https://github.com/solvespace/solvespace/releases/tag/v3.1"><b>3.1 stable</b></a></td>
+    <td><a rel="nofollow" href="https://github.com/solvespace/solvespace/releases/tag/v3.1">3.1 stable</a></td>
     <td>June 01, 2022</td>
     <td>Windows Vista&ndash;10, Linux, Mac</td>
 </tr>
@@ -43,17 +43,19 @@ TEMPL::OutputWithHeader("DOWNLOAD PROGRAM", <<EOT
 
 <p><b>Release 3.2 is now available</b>, with
 <a rel="nofollow" href="https://github.com/solvespace/solvespace/blob/master/CHANGELOG.md">
-Lots of usability improvements, multi-constraint, an optional QT front end for Linux, merged the experimental web version.<br />
-Please report
+improvements</a> including usability, multi-constraint, an optional QT front end for Linux, and merging the experimental web version.</p>
+<p>Please report
 any <a rel="nofollow" href="https://github.com/solvespace/solvespace/issues">issues</a>.</p>
 
 <p>Under <b>Windows</b>, no installation is required. Download
 solvespace_&lt;architecture&gt;.exe and run it immediately. To continue using SolveSpace,
-save solvespace_&lt;architecture&gt;.exe somewhere convenient. SolveSpace uses OpenMP to utilize multiple cores for higher performance. 
-(but you may need to install 
-<a rel="nofollow" href="https://support.microsoft.com/en-us/help/2977003/the-latest-supported-visual-c-downloads">
-vc_redist.x86.exe</a> first).<br />
-Alternatively, you can download solvespace_single_core_&lt;architecture&gt;.exe, which does not use OpenMP.<br />
+save the .exe file somewhere convenient.</p>
+
+<p>SolveSpace supports multiple cores via OpenMP for higher performance,
+but you may need to install the
+<a rel="nofollow" href="https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170">
+MSVC redistributables</a> first.
+Alternatively, download solvespace_single_core_&lt;architecture&gt;.exe, which does not use OpenMP.
 </p>
 
 <p>Under <b>macOS</b>, run the .app file directly from the disk image, or drag it
@@ -62,7 +64,7 @@ to Applications to install. Use 3.0 or later, since it is a vast improvement ove
 
 <p>Under <b>Linux</b>, you may find SolveSpace in your distribution's package manager, or you
 can obtain it from the <a rel="nofollow" href="https://snapcraft.io/solvespace">Snap Store</a>.
-You may also <a rel="nofollow" href="https://github.com/solvespace/solvespace/tree/v3.1#via-source-code">build</a> SolveSpace from source and install it youself.
+You may also <a rel="nofollow" href="https://github.com/solvespace/solvespace/tree/v3.2#via-source-code">build</a> SolveSpace from source and install it youself.
 </p>
 
 <p>Files saved by newer versions may be readable by earlier ones, but some
