@@ -1,3 +1,6 @@
 /html/*
 /.gh-pages
 /checklink.txt
+forum.pl
+pull-webver.pl
+webver/
