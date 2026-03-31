@@ -59,6 +59,7 @@ sub MakeTemplate {
         [ 'Tutorials',  "tutorial",   0 ],
         [ 'Features',   "features",   0 ],
         [ 'Download',   "download",   0 ],
+        [ 'Web Version',"webver",     0 ],
         [ 'Reference',  "ref",        0 ],
         [ 'Technology', "tech",       0 ],
         [ 'Library',    "library",    0 ],
