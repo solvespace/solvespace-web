@@ -15,7 +15,12 @@ TEMPL::OutputWithHeader("DOWNLOAD PROGRAM", <<EOT
     <th>Platforms</th>
 </tr>
 <tr>
-    <td><a rel="nofollow" href="https://github.com/solvespace/solvespace/releases/tag/v3.2"><b>3.2 stable</b></a></td>
+    <td><a rel="nofollow" href="https://github.com/solvespace/solvespace/releases/tag/v3.3"><b>3.3 stable</b></a></td>
+    <td>March 26, 2026</td>
+    <td>Windows Vista&ndash;11, Linux, Mac</td>
+</tr>
+<tr>
+    <td><a rel="nofollow" href="https://github.com/solvespace/solvespace/releases/tag/v3.2">3.2 stable</a></td>
     <td>March 26, 2026</td>
     <td>Windows Vista&ndash;11, Linux, Mac</td>
 </tr>
@@ -41,9 +46,9 @@ TEMPL::OutputWithHeader("DOWNLOAD PROGRAM", <<EOT
 </tr>
 </table>
 
-<p><b>Release 3.2 is now available</b>, with
+<p><b>Release 3.3 is now available</b>, with
 <a rel="nofollow" href="https://github.com/solvespace/solvespace/blob/master/CHANGELOG.md">
-improvements</a> including usability, multi-constraint, an optional QT front end for Linux, and merging the experimental web version.</p>
+improvements</a> primarily reliability and bug fixes.</p>
 <p>Please report
 any <a rel="nofollow" href="https://github.com/solvespace/solvespace/issues">issues</a>.</p>
 
